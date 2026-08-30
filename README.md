@@ -48,7 +48,7 @@ data/J-ClinicalBench-release/
 
 各モデルのディレクトリには、次のファイルがあります。
 
-- `pilot_<track>.jsonl`: モデルのreasoning、最終回答、token数、wall time
+- `pilot_<track>.jsonl.gz`: モデルのreasoning、最終回答、token数、wall time
 - `pilot_<track>_scores.json`: 自動採点結果
 - `pilot_history_judgments.jsonl`: provider固有のresponse metadataを除いた歴史論述のJudge結果
 
@@ -72,4 +72,3 @@ LowとMediumを合わせ、各Track内で0–100へ正規化した値です。
 - 4 Trackは問題数と採点方法が異なるため、恣意的な総合点は作っていません。
 - ChallengeはQwenでほぼ飽和しています。
 - 権利関係と出典は[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)を参照してください。
-
