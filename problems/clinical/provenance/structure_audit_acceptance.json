@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_at": "2026-08-28",
+  "prompt_version": "clinical_structure_audit_expansion_v1.0.0",
+  "review_policy": {
+    "structured_scope": "gold is extracted only from target_document; other PN and DS do not fill missing values",
+    "schema": "all structured gold must validate against clinical_structure_v1.0.0",
+    "raw_reference": "all offsets must validate against the SHA-256 of the full raw line",
+    "audit_basis": "PN is the primary evidence; source_ds_refs only records the claim origin",
+    "deduplication": "new structured items use a different PN and new audits use a different claim from the existing item for that episode",
+    "label_balance": "the five added audits cover each allowed label once, producing two items per label overall"
+  },
+  "candidate_files": [
+    {
+      "assignment_id": "structure_audit_01_03",
+      "path": "pilot/clinical/structure_audit_candidates/structure_audit_01_03.jsonl",
+      "sha256": "1e6d8156bf5ccb030df7cc929c6538d7326ac144995157e6ef506f7e1fc479b9"
+    },
+    {
+      "assignment_id": "structure_audit_05_07",
+      "path": "pilot/clinical/structure_audit_candidates/structure_audit_05_07.jsonl",
+      "sha256": "f7701f4c1bb6117beed199b8855ab9a1c5056283f4af64f3d7747a4887c72f5a"
+    },
+    {
+      "assignment_id": "structure_audit_10_qc",
+      "path": "pilot/clinical/structure_audit_candidates/structure_audit_10_qc.jsonl",
+      "sha256": "83174e532cd480cfc9932e6c1950100f1008e73718b46da2aa1cc7ac32698c5e"
+    }
+  ],
+  "accepted_items": [
+    {
+      "item_id": "STR-006",
+      "candidate_id": "STR-CAND-01",
+      "review_note": "高Ca血症PN p2。継続輸液・内服とバイタルを抽出し、既存PN p1問題と分離"
+    },
+    {
+      "item_id": "AUD-006",
+      "candidate_id": "AUD-CAND-01",
+      "label": "PARTIALLY_SUPPORTED",
+      "review_note": "Ca改善は支持される一方、客観欄のJCS II-10がJCS 0という主張を支持しない"
+    },
+    {
+      "item_id": "STR-007",
+      "candidate_id": "STR-CAND-03",
+      "review_note": "HHS PN p2。持続静注から皮下注への切替と投与量を抽出"
+    },
+    {
+      "item_id": "AUD-007",
+      "candidate_id": "AUD-CAND-03",
+      "label": "TEMPORALLY_MISLEADING",
+      "review_note": "急速輸液・持続静注から皮下注への順序を逆転した候補文"
+    },
+    {
+      "item_id": "STR-008",
+      "candidate_id": "STR-CAND-05",
+      "review_note": "術後PE PN p2。感染疑い、抗菌薬開始、補液、関節穿刺を抽出"
+    },
+    {
+      "item_id": "AUD-008",
+      "candidate_id": "AUD-CAND-05",
+      "label": "CONTRADICTED",
+      "review_note": "ヘパリン継続という候補文をリクシアナ変更の明示行が反証"
+    },
+    {
+      "item_id": "STR-009",
+      "candidate_id": "STR-CAND-07",
+      "review_note": "尿路感染症PN p5。抗菌薬10日目と退院後内服計画を別actionとして抽出"
+    },
+    {
+      "item_id": "AUD-009",
+      "candidate_id": "AUD-CAND-07",
+      "label": "SUPPORTED",
+      "review_note": "抗菌薬10日目、内服変更、合計2週間を最終PNが直接支持"
+    },
+    {
+      "item_id": "STR-010",
+      "candidate_id": "STR-CAND-10",
+      "review_note": "胆管炎PN p3。抗菌薬終了と再ERCP・ERBD抜去・採石予定を抽出"
+    },
+    {
+      "item_id": "AUD-010",
+      "candidate_id": "AUD-CAND-10",
+      "label": "NOT_DOCUMENTED",
+      "review_note": "初回ERBDの径・長さはDSにあるが提示PN全件にはない"
+    }
+  ],
+  "rejected_items": [],
+  "root_transformation": "candidate content was accepted unchanged except for assigning final question_id values"
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "clinical_structure_v1.0.0",
+  "title": "Clinical structured extraction answer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_id",
+    "diagnoses",
+    "medications",
+    "vital_signs",
+    "procedures"
+  ],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "pattern": "^PN p[1-5]$"
+    },
+    "diagnoses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "certainty"],
+        "properties": {
+          "name": {"type": "string"},
+          "certainty": {
+            "enum": ["confirmed", "suspected"]
+          }
+        }
+      }
+    },
+    "medications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "dose_value",
+          "dose_unit",
+          "frequency",
+          "route",
+          "action"
+        ],
+        "properties": {
+          "name": {"type": "string"},
+          "dose_value": {"type": ["number", "null"]},
+          "dose_unit": {"type": ["string", "null"]},
+          "frequency": {"type": ["string", "null"]},
+          "route": {"enum": ["oral", "intravenous", "subcutaneous", "other", null]},
+          "action": {
+            "enum": ["start", "continue", "stop", "administered", "planned", "unspecified"]
+          }
+        }
+      }
+    },
+    "vital_signs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "temperature_c",
+        "heart_rate_per_min",
+        "blood_pressure_systolic_mmhg",
+        "blood_pressure_diastolic_mmhg",
+        "respiratory_rate_per_min",
+        "spo2_percent",
+        "oxygen_support"
+      ],
+      "properties": {
+        "temperature_c": {"type": ["number", "null"]},
+        "heart_rate_per_min": {"type": ["number", "null"]},
+        "blood_pressure_systolic_mmhg": {"type": ["number", "null"]},
+        "blood_pressure_diastolic_mmhg": {"type": ["number", "null"]},
+        "respiratory_rate_per_min": {"type": ["number", "null"]},
+        "spo2_percent": {"type": ["number", "null"]},
+        "oxygen_support": {"enum": ["room_air", "supplemental_oxygen", null]}
+      }
+    },
+    "procedures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "status"],
+        "properties": {
+          "name": {"type": "string"},
+          "status": {"enum": ["completed", "planned"]}
+        }
+      }
+    }
+  }
+}

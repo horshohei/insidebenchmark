@@ -1,0 +1,6140 @@
+{
+  "summary": {
+    "track": "challenge",
+    "scored_rows": 160,
+    "parse_errors": 0,
+    "judge_pending": 0,
+    "finish_reasons": {
+      "stop": 160
+    },
+    "timing": {
+      "ttft_s": {
+        "n": 160,
+        "median": 0.283043947070837,
+        "mean": 0.47857319307513535
+      },
+      "wall_time_s": {
+        "n": 160,
+        "median": 17.49474025890231,
+        "mean": 24.126394538464957
+      },
+      "output_tokens_per_s": {
+        "n": 160,
+        "median": 20.996729698095983,
+        "mean": 23.27923077003529
+      }
+    }
+  },
+  "rows": [
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP01:low:repeat1:seed42:cf14d922d297",
+      "item_id": "CJP01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 564,
+        "completion_tokens": 16,
+        "total_tokens": 580,
+        "ttft_s": 0.2706230655312538,
+        "wall_time_s": 0.8499034307897091,
+        "output_tokens_per_s": 27.620476991070365
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP02:low:repeat1:seed42:80aa18cb43b0",
+      "item_id": "CJP02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 504,
+        "completion_tokens": 41,
+        "total_tokens": 545,
+        "ttft_s": 0.3096315637230873,
+        "wall_time_s": 2.0954732969403267,
+        "output_tokens_per_s": 22.95836144793047
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP03:low:repeat1:seed42:eb6db9059adb",
+      "item_id": "CJP03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 509,
+        "completion_tokens": 112,
+        "total_tokens": 621,
+        "ttft_s": 0.30999409779906273,
+        "wall_time_s": 5.523307878524065,
+        "output_tokens_per_s": 21.48345653278987
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP04:low:repeat1:seed42:766b5d95804e",
+      "item_id": "CJP04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 507,
+        "completion_tokens": 32,
+        "total_tokens": 539,
+        "ttft_s": 0.31028270348906517,
+        "wall_time_s": 1.662983175367117,
+        "output_tokens_per_s": 23.656382669529265
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP05:low:repeat1:seed42:e5ca7e7f21c8",
+      "item_id": "CJP05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 508,
+        "completion_tokens": 16,
+        "total_tokens": 524,
+        "ttft_s": 0.31098899990320206,
+        "wall_time_s": 0.8904323168098927,
+        "output_tokens_per_s": 27.6127095319947
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP06:low:repeat1:seed42:17336d9685d4",
+      "item_id": "CJP06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 427,
+        "completion_tokens": 22,
+        "total_tokens": 449,
+        "ttft_s": 0.2803182639181614,
+        "wall_time_s": 1.1490828432142735,
+        "output_tokens_per_s": 25.323316033239728
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP07:low:repeat1:seed42:7005e6a8ca13",
+      "item_id": "CJP07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 467,
+        "completion_tokens": 16,
+        "total_tokens": 483,
+        "ttft_s": 0.28341231867671013,
+        "wall_time_s": 0.8631327114999294,
+        "output_tokens_per_s": 27.599512106311327
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP08:low:repeat1:seed42:794ff804fd8b",
+      "item_id": "CJP08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 484,
+        "completion_tokens": 16,
+        "total_tokens": 500,
+        "ttft_s": 0.30888235196471214,
+        "wall_time_s": 0.8890136033296585,
+        "output_tokens_per_s": 27.579965675620517
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR01:low:repeat1:seed42:926d59e66ec1",
+      "item_id": "CAR01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8670192670948242,
+            "parsed": null,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 445,
+        "completion_tokens": 504,
+        "total_tokens": 949,
+        "ttft_s": 0.2814927063882351,
+        "wall_time_s": 24.44315578788519,
+        "output_tokens_per_s": 20.859491265150705
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR02:low:repeat1:seed42:dc83171fa9b7",
+      "item_id": "CAR02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.0,
+            "parsed": 9.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 421,
+        "completion_tokens": 403,
+        "total_tokens": 824,
+        "ttft_s": 0.278655044734478,
+        "wall_time_s": 19.571311071515083,
+        "output_tokens_per_s": 20.88877754522684
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR03:low:repeat1:seed42:17675ae8d5bb",
+      "item_id": "CAR03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 520,
+        "completion_tokens": 16,
+        "total_tokens": 536,
+        "ttft_s": 0.3118380382657051,
+        "wall_time_s": 0.8922168016433716,
+        "output_tokens_per_s": 27.56820374833118
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR04:low:repeat1:seed42:a05185102304",
+      "item_id": "CAR04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.16210000000000002,
+            "parsed": 0.1611,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 418,
+        "completion_tokens": 259,
+        "total_tokens": 677,
+        "ttft_s": 0.27957865968346596,
+        "wall_time_s": 12.60331168398261,
+        "output_tokens_per_s": 21.0163592062016
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR05:low:repeat1:seed42:40add3847ab7",
+      "item_id": "CAR05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 16.0,
+            "parsed": 16.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 423,
+        "completion_tokens": 231,
+        "total_tokens": 654,
+        "ttft_s": 0.2804313153028488,
+        "wall_time_s": 11.253503728657961,
+        "output_tokens_per_s": 21.051533362602658
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR06:low:repeat1:seed42:7f70a2c53a63",
+      "item_id": "CAR06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 372,
+        "completion_tokens": 205,
+        "total_tokens": 577,
+        "ttft_s": 0.2772771529853344,
+        "wall_time_s": 9.990773741155863,
+        "output_tokens_per_s": 21.104655583001588
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR07:low:repeat1:seed42:ce396ceb1d83",
+      "item_id": "CAR07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 395,
+        "completion_tokens": 191,
+        "total_tokens": 586,
+        "ttft_s": 0.27814513072371483,
+        "wall_time_s": 9.310677736997604,
+        "output_tokens_per_s": 21.145785830580195
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR08:low:repeat1:seed42:f4fa275f0b4f",
+      "item_id": "CAR08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.3333333333333333,
+            "parsed": 0.3333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 396,
+        "completion_tokens": 390,
+        "total_tokens": 786,
+        "ttft_s": 0.2775416225194931,
+        "wall_time_s": 18.919415693730116,
+        "output_tokens_per_s": 20.92064341333001
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS01:low:repeat1:seed42:f9c88e85c2f6",
+      "item_id": "CMS01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 399,
+        "completion_tokens": 308,
+        "total_tokens": 707,
+        "ttft_s": 0.27717533335089684,
+        "wall_time_s": 14.953360088169575,
+        "output_tokens_per_s": 20.986380666737887
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS02:low:repeat1:seed42:91d36e198ef3",
+      "item_id": "CMS02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 13.0,
+            "parsed": 13.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 370,
+        "completion_tokens": 129,
+        "total_tokens": 499,
+        "ttft_s": 0.2760915644466877,
+        "wall_time_s": 6.309002548456192,
+        "output_tokens_per_s": 21.38271231614724
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS03:low:repeat1:seed42:f218afc7aa41",
+      "item_id": "CMS03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.375,
+            "parsed": 0.375,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 395,
+        "completion_tokens": 592,
+        "total_tokens": 987,
+        "ttft_s": 0.2780975364148617,
+        "wall_time_s": 28.685810074210167,
+        "output_tokens_per_s": 20.839411100501952
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS04:low:repeat1:seed42:06e5427010c9",
+      "item_id": "CMS04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 157.0,
+            "parsed": 157.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 376,
+        "completion_tokens": 458,
+        "total_tokens": 834,
+        "ttft_s": 0.4207037575542927,
+        "wall_time_s": 22.210734631866217,
+        "output_tokens_per_s": 21.01878618905181
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS05:low:repeat1:seed42:574bbd0c28d8",
+      "item_id": "CMS05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 10.666666666666666,
+            "parsed": 10.6667,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 355,
+        "completion_tokens": 361,
+        "total_tokens": 716,
+        "ttft_s": 0.4197330139577389,
+        "wall_time_s": 17.521871712058783,
+        "output_tokens_per_s": 21.108471073274835
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS06:low:repeat1:seed42:eb2bc76ba045",
+      "item_id": "CMS06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5405405405405406,
+            "parsed": 0.5405,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 381,
+        "completion_tokens": 361,
+        "total_tokens": 742,
+        "ttft_s": 0.2777533270418644,
+        "wall_time_s": 17.533201165497303,
+        "output_tokens_per_s": 20.92092905264832
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS07:low:repeat1:seed42:71c259355f9b",
+      "item_id": "CMS07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 386,
+        "completion_tokens": 47,
+        "total_tokens": 433,
+        "ttft_s": 0.27684758603572845,
+        "wall_time_s": 2.3547172769904137,
+        "output_tokens_per_s": 22.619320260841608
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS08:low:repeat1:seed42:1e094bfb27a2",
+      "item_id": "CMS08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4,
+            "parsed": 0.4,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 370,
+        "completion_tokens": 318,
+        "total_tokens": 688,
+        "ttft_s": 0.2767745479941368,
+        "wall_time_s": 15.456389259546995,
+        "output_tokens_per_s": 20.949148317840866
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD01:low:repeat1:seed42:82bb158530fb",
+      "item_id": "CCD01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "2",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "-1",
+                "expected": "-1"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 569,
+        "completion_tokens": 836,
+        "total_tokens": 1405,
+        "ttft_s": 0.6054088585078716,
+        "wall_time_s": 40.577865768224,
+        "output_tokens_per_s": 20.914401180999032
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD02:low:repeat1:seed42:7642b39f5d04",
+      "item_id": "CCD02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "17",
+                "expected": "17"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "18",
+                "expected": "18"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "120",
+                "expected": "120"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 569,
+        "completion_tokens": 384,
+        "total_tokens": 953,
+        "ttft_s": 0.6043988168239594,
+        "wall_time_s": 18.69200736284256,
+        "output_tokens_per_s": 21.230003901456897
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD03:low:repeat1:seed42:16dc5d17e77d",
+      "item_id": "CCD03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "python_unit_test",
+          "details": {
+            "error": "runner_failed",
+            "stderr": "Traceback (most recent call last):\n  File \"/tmp/llmbench_code_wik2nzvw/runner.py\", line 6, in <module>\n    fn = getattr(mod, entrypoint); tests = json.load(open(tests_path, encoding=\"utf-8\")); results=[]\n         ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'candidate_solution' has no attribute 'min_window'\n"
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 513,
+        "completion_tokens": 429,
+        "total_tokens": 942,
+        "ttft_s": 0.45605938136577606,
+        "wall_time_s": 20.86667835712433,
+        "output_tokens_per_s": 21.018470851350376
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD04:low:repeat1:seed42:ff8d0258907c",
+      "item_id": "CCD04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 0,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": false,
+                "error": "IndexError: string index out of range"
+              },
+              {
+                "index": 1,
+                "ok": false,
+                "error": "AssertionError: expected ']' after inner string"
+              },
+              {
+                "index": 2,
+                "ok": false,
+                "error": "IndexError: string index out of range"
+              },
+              {
+                "index": 3,
+                "ok": false,
+                "error": "IndexError: string index out of range"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 535,
+        "completion_tokens": 421,
+        "total_tokens": 956,
+        "ttft_s": 0.45745642483234406,
+        "wall_time_s": 20.472719069570303,
+        "output_tokens_per_s": 21.033948315970836
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD05:low:repeat1:seed42:8d2bc2c1c90b",
+      "item_id": "CCD05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 3,
+            "total_tests": 3,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "[1, 1, 2, 3, 1]",
+                "expected": "[1, 1, 2, 3, 1]"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "[1, 1, 1]",
+                "expected": "[1, 1, 1]"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "[1, 2, 1, 1]",
+                "expected": "[1, 2, 1, 1]"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 563,
+        "completion_tokens": 735,
+        "total_tokens": 1298,
+        "ttft_s": 0.313323050737381,
+        "wall_time_s": 35.661868922412395,
+        "output_tokens_per_s": 20.792934528855955
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD06:low:repeat1:seed42:23da0e042507",
+      "item_id": "CCD06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 524,
+        "completion_tokens": 633,
+        "total_tokens": 1157,
+        "ttft_s": 0.4565666504204273,
+        "wall_time_s": 30.722585305571556,
+        "output_tokens_per_s": 20.914544698209472
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD07:low:repeat1:seed42:5ae26a3fcc6f",
+      "item_id": "CCD07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "7",
+                "expected": "7"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "11",
+                "expected": "11"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 522,
+        "completion_tokens": 474,
+        "total_tokens": 996,
+        "ttft_s": 0.45516398549079895,
+        "wall_time_s": 23.026238847523928,
+        "output_tokens_per_s": 21.000329089214834
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD08:low:repeat1:seed42:1feae0f853e3",
+      "item_id": "CCD08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "2",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "3",
+                "expected": "3"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 520,
+        "completion_tokens": 716,
+        "total_tokens": 1236,
+        "ttft_s": 0.4543602243065834,
+        "wall_time_s": 34.71004777401686,
+        "output_tokens_per_s": 20.90163856617894
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH01:low:repeat1:seed42:ff10f557ab18",
+      "item_id": "CPH01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.853923814662527,
+            "parsed": 4.853,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 428,
+        "completion_tokens": 432,
+        "total_tokens": 860,
+        "ttft_s": 0.42418136075139046,
+        "wall_time_s": 20.94817790016532,
+        "output_tokens_per_s": 21.048532100967503
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH02:low:repeat1:seed42:72557bcbcd65",
+      "item_id": "CPH02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.6666666666666665,
+            "parsed": 0.6667,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 409,
+        "completion_tokens": 197,
+        "total_tokens": 606,
+        "ttft_s": 0.278135746717453,
+        "wall_time_s": 9.595079820603132,
+        "output_tokens_per_s": 21.144272031445194
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH03:low:repeat1:seed42:475262a29f07",
+      "item_id": "CPH03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 391,
+        "completion_tokens": 1005,
+        "total_tokens": 1396,
+        "ttft_s": 0.42155151069164276,
+        "wall_time_s": 48.614301446825266,
+        "output_tokens_per_s": 20.8537591511556
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH04:low:repeat1:seed42:c6711273c6f3",
+      "item_id": "CPH04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": 0.4472,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 379,
+        "completion_tokens": 214,
+        "total_tokens": 593,
+        "ttft_s": 0.27658769488334656,
+        "wall_time_s": 10.411333572119474,
+        "output_tokens_per_s": 21.11547764415781
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH05:low:repeat1:seed42:359ff1997979",
+      "item_id": "CPH05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 5.217391304347826,
+            "parsed": null,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 435,
+        "completion_tokens": 399,
+        "total_tokens": 834,
+        "ttft_s": 0.4250897914171219,
+        "wall_time_s": 19.34752495214343,
+        "output_tokens_per_s": 21.086080972713713
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH06:low:repeat1:seed42:47d1d93685c0",
+      "item_id": "CPH06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": 0.447,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 397,
+        "completion_tokens": 402,
+        "total_tokens": 799,
+        "ttft_s": 0.27558574825525284,
+        "wall_time_s": 19.487927567213774,
+        "output_tokens_per_s": 20.924049956435343
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH07:low:repeat1:seed42:7ec68f417aed",
+      "item_id": "CPH07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 386,
+        "completion_tokens": 193,
+        "total_tokens": 579,
+        "ttft_s": 0.2755878008902073,
+        "wall_time_s": 9.402525138109922,
+        "output_tokens_per_s": 21.146195363141658
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH08:low:repeat1:seed42:1cd4c5358836",
+      "item_id": "CPH08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 427,
+        "completion_tokens": 153,
+        "total_tokens": 580,
+        "ttft_s": 0.2792408727109432,
+        "wall_time_s": 7.470635734498501,
+        "output_tokens_per_s": 21.275427499188794
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH01:low:repeat1:seed42:9d1f36871fb7",
+      "item_id": "CCH01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8333333333333333,
+            "parsed": 0.9009,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 384,
+        "completion_tokens": 294,
+        "total_tokens": 678,
+        "ttft_s": 0.2781720720231533,
+        "wall_time_s": 14.285117708146572,
+        "output_tokens_per_s": 20.989586712022668
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH02:low:repeat1:seed42:aba55998f681",
+      "item_id": "CCH02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.241962407465936,
+            "parsed": 9.242,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 389,
+        "completion_tokens": 955,
+        "total_tokens": 1344,
+        "ttft_s": 0.4194542169570923,
+        "wall_time_s": 46.23773753643036,
+        "output_tokens_per_s": 20.84320779417143
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH03:low:repeat1:seed42:bd73d0991d00",
+      "item_id": "CCH03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.2857142857142857,
+            "parsed": 0.2857,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 426,
+        "completion_tokens": 169,
+        "total_tokens": 595,
+        "ttft_s": 0.2794574908912182,
+        "wall_time_s": 8.250241868197918,
+        "output_tokens_per_s": 21.202430275388345
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH04:low:repeat1:seed42:de80e291182e",
+      "item_id": "CCH04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 20.4987335498206,
+            "parsed": 20.506,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 467,
+        "completion_tokens": 332,
+        "total_tokens": 799,
+        "ttft_s": 0.28189150616526604,
+        "wall_time_s": 16.121480002999306,
+        "output_tokens_per_s": 20.9601404775357
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH05:low:repeat1:seed42:726942c1ceb4",
+      "item_id": "CCH05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 38.952948456358676,
+            "parsed": 38.94,
+            "atol": 0.001,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 411,
+        "completion_tokens": 180,
+        "total_tokens": 591,
+        "ttft_s": 0.2797626815736294,
+        "wall_time_s": 8.77982184290886,
+        "output_tokens_per_s": 21.176323197699336
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH06:low:repeat1:seed42:dc79cd7f8f74",
+      "item_id": "CCH06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 9.124767650803168e-06,
+            "parsed": null,
+            "atol": 1e-09,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 417,
+        "completion_tokens": 408,
+        "total_tokens": 825,
+        "ttft_s": 0.4247872419655323,
+        "wall_time_s": 19.797827873378992,
+        "output_tokens_per_s": 21.0601943062271
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH07:low:repeat1:seed42:4aeb099709b5",
+      "item_id": "CCH07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 382,
+        "completion_tokens": 133,
+        "total_tokens": 515,
+        "ttft_s": 0.4242401346564293,
+        "wall_time_s": 6.511076182126999,
+        "output_tokens_per_s": 21.850432468157106
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH08:low:repeat1:seed42:81d14842cf4c",
+      "item_id": "CCH08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.25,
+            "parsed": 0.25,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 371,
+        "completion_tokens": 99,
+        "total_tokens": 470,
+        "ttft_s": 0.27794525399804115,
+        "wall_time_s": 4.8668636083602905,
+        "output_tokens_per_s": 21.573711353110063
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI01:low:repeat1:seed42:e41ccd79248e",
+      "item_id": "CLI01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.0021436227224008574,
+            "parsed": 0.002144,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 378,
+        "completion_tokens": 304,
+        "total_tokens": 682,
+        "ttft_s": 0.2785233221948147,
+        "wall_time_s": 14.770300839096308,
+        "output_tokens_per_s": 20.977412856735512
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI02:low:repeat1:seed42:5f4f482ddb5f",
+      "item_id": "CLI02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.1836734693877551,
+            "parsed": 0.1837,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 433,
+        "completion_tokens": 477,
+        "total_tokens": 910,
+        "ttft_s": 0.42530183866620064,
+        "wall_time_s": 23.14177156239748,
+        "output_tokens_per_s": 20.997981015584084
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI03:low:repeat1:seed42:7553eeeeae25",
+      "item_id": "CLI03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 11.158039270065043,
+            "parsed": null,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 415,
+        "completion_tokens": 470,
+        "total_tokens": 885,
+        "ttft_s": 0.4246947281062603,
+        "wall_time_s": 22.802126597613096,
+        "output_tokens_per_s": 21.00330380808609
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI04:low:repeat1:seed42:b73ca4b43731",
+      "item_id": "CLI04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5310044064107188,
+            "parsed": 0.531,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 391,
+        "completion_tokens": 923,
+        "total_tokens": 1314,
+        "ttft_s": 0.4212869219481945,
+        "wall_time_s": 44.71265908703208,
+        "output_tokens_per_s": 20.839273088216185
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI05:low:repeat1:seed42:113f0048a81e",
+      "item_id": "CLI05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.008193722065862417,
+            "parsed": 0.00818,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 401,
+        "completion_tokens": 823,
+        "total_tokens": 1224,
+        "ttft_s": 0.27512792870402336,
+        "wall_time_s": 39.88443608954549,
+        "output_tokens_per_s": 20.777944332126303
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI06:low:repeat1:seed42:feeebad8734d",
+      "item_id": "CLI06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 34.285714285714285,
+            "parsed": 34.29,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 428,
+        "completion_tokens": 145,
+        "total_tokens": 573,
+        "ttft_s": 0.42439233884215355,
+        "wall_time_s": 7.092930685728788,
+        "output_tokens_per_s": 21.743895357173237
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI07:low:repeat1:seed42:8397150c1a29",
+      "item_id": "CLI07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.41718835613418853,
+            "parsed": 0.418,
+            "atol": 1e-05,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 408,
+        "completion_tokens": 595,
+        "total_tokens": 1003,
+        "ttft_s": 0.2780652083456516,
+        "wall_time_s": 28.854164849966764,
+        "output_tokens_per_s": 20.82159593023612
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI08:low:repeat1:seed42:64cfe5c05d74",
+      "item_id": "CLI08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 425,
+        "completion_tokens": 22,
+        "total_tokens": 447,
+        "ttft_s": 0.2757534980773926,
+        "wall_time_s": 1.1458354145288467,
+        "output_tokens_per_s": 25.284975568421068
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS01:low:repeat1:seed42:173bd27f383f",
+      "item_id": "CHS01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.0,
+            "parsed": 4.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 402,
+        "completion_tokens": 67,
+        "total_tokens": 469,
+        "ttft_s": 0.27680957317352295,
+        "wall_time_s": 3.322399951517582,
+        "output_tokens_per_s": 21.999018803188193
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS02:low:repeat1:seed42:cb06fa6f1ce6",
+      "item_id": "CHS02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 474,
+        "completion_tokens": 38,
+        "total_tokens": 512,
+        "ttft_s": 0.4279276691377163,
+        "wall_time_s": 1.9259201996028423,
+        "output_tokens_per_s": 25.36728269813269
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS03:low:repeat1:seed42:1ed95e05e95c",
+      "item_id": "CHS03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 53.333333333333336,
+            "parsed": null,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 379,
+        "completion_tokens": 285,
+        "total_tokens": 664,
+        "ttft_s": 0.2767789028584957,
+        "wall_time_s": 13.85805082321167,
+        "output_tokens_per_s": 20.984779751953358
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS04:low:repeat1:seed42:5f26fbbd0228",
+      "item_id": "CHS04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 101.8860946745562,
+            "parsed": 106.1919,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 365,
+        "completion_tokens": 135,
+        "total_tokens": 500,
+        "ttft_s": 0.27524830400943756,
+        "wall_time_s": 6.605849321931601,
+        "output_tokens_per_s": 21.324989462739804
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS05:low:repeat1:seed42:a8e08f7f476b",
+      "item_id": "CHS05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": []
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 440,
+        "completion_tokens": 312,
+        "total_tokens": 752,
+        "ttft_s": 0.42510026693344116,
+        "wall_time_s": 15.164698164910078,
+        "output_tokens_per_s": 21.167470249838328
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS06:low:repeat1:seed42:ad68d551a807",
+      "item_id": "CHS06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 434,
+        "completion_tokens": 159,
+        "total_tokens": 593,
+        "ttft_s": 0.2801148369908333,
+        "wall_time_s": 7.768241506069899,
+        "output_tokens_per_s": 21.233615165267334
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS07:low:repeat1:seed42:f69857f9012f",
+      "item_id": "CHS07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 479,
+        "completion_tokens": 58,
+        "total_tokens": 537,
+        "ttft_s": 0.28373219817876816,
+        "wall_time_s": 2.892600253224373,
+        "output_tokens_per_s": 22.23186407906939
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS08:low:repeat1:seed42:b60ef3e4dda2",
+      "item_id": "CHS08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 430,
+        "completion_tokens": 29,
+        "total_tokens": 459,
+        "ttft_s": 0.42501215264201164,
+        "wall_time_s": 1.4883896932005882,
+        "output_tokens_per_s": 27.27159347823608
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL01:low:repeat1:seed42:58d51a7b93fa",
+      "item_id": "CHL01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            },
+            "error": "Expecting value: line 1 column 1 (char 0)"
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1361,
+        "completion_tokens": 102,
+        "total_tokens": 1463,
+        "ttft_s": 0.5215358883142471,
+        "wall_time_s": 5.265290912240744,
+        "output_tokens_per_s": 21.50195351267795
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL02:low:repeat1:seed42:f2520c107991",
+      "item_id": "CHL02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "partial",
+              "reason": "missing_claim_evidence"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "missing_claim_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1386,
+        "completion_tokens": 90,
+        "total_tokens": 1476,
+        "ttft_s": 0.5444041416049004,
+        "wall_time_s": 4.7097253911197186,
+        "output_tokens_per_s": 21.606976895355505
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL03:low:repeat1:seed42:2a1be42729b7",
+      "item_id": "CHL03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "correlation_not_causation"
+            },
+            "parsed": {
+              "status": "invalid_inference",
+              "reason": "correlation_not_causation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1353,
+        "completion_tokens": 145,
+        "total_tokens": 1498,
+        "ttft_s": 0.5208735801279545,
+        "wall_time_s": 7.349125646054745,
+        "output_tokens_per_s": 21.235302768559897
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL04:low:repeat1:seed42:c294af189935",
+      "item_id": "CHL04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 133,
+        "total_tokens": 1470,
+        "ttft_s": 0.6666591092944145,
+        "wall_time_s": 6.765336319804192,
+        "output_tokens_per_s": 21.808007771062666
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL05:low:repeat1:seed42:26c73a112727",
+      "item_id": "CHL05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "unverified_attribution"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "missing_claim_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1364,
+        "completion_tokens": 134,
+        "total_tokens": 1498,
+        "ttft_s": 0.5232136361300945,
+        "wall_time_s": 6.819421254098415,
+        "output_tokens_per_s": 21.282652690420573
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL06:low:repeat1:seed42:1d27fba5978c",
+      "item_id": "CHL06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "inconsistent_evidence"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1381,
+        "completion_tokens": 139,
+        "total_tokens": 1520,
+        "ttft_s": 0.5471468903124332,
+        "wall_time_s": 7.081105578690767,
+        "output_tokens_per_s": 21.273473958020766
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL07:low:repeat1:seed42:99ccc3d6e552",
+      "item_id": "CHL07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1359,
+        "completion_tokens": 102,
+        "total_tokens": 1461,
+        "ttft_s": 0.6670529581606388,
+        "wall_time_s": 5.259437121450901,
+        "output_tokens_per_s": 22.210685424653374
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL08:low:repeat1:seed42:c7e87c19fdd7",
+      "item_id": "CHL08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "unsupported_extrapolation"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "unsupported_extrapolation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1378,
+        "completion_tokens": 147,
+        "total_tokens": 1525,
+        "ttft_s": 0.5492101907730103,
+        "wall_time_s": 7.478576321154833,
+        "output_tokens_per_s": 21.214061608821353
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF01:low:repeat1:seed42:1c3783235760",
+      "item_id": "CIF01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 424,
+        "completion_tokens": 177,
+        "total_tokens": 601,
+        "ttft_s": 0.2799990586936474,
+        "wall_time_s": 8.640751738101244,
+        "output_tokens_per_s": 21.170342765424486
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF02:low:repeat1:seed42:f07ece46f10e",
+      "item_id": "CIF02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ancestors": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 5
+            },
+            "parsed": {
+              "ancestors": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 5
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 370,
+        "completion_tokens": 162,
+        "total_tokens": 532,
+        "ttft_s": 0.2761808782815933,
+        "wall_time_s": 7.895143795758486,
+        "output_tokens_per_s": 21.26273637956597
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF03:low:repeat1:seed42:3a2142dce814",
+      "item_id": "CIF03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "allowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                false
+              ]
+            },
+            "parsed": {
+              "alowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  12,
+                  17
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                true,
+                false
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 502,
+        "completion_tokens": 579,
+        "total_tokens": 1081,
+        "ttft_s": 0.31098246946930885,
+        "wall_time_s": 28.127533201128244,
+        "output_tokens_per_s": 20.814945950182853
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF04:low:repeat1:seed42:a7fd94e80922",
+      "item_id": "CIF04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            },
+            "parsed": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 435,
+        "completion_tokens": 325,
+        "total_tokens": 760,
+        "ttft_s": 0.27958763390779495,
+        "wall_time_s": 15.806350842118263,
+        "output_tokens_per_s": 20.93160020809371
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF05:low:repeat1:seed42:b2162dce2250",
+      "item_id": "CIF05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            },
+            "parsed": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 405,
+        "completion_tokens": 359,
+        "total_tokens": 764,
+        "ttft_s": 0.27805395424366,
+        "wall_time_s": 17.440542720258236,
+        "output_tokens_per_s": 20.9177121625214
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF06:low:repeat1:seed42:c4ceb56957ab",
+      "item_id": "CIF06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            },
+            "parsed": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 389,
+        "completion_tokens": 263,
+        "total_tokens": 652,
+        "ttft_s": 0.4667408876121044,
+        "wall_time_s": 12.788094703108072,
+        "output_tokens_per_s": 21.345057039855288
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF07:low:repeat1:seed42:677bf7f13faf",
+      "item_id": "CIF07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 437,
+        "completion_tokens": 338,
+        "total_tokens": 775,
+        "ttft_s": 0.42527125403285027,
+        "wall_time_s": 16.41871666535735,
+        "output_tokens_per_s": 21.133657652069882
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF08:low:repeat1:seed42:964d3fb19e20",
+      "item_id": "CIF08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            },
+            "parsed": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 365,
+        "completion_tokens": 195,
+        "total_tokens": 560,
+        "ttft_s": 0.27292678877711296,
+        "wall_time_s": 9.497710715979338,
+        "output_tokens_per_s": 21.138706504006034
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP01:medium:repeat1:seed42:cf14d922d297",
+      "item_id": "CJP01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 567,
+        "completion_tokens": 210,
+        "total_tokens": 777,
+        "ttft_s": 0.3120776042342186,
+        "wall_time_s": 10.26695566624403,
+        "output_tokens_per_s": 21.09518556549779
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP02:medium:repeat1:seed42:80aa18cb43b0",
+      "item_id": "CJP02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 507,
+        "completion_tokens": 377,
+        "total_tokens": 884,
+        "ttft_s": 0.3080849386751652,
+        "wall_time_s": 18.334030997008085,
+        "output_tokens_per_s": 20.91429757861296
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP03:medium:repeat1:seed42:eb6db9059adb",
+      "item_id": "CJP03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 512,
+        "completion_tokens": 143,
+        "total_tokens": 655,
+        "ttft_s": 0.30709587037563324,
+        "wall_time_s": 7.022931080311537,
+        "output_tokens_per_s": 21.29295843775845
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP04:medium:repeat1:seed42:766b5d95804e",
+      "item_id": "CJP04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 510,
+        "completion_tokens": 253,
+        "total_tokens": 763,
+        "ttft_s": 0.30974284932017326,
+        "wall_time_s": 12.34131171181798,
+        "output_tokens_per_s": 21.02801412612088
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP05:medium:repeat1:seed42:e5ca7e7f21c8",
+      "item_id": "CJP05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 511,
+        "completion_tokens": 190,
+        "total_tokens": 701,
+        "ttft_s": 0.3103641979396343,
+        "wall_time_s": 9.301649916917086,
+        "output_tokens_per_s": 21.131571828373403
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP06:medium:repeat1:seed42:17336d9685d4",
+      "item_id": "CJP06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 430,
+        "completion_tokens": 170,
+        "total_tokens": 600,
+        "ttft_s": 0.4246377497911453,
+        "wall_time_s": 8.302432037889957,
+        "output_tokens_per_s": 21.57964447698557
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP07:medium:repeat1:seed42:7005e6a8ca13",
+      "item_id": "CJP07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 470,
+        "completion_tokens": 271,
+        "total_tokens": 741,
+        "ttft_s": 0.2826755754649639,
+        "wall_time_s": 13.191782020032406,
+        "output_tokens_per_s": 20.992932482483738
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CJP08:medium:repeat1:seed42:794ff804fd8b",
+      "item_id": "CJP08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 487,
+        "completion_tokens": 197,
+        "total_tokens": 684,
+        "ttft_s": 0.3083883486688137,
+        "wall_time_s": 9.641495823860168,
+        "output_tokens_per_s": 21.107653643082145
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR01:medium:repeat1:seed42:926d59e66ec1",
+      "item_id": "CAR01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8670192670948242,
+            "parsed": 0.867,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 448,
+        "completion_tokens": 1956,
+        "total_tokens": 2404,
+        "ttft_s": 0.2810659669339657,
+        "wall_time_s": 94.88170876726508,
+        "output_tokens_per_s": 20.676392274928112
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR02:medium:repeat1:seed42:dc83171fa9b7",
+      "item_id": "CAR02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.0,
+            "parsed": 9.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 424,
+        "completion_tokens": 1265,
+        "total_tokens": 1689,
+        "ttft_s": 0.27852585166692734,
+        "wall_time_s": 61.32100693881512,
+        "output_tokens_per_s": 20.723272997275526
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR03:medium:repeat1:seed42:17675ae8d5bb",
+      "item_id": "CAR03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 523,
+        "completion_tokens": 87,
+        "total_tokens": 610,
+        "ttft_s": 0.3112957067787647,
+        "wall_time_s": 4.328152880072594,
+        "output_tokens_per_s": 21.658723784958443
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR04:medium:repeat1:seed42:a05185102304",
+      "item_id": "CAR04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.16210000000000002,
+            "parsed": 0.1621,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 421,
+        "completion_tokens": 442,
+        "total_tokens": 863,
+        "ttft_s": 0.27911723405122757,
+        "wall_time_s": 21.467164374887943,
+        "output_tokens_per_s": 20.86081822746716
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR05:medium:repeat1:seed42:40add3847ab7",
+      "item_id": "CAR05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 16.0,
+            "parsed": 16.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 426,
+        "completion_tokens": 452,
+        "total_tokens": 878,
+        "ttft_s": 0.28052255511283875,
+        "wall_time_s": 21.946146927773952,
+        "output_tokens_per_s": 20.862542072425047
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR06:medium:repeat1:seed42:7f70a2c53a63",
+      "item_id": "CAR06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 375,
+        "completion_tokens": 726,
+        "total_tokens": 1101,
+        "ttft_s": 0.27626408264040947,
+        "wall_time_s": 35.17549933120608,
+        "output_tokens_per_s": 20.802748106918415
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR07:medium:repeat1:seed42:ce396ceb1d83",
+      "item_id": "CAR07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 398,
+        "completion_tokens": 302,
+        "total_tokens": 700,
+        "ttft_s": 0.277460552752018,
+        "wall_time_s": 14.673562809824944,
+        "output_tokens_per_s": 20.97790044882634
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CAR08:medium:repeat1:seed42:f4fa275f0b4f",
+      "item_id": "CAR08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.3333333333333333,
+            "parsed": 0.3333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 399,
+        "completion_tokens": 638,
+        "total_tokens": 1037,
+        "ttft_s": 0.2770854979753494,
+        "wall_time_s": 30.919686384499073,
+        "output_tokens_per_s": 20.820686937203995
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS01:medium:repeat1:seed42:f9c88e85c2f6",
+      "item_id": "CMS01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 402,
+        "completion_tokens": 682,
+        "total_tokens": 1084,
+        "ttft_s": 0.5673396028578281,
+        "wall_time_s": 33.0463405251503,
+        "output_tokens_per_s": 20.99818284533188
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS02:medium:repeat1:seed42:91d36e198ef3",
+      "item_id": "CMS02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 13.0,
+            "parsed": 13.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 373,
+        "completion_tokens": 271,
+        "total_tokens": 644,
+        "ttft_s": 0.37294456735253334,
+        "wall_time_s": 13.169327769428492,
+        "output_tokens_per_s": 21.177859065367443
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS03:medium:repeat1:seed42:f218afc7aa41",
+      "item_id": "CMS03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.375,
+            "parsed": 0.375,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 398,
+        "completion_tokens": 528,
+        "total_tokens": 926,
+        "ttft_s": 0.27778831869363785,
+        "wall_time_s": 25.613738976418972,
+        "output_tokens_per_s": 20.83995217440181
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS04:medium:repeat1:seed42:06e5427010c9",
+      "item_id": "CMS04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 157.0,
+            "parsed": 157.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 379,
+        "completion_tokens": 833,
+        "total_tokens": 1212,
+        "ttft_s": 0.27674610167741776,
+        "wall_time_s": 40.34257332235575,
+        "output_tokens_per_s": 20.790785010176485
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS05:medium:repeat1:seed42:574bbd0c28d8",
+      "item_id": "CMS05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 10.666666666666666,
+            "parsed": 10.6667,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 358,
+        "completion_tokens": 597,
+        "total_tokens": 955,
+        "ttft_s": 0.2752297595143318,
+        "wall_time_s": 28.931558910757303,
+        "output_tokens_per_s": 20.83309403828875
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS06:medium:repeat1:seed42:eb2bc76ba045",
+      "item_id": "CMS06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5405405405405406,
+            "parsed": 0.5405,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 384,
+        "completion_tokens": 510,
+        "total_tokens": 894,
+        "ttft_s": 0.27615564689040184,
+        "wall_time_s": 24.711508244276047,
+        "output_tokens_per_s": 20.871399255133532
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS07:medium:repeat1:seed42:71c259355f9b",
+      "item_id": "CMS07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 389,
+        "completion_tokens": 149,
+        "total_tokens": 538,
+        "ttft_s": 0.41876816749572754,
+        "wall_time_s": 7.274063725024462,
+        "output_tokens_per_s": 21.735022035098517
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CMS08:medium:repeat1:seed42:1e094bfb27a2",
+      "item_id": "CMS08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4,
+            "parsed": 0.4,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 373,
+        "completion_tokens": 390,
+        "total_tokens": 763,
+        "ttft_s": 0.27649063616991043,
+        "wall_time_s": 18.92634315416217,
+        "output_tokens_per_s": 20.91169351734827
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD01:medium:repeat1:seed42:82bb158530fb",
+      "item_id": "CCD01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.5,
+          "passed": false,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 2,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": false,
+                "got": "10",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": false,
+                "got": "11",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "-1",
+                "expected": "-1"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 572,
+        "completion_tokens": 1162,
+        "total_tokens": 1734,
+        "ttft_s": 0.3618360608816147,
+        "wall_time_s": 56.38865664601326,
+        "output_tokens_per_s": 20.740066772740818
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD02:medium:repeat1:seed42:7642b39f5d04",
+      "item_id": "CCD02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "17",
+                "expected": "17"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "18",
+                "expected": "18"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "120",
+                "expected": "120"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 572,
+        "completion_tokens": 941,
+        "total_tokens": 1513,
+        "ttft_s": 0.311206366866827,
+        "wall_time_s": 45.65361695736647,
+        "output_tokens_per_s": 20.753197453449086
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD03:medium:repeat1:seed42:16dc5d17e77d",
+      "item_id": "CCD03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "'BANC'",
+                "expected": "'BANC'"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "'abc'",
+                "expected": "'abc'"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "''",
+                "expected": "''"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "'baa'",
+                "expected": "'baa'"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 516,
+        "completion_tokens": 724,
+        "total_tokens": 1240,
+        "ttft_s": 0.3088931366801262,
+        "wall_time_s": 35.114443868398666,
+        "output_tokens_per_s": 20.80127981828524
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD04:medium:repeat1:seed42:ff8d0258907c",
+      "item_id": "CCD04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "'accaccacc'",
+                "expected": "'accaccacc'"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "'abcabccdcdcdef'",
+                "expected": "'abcabccdcdcdef'"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "'xxxxxxxxxx'",
+                "expected": "'xxxxxxxxxx'"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "'abccbccbccabccbccbcc'",
+                "expected": "'abccbccbccabccbccbcc'"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 538,
+        "completion_tokens": 2977,
+        "total_tokens": 3515,
+        "ttft_s": 0.3098421059548855,
+        "wall_time_s": 144.52564608305693,
+        "output_tokens_per_s": 20.6426751985703
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD05:medium:repeat1:seed42:8d2bc2c1c90b",
+      "item_id": "CCD05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 3,
+            "total_tests": 3,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "[1, 1, 2, 3, 1]",
+                "expected": "[1, 1, 2, 3, 1]"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "[1, 1, 1]",
+                "expected": "[1, 1, 1]"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "[1, 2, 1, 1]",
+                "expected": "[1, 2, 1, 1]"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 566,
+        "completion_tokens": 1043,
+        "total_tokens": 1609,
+        "ttft_s": 0.307180430740118,
+        "wall_time_s": 50.50374041125178,
+        "output_tokens_per_s": 20.77831629109514
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD06:medium:repeat1:seed42:23da0e042507",
+      "item_id": "CCD06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 527,
+        "completion_tokens": 679,
+        "total_tokens": 1206,
+        "ttft_s": 0.3065253011882305,
+        "wall_time_s": 32.9143944196403,
+        "output_tokens_per_s": 20.823194472887803
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD07:medium:repeat1:seed42:5ae26a3fcc6f",
+      "item_id": "CCD07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "7",
+                "expected": "7"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "11",
+                "expected": "11"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 525,
+        "completion_tokens": 855,
+        "total_tokens": 1380,
+        "ttft_s": 0.3078452944755554,
+        "wall_time_s": 41.45385466888547,
+        "output_tokens_per_s": 20.77965793036914
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCD08:medium:repeat1:seed42:1feae0f853e3",
+      "item_id": "CCD08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "2",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "3",
+                "expected": "3"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 523,
+        "completion_tokens": 507,
+        "total_tokens": 1030,
+        "ttft_s": 0.3077225126326084,
+        "wall_time_s": 24.616565253585577,
+        "output_tokens_per_s": 20.856607836203573
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH01:medium:repeat1:seed42:ff10f557ab18",
+      "item_id": "CPH01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.853923814662527,
+            "parsed": 4.854,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 431,
+        "completion_tokens": 2797,
+        "total_tokens": 3228,
+        "ttft_s": 0.27795977145433426,
+        "wall_time_s": 135.60062941536307,
+        "output_tokens_per_s": 20.669116322934595
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH02:medium:repeat1:seed42:72557bcbcd65",
+      "item_id": "CPH02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.6666666666666665,
+            "parsed": 0.6667,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 412,
+        "completion_tokens": 472,
+        "total_tokens": 884,
+        "ttft_s": 0.27570629864931107,
+        "wall_time_s": 22.87391148507595,
+        "output_tokens_per_s": 20.886614494654715
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH03:medium:repeat1:seed42:475262a29f07",
+      "item_id": "CPH03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5547,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 394,
+        "completion_tokens": 1463,
+        "total_tokens": 1857,
+        "ttft_s": 0.275451697409153,
+        "wall_time_s": 70.82606249302626,
+        "output_tokens_per_s": 20.736886378464742
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH04:medium:repeat1:seed42:c6711273c6f3",
+      "item_id": "CPH04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": null,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 382,
+        "completion_tokens": 743,
+        "total_tokens": 1125,
+        "ttft_s": 0.32321910560131073,
+        "wall_time_s": 35.98406672105193,
+        "output_tokens_per_s": 20.83517497991505
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH05:medium:repeat1:seed42:359ff1997979",
+      "item_id": "CPH05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 5.217391304347826,
+            "parsed": 5.217,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 438,
+        "completion_tokens": 989,
+        "total_tokens": 1427,
+        "ttft_s": 0.2790573164820671,
+        "wall_time_s": 47.85943492129445,
+        "output_tokens_per_s": 20.785879595456812
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH06:medium:repeat1:seed42:47d1d93685c0",
+      "item_id": "CPH06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": 0.4472,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 400,
+        "completion_tokens": 539,
+        "total_tokens": 939,
+        "ttft_s": 0.27580296993255615,
+        "wall_time_s": 26.10633523762226,
+        "output_tokens_per_s": 20.86677867936201
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH07:medium:repeat1:seed42:7ec68f417aed",
+      "item_id": "CPH07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 389,
+        "completion_tokens": 398,
+        "total_tokens": 787,
+        "ttft_s": 0.41925090178847313,
+        "wall_time_s": 19.291344799101353,
+        "output_tokens_per_s": 21.089339750300287
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CPH08:medium:repeat1:seed42:1cd4c5358836",
+      "item_id": "CPH08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 430,
+        "completion_tokens": 397,
+        "total_tokens": 827,
+        "ttft_s": 0.4221271313726902,
+        "wall_time_s": 19.250413425266743,
+        "output_tokens_per_s": 21.085296548138093
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH01:medium:repeat1:seed42:9d1f36871fb7",
+      "item_id": "CCH01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8333333333333333,
+            "parsed": 0.8333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 387,
+        "completion_tokens": 700,
+        "total_tokens": 1087,
+        "ttft_s": 0.2756625823676586,
+        "wall_time_s": 33.879153061658144,
+        "output_tokens_per_s": 20.831169322466767
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH02:medium:repeat1:seed42:aba55998f681",
+      "item_id": "CCH02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.241962407465936,
+            "parsed": 9.242,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 392,
+        "completion_tokens": 1867,
+        "total_tokens": 2259,
+        "ttft_s": 0.2746170721948147,
+        "wall_time_s": 90.38498792797327,
+        "output_tokens_per_s": 20.719035803194412
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH03:medium:repeat1:seed42:bd73d0991d00",
+      "item_id": "CCH03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.2857142857142857,
+            "parsed": 0.2857,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 429,
+        "completion_tokens": 211,
+        "total_tokens": 640,
+        "ttft_s": 0.2779996283352375,
+        "wall_time_s": 10.264705002307892,
+        "output_tokens_per_s": 21.12808900419833
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH04:medium:repeat1:seed42:de80e291182e",
+      "item_id": "CCH04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 20.4987335498206,
+            "parsed": 20.48,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 470,
+        "completion_tokens": 2727,
+        "total_tokens": 3197,
+        "ttft_s": 0.2807800695300102,
+        "wall_time_s": 132.22415886074305,
+        "output_tokens_per_s": 20.667956399049018
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH05:medium:repeat1:seed42:726942c1ceb4",
+      "item_id": "CCH05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 38.952948456358676,
+            "parsed": 38.94,
+            "atol": 0.001,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 414,
+        "completion_tokens": 1154,
+        "total_tokens": 1568,
+        "ttft_s": 0.4211907610297203,
+        "wall_time_s": 55.79014230519533,
+        "output_tokens_per_s": 20.84200563341894
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH06:medium:repeat1:seed42:dc79cd7f8f74",
+      "item_id": "CCH06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 9.124767650803168e-06,
+            "parsed": 9.107e-06,
+            "atol": 1e-09,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 420,
+        "completion_tokens": 947,
+        "total_tokens": 1367,
+        "ttft_s": 0.2777937278151512,
+        "wall_time_s": 45.79954871535301,
+        "output_tokens_per_s": 20.803240126819645
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH07:medium:repeat1:seed42:4aeb099709b5",
+      "item_id": "CCH07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 385,
+        "completion_tokens": 320,
+        "total_tokens": 705,
+        "ttft_s": 0.4187473691999912,
+        "wall_time_s": 15.527076300233603,
+        "output_tokens_per_s": 21.180370209090206
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CCH08:medium:repeat1:seed42:81d14842cf4c",
+      "item_id": "CCH08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.25,
+            "parsed": 0.25,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 374,
+        "completion_tokens": 310,
+        "total_tokens": 684,
+        "ttft_s": 0.2749432884156704,
+        "wall_time_s": 15.0400271974504,
+        "output_tokens_per_s": 20.995478380607885
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI01:medium:repeat1:seed42:e41ccd79248e",
+      "item_id": "CLI01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.0021436227224008574,
+            "parsed": 0.002144,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 381,
+        "completion_tokens": 964,
+        "total_tokens": 1345,
+        "ttft_s": 0.2760499231517315,
+        "wall_time_s": 46.61689940840006,
+        "output_tokens_per_s": 20.80238085205732
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI02:medium:repeat1:seed42:5f4f482ddb5f",
+      "item_id": "CLI02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.1836734693877551,
+            "parsed": 0.1837,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 436,
+        "completion_tokens": 616,
+        "total_tokens": 1052,
+        "ttft_s": 0.27818063274025917,
+        "wall_time_s": 29.81587726250291,
+        "output_tokens_per_s": 20.854706706524592
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI03:medium:repeat1:seed42:7553eeeeae25",
+      "item_id": "CLI03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 11.158039270065043,
+            "parsed": 11.2,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 418,
+        "completion_tokens": 1633,
+        "total_tokens": 2051,
+        "ttft_s": 0.2766994461417198,
+        "wall_time_s": 79.01207610219717,
+        "output_tokens_per_s": 20.7403592813626
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI04:medium:repeat1:seed42:b73ca4b43731",
+      "item_id": "CLI04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5310044064107188,
+            "parsed": 0.531,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 394,
+        "completion_tokens": 510,
+        "total_tokens": 904,
+        "ttft_s": 0.2739063501358032,
+        "wall_time_s": 24.692061632871628,
+        "output_tokens_per_s": 20.88609864646824
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI05:medium:repeat1:seed42:113f0048a81e",
+      "item_id": "CLI05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.008193722065862417,
+            "parsed": null,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 404,
+        "completion_tokens": 686,
+        "total_tokens": 1090,
+        "ttft_s": 0.27679526060819626,
+        "wall_time_s": 33.214506674557924,
+        "output_tokens_per_s": 20.82719079594177
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI06:medium:repeat1:seed42:feeebad8734d",
+      "item_id": "CLI06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 34.285714285714285,
+            "parsed": 34.29,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 431,
+        "completion_tokens": 439,
+        "total_tokens": 870,
+        "ttft_s": 0.27779046446084976,
+        "wall_time_s": 21.28263022378087,
+        "output_tokens_per_s": 20.899945204543258
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI07:medium:repeat1:seed42:8397150c1a29",
+      "item_id": "CLI07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.41718835613418853,
+            "parsed": 0.4167,
+            "atol": 1e-05,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 411,
+        "completion_tokens": 3872,
+        "total_tokens": 4283,
+        "ttft_s": 0.27662473171949387,
+        "wall_time_s": 188.10117745026946,
+        "output_tokens_per_s": 20.61498320617373
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CLI08:medium:repeat1:seed42:64cfe5c05d74",
+      "item_id": "CLI08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 428,
+        "completion_tokens": 80,
+        "total_tokens": 508,
+        "ttft_s": 0.42333127185702324,
+        "wall_time_s": 3.948535233736038,
+        "output_tokens_per_s": 22.693722367586968
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS01:medium:repeat1:seed42:173bd27f383f",
+      "item_id": "CHS01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.0,
+            "parsed": 4.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 405,
+        "completion_tokens": 318,
+        "total_tokens": 723,
+        "ttft_s": 0.2768889591097832,
+        "wall_time_s": 15.434038657695055,
+        "output_tokens_per_s": 20.98019788177465
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS02:medium:repeat1:seed42:cb06fa6f1ce6",
+      "item_id": "CHS02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 477,
+        "completion_tokens": 210,
+        "total_tokens": 687,
+        "ttft_s": 0.28260039165616035,
+        "wall_time_s": 10.225210502743721,
+        "output_tokens_per_s": 21.121214414896674
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS03:medium:repeat1:seed42:1ed95e05e95c",
+      "item_id": "CHS03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 53.333333333333336,
+            "parsed": 40.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 382,
+        "completion_tokens": 360,
+        "total_tokens": 742,
+        "ttft_s": 0.3250030279159546,
+        "wall_time_s": 17.46760880574584,
+        "output_tokens_per_s": 21.000307926673507
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS04:medium:repeat1:seed42:5f26fbbd0228",
+      "item_id": "CHS04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 101.8860946745562,
+            "parsed": 101.89,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 368,
+        "completion_tokens": 488,
+        "total_tokens": 856,
+        "ttft_s": 0.27405180409550667,
+        "wall_time_s": 23.654469717293978,
+        "output_tokens_per_s": 20.872167546864905
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS05:medium:repeat1:seed42:a8e08f7f476b",
+      "item_id": "CHS05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 443,
+        "completion_tokens": 522,
+        "total_tokens": 965,
+        "ttft_s": 0.2797280624508858,
+        "wall_time_s": 25.299290165305138,
+        "output_tokens_per_s": 20.863674506135734
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS06:medium:repeat1:seed42:ad68d551a807",
+      "item_id": "CHS06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 437,
+        "completion_tokens": 307,
+        "total_tokens": 744,
+        "ttft_s": 0.2790125273168087,
+        "wall_time_s": 14.91470580175519,
+        "output_tokens_per_s": 20.97611600922134
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS07:medium:repeat1:seed42:f69857f9012f",
+      "item_id": "CHS07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 482,
+        "completion_tokens": 317,
+        "total_tokens": 799,
+        "ttft_s": 0.4525749795138836,
+        "wall_time_s": 15.433080326765776,
+        "output_tokens_per_s": 21.16083487518345
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHS08:medium:repeat1:seed42:b60ef3e4dda2",
+      "item_id": "CHS08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 433,
+        "completion_tokens": 99,
+        "total_tokens": 532,
+        "ttft_s": 0.42332783713936806,
+        "wall_time_s": 4.8677715100348,
+        "output_tokens_per_s": 22.27500386690788
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL01:medium:repeat1:seed42:58d51a7b93fa",
+      "item_id": "CHL01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1364,
+        "completion_tokens": 256,
+        "total_tokens": 1620,
+        "ttft_s": 0.5204031132161617,
+        "wall_time_s": 12.719561465084553,
+        "output_tokens_per_s": 20.985054264894572
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL02:medium:repeat1:seed42:f2520c107991",
+      "item_id": "CHL02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "partial",
+              "reason": "missing_claim_evidence"
+            },
+            "parsed": {
+              "status": "partial",
+              "reason": "missing_claim_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1389,
+        "completion_tokens": 785,
+        "total_tokens": 2174,
+        "ttft_s": 0.5448403544723988,
+        "wall_time_s": 38.36403964087367,
+        "output_tokens_per_s": 20.756653097154917
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL03:medium:repeat1:seed42:2a1be42729b7",
+      "item_id": "CHL03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "correlation_not_causation"
+            },
+            "parsed": {
+              "status": "partial",
+              "reason": "correlation_not_causation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1356,
+        "completion_tokens": 211,
+        "total_tokens": 1567,
+        "ttft_s": 0.665961030870676,
+        "wall_time_s": 10.538143314421177,
+        "output_tokens_per_s": 21.37318719809076
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL04:medium:repeat1:seed42:c294af189935",
+      "item_id": "CHL04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1340,
+        "completion_tokens": 308,
+        "total_tokens": 1648,
+        "ttft_s": 0.5191383957862854,
+        "wall_time_s": 15.233286000788212,
+        "output_tokens_per_s": 20.93223530633188
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL05:medium:repeat1:seed42:26c73a112727",
+      "item_id": "CHL05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "unverified_attribution"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1367,
+        "completion_tokens": 463,
+        "total_tokens": 1830,
+        "ttft_s": 21.251039300113916,
+        "wall_time_s": 22.703223329037428,
+        "output_tokens_per_s": 318.830114350739
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL06:medium:repeat1:seed42:1d27fba5978c",
+      "item_id": "CHL06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "inconsistent_evidence"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "inconsistent_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1384,
+        "completion_tokens": 383,
+        "total_tokens": 1767,
+        "ttft_s": 0.5447116531431675,
+        "wall_time_s": 18.86584635451436,
+        "output_tokens_per_s": 20.90481873763722
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL07:medium:repeat1:seed42:99ccc3d6e552",
+      "item_id": "CHL07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1362,
+        "completion_tokens": 344,
+        "total_tokens": 1706,
+        "ttft_s": 0.6654185578227043,
+        "wall_time_s": 16.96960685774684,
+        "output_tokens_per_s": 21.098873103765655
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CHL08:medium:repeat1:seed42:c7e87c19fdd7",
+      "item_id": "CHL08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "unsupported_extrapolation"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "unsupported_extrapolation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1381,
+        "completion_tokens": 506,
+        "total_tokens": 1887,
+        "ttft_s": 0.5459773540496826,
+        "wall_time_s": 24.845237862318754,
+        "output_tokens_per_s": 20.823678968658633
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF01:medium:repeat1:seed42:1c3783235760",
+      "item_id": "CIF01",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 427,
+        "completion_tokens": 291,
+        "total_tokens": 718,
+        "ttft_s": 0.27853766456246376,
+        "wall_time_s": 14.135639369487762,
+        "output_tokens_per_s": 21.000062364886045
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF02:medium:repeat1:seed42:f07ece46f10e",
+      "item_id": "CIF02",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ancestors": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 5
+            },
+            "parsed": {
+              "ancestors": [
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 4
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 373,
+        "completion_tokens": 332,
+        "total_tokens": 705,
+        "ttft_s": 0.3725234158337116,
+        "wall_time_s": 16.10483256354928,
+        "output_tokens_per_s": 21.103068652080772
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF03:medium:repeat1:seed42:3a2142dce814",
+      "item_id": "CIF03",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "allowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                false
+              ]
+            },
+            "parsed": {
+              "allowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                false
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 505,
+        "completion_tokens": 1030,
+        "total_tokens": 1535,
+        "ttft_s": 0.3076138272881508,
+        "wall_time_s": 49.839452899992466,
+        "output_tokens_per_s": 20.79470537098643
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF04:medium:repeat1:seed42:a7fd94e80922",
+      "item_id": "CIF04",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            },
+            "parsed": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 438,
+        "completion_tokens": 514,
+        "total_tokens": 952,
+        "ttft_s": 0.2786606550216675,
+        "wall_time_s": 24.87888304144144,
+        "output_tokens_per_s": 20.89412005818886
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF05:medium:repeat1:seed42:b2162dce2250",
+      "item_id": "CIF05",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            },
+            "parsed": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 408,
+        "completion_tokens": 539,
+        "total_tokens": 947,
+        "ttft_s": 0.27670250460505486,
+        "wall_time_s": 26.07973699644208,
+        "output_tokens_per_s": 20.889015986492463
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF06:medium:repeat1:seed42:c4ceb56957ab",
+      "item_id": "CIF06",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            },
+            "parsed": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 392,
+        "completion_tokens": 787,
+        "total_tokens": 1179,
+        "ttft_s": 0.2765236981213093,
+        "wall_time_s": 38.05290154740214,
+        "output_tokens_per_s": 20.833124952846227
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF07:medium:repeat1:seed42:677bf7f13faf",
+      "item_id": "CIF07",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 440,
+        "completion_tokens": 869,
+        "total_tokens": 1309,
+        "ttft_s": 0.2795334570109844,
+        "wall_time_s": 42.02499182522297,
+        "output_tokens_per_s": 20.816635724419775
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:challenge:CIF08:medium:repeat1:seed42:964d3fb19e20",
+      "item_id": "CIF08",
+      "track": "challenge",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            },
+            "parsed": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 368,
+        "completion_tokens": 378,
+        "total_tokens": 746,
+        "ttft_s": 0.273944728076458,
+        "wall_time_s": 18.320210751146078,
+        "output_tokens_per_s": 20.946161356414674
+      }
+    }
+  ]
+}

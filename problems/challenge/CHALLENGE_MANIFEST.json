@@ -1,0 +1,26 @@
+{
+  "benchmark": "LLMJP4 Local Challenge",
+  "version": "1.1.0",
+  "file": "challenge_v1.1.0.jsonl",
+  "sha256": "0c18e8ae51d88a441ecdff33df4e071fee3bdb817481ec1694365239d3da9546",
+  "items": 80,
+  "reasoning_subset": 0,
+  "categories": {
+    "advanced_japanese": 8,
+    "analytical_reasoning": 8,
+    "chemistry_materials": 8,
+    "coding": 8,
+    "hallucination_resistance": 8,
+    "humanities_social_economics": 8,
+    "instruction_following": 8,
+    "life_information": 8,
+    "mathematics_statistics": 8,
+    "physics_engineering": 8
+  },
+  "difficulty": {
+    "challenge": 80
+  },
+  "license": "CC BY 4.0 for benchmark questions and metadata generated for this project",
+  "contamination_note": "All prompts are newly authored for this suite; no benchmark item text was copied from GSM8K/MMLU/GPQA/HumanEval or other public benchmark datasets.",
+  "design_note": "80 short-context challenge items, exactly 8 per Core category, emphasizing multi-step reasoning, interacting constraints, boundary cases, causal discipline, and adversarial distractors. Hallucination-resistance items include an explicit label glossary to make exact JSON classification unambiguous."
+}

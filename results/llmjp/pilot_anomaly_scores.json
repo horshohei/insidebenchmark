@@ -1,0 +1,1326 @@
+{
+  "summary": {
+    "track": "anomaly",
+    "scored_rows": 24,
+    "parse_errors": 0,
+    "judge_pending": 0,
+    "finish_reasons": {
+      "stop": 24
+    },
+    "timing": {
+      "ttft_s": {
+        "n": 24,
+        "median": 0.9369905851781368,
+        "mean": 0.9584600700375935
+      },
+      "wall_time_s": {
+        "n": 24,
+        "median": 44.46747115626931,
+        "mean": 48.90280721336603
+      },
+      "output_tokens_per_s": {
+        "n": 24,
+        "median": 20.605909468518256,
+        "mean": 20.645178409145533
+      }
+    }
+  },
+  "rows": [
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-001:low:repeat1:seed42:e19bbf67f2af",
+      "item_id": "ANOM-INF-001",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "treatment_class_mismatch",
+            "gold": "pathogen_treatment_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "Aciclovir (抗ウイルス薬) を細菌性尿路感染に使用",
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "細菌性尿路感染に対してはβ‑ラクタム系やフルオロキノロン系等の抗菌薬を使用すべき",
+            "gold": "大腸菌を対象とする抗菌薬"
+          },
+          "clinical_basis_nonempty": false
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3314,
+        "completion_tokens": 342,
+        "total_tokens": 3656,
+        "ttft_s": 1.0424675568938255,
+        "wall_time_s": 17.560494013130665,
+        "output_tokens_per_s": 20.704652635476826
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-002:low:repeat1:seed42:4c4edaf3fe00",
+      "item_id": "ANOM-INF-002",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": false,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "none",
+            "gold": "treatment_class_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": null,
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": null,
+            "gold": "抗C. difficile薬"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2308,
+        "completion_tokens": 493,
+        "total_tokens": 2801,
+        "ttft_s": 0.7603902779519558,
+        "wall_time_s": 24.500721711665392,
+        "output_tokens_per_s": 20.766348666046635
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-003:low:repeat1:seed42:395a3bc42ad8",
+      "item_id": "ANOM-INF-003",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2890,
+        "completion_tokens": 237,
+        "total_tokens": 3127,
+        "ttft_s": 0.9377927854657173,
+        "wall_time_s": 12.309249341487885,
+        "output_tokens_per_s": 20.84165725229703
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-004:low:repeat1:seed42:300b0751563f",
+      "item_id": "ANOM-INF-004",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3306,
+        "completion_tokens": 488,
+        "total_tokens": 3794,
+        "ttft_s": 1.0444997064769268,
+        "wall_time_s": 24.724106457084417,
+        "output_tokens_per_s": 20.60845034884207
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN01:low:repeat1:seed42:32277d8d30eb",
+      "item_id": "ANOM-AN01",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.3333333333333333,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "diagnosis_finding_mismatch",
+            "gold": "organ_anatomy_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "P/F 200, PaO2 40 mmHg with FiO2 60%",
+            "gold": "右肺全摘術"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "PF比は PaO2(mmHg) ÷ FiO2で算出すべきで、40÷0.60≈66になるため、'200'は計算ミス",
+            "gold": "右腎摘出術後"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3882,
+        "completion_tokens": 471,
+        "total_tokens": 4353,
+        "ttft_s": 1.2287802807986736,
+        "wall_time_s": 24.098478510975838,
+        "output_tokens_per_s": 20.594937251008552
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN02:low:repeat1:seed42:a0422ae48d93",
+      "item_id": "ANOM-AN02",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "diagnosis_finding_mismatch",
+            "gold": "diagnosis_finding_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "# 緊張性気胸という診断",
+            "gold": "右肺血栓塞栓症"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "右肺血栓塞栓症（肺塞栓）または右第5肋骨骨折に対する診断・記載",
+            "gold": "右緊張性気胸"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2104,
+        "completion_tokens": 429,
+        "total_tokens": 2533,
+        "ttft_s": 0.7249172851443291,
+        "wall_time_s": 21.359050773084164,
+        "output_tokens_per_s": 20.790793092946714
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN03:low:repeat1:seed42:575f1ee66fc8",
+      "item_id": "ANOM-AN03",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": true,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "pathogen_treatment_mismatch",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "胸部X線で両側胸水・無気肺が認められるため、細菌感染の可能性が高く、適切な抗菌薬投与が必要",
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3860,
+        "completion_tokens": 419,
+        "total_tokens": 4279,
+        "ttft_s": 1.1971061155200005,
+        "wall_time_s": 21.532404370605946,
+        "output_tokens_per_s": 20.60456624456965
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN04:low:repeat1:seed42:62c5c6dce785",
+      "item_id": "ANOM-AN04",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2227,
+        "completion_tokens": 288,
+        "total_tokens": 2515,
+        "ttft_s": 0.7589759193360806,
+        "wall_time_s": 14.5704728923738,
+        "output_tokens_per_s": 20.852192963747715
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D01:low:repeat1:seed42:276f6043a526",
+      "item_id": "ANOM-D01",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": false,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "none",
+            "gold": "dose_frequency_route_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": null,
+            "gold": "インスリン50U/hr"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": null,
+            "gold": "HHSに対する少量インスリン持続静注（成人では体重当たり約0.1単位/kg/hrを目安に調整）"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3055,
+        "completion_tokens": 430,
+        "total_tokens": 3485,
+        "ttft_s": 0.9750734008848667,
+        "wall_time_s": 21.757739692926407,
+        "output_tokens_per_s": 20.690319228416957
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D02:low:repeat1:seed42:74f45dad8353",
+      "item_id": "ANOM-D02",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "treatment_class_mismatch",
+            "gold": "ade_response_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "ケフレックスを被疑薬とした薬疹と考え、ケフレックスを継続",
+            "gold": "ケフレックスを継続"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "薬疹が疑われる場合は原因薬を中止すべき",
+            "gold": "薬疹の被疑薬であるケフレックス（セファレキシン）の中止と代替薬への変更"
+          },
+          "clinical_basis_nonempty": false
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2655,
+        "completion_tokens": 781,
+        "total_tokens": 3436,
+        "ttft_s": 0.8660050444304943,
+        "wall_time_s": 38.78374965116382,
+        "output_tokens_per_s": 20.597216635646422
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D03:low:repeat1:seed42:78384fb9a046",
+      "item_id": "ANOM-D03",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2860,
+        "completion_tokens": 351,
+        "total_tokens": 3211,
+        "ttft_s": 0.9350864477455616,
+        "wall_time_s": 17.838343497365713,
+        "output_tokens_per_s": 20.76522879404994
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D04:low:repeat1:seed42:af8bd053a6c4",
+      "item_id": "ANOM-D04",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2396,
+        "completion_tokens": 149,
+        "total_tokens": 2545,
+        "ttft_s": 0.795170221477747,
+        "wall_time_s": 7.8284313678741455,
+        "output_tokens_per_s": 21.18505155696408
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-001:medium:repeat1:seed42:e19bbf67f2af",
+      "item_id": "ANOM-INF-001",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "pathogen_treatment_mismatch",
+            "gold": "pathogen_treatment_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "アシクロビル",
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "尿路感染症に対する適切な抗菌薬（例：フルオロキノロン系、β‑ラクタム系等）",
+            "gold": "大腸菌を対象とする抗菌薬"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3317,
+        "completion_tokens": 1142,
+        "total_tokens": 4459,
+        "ttft_s": 1.0755861513316631,
+        "wall_time_s": 56.69566757977009,
+        "output_tokens_per_s": 20.532152608753606
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-002:medium:repeat1:seed42:4c4edaf3fe00",
+      "item_id": "ANOM-INF-002",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": null,
+            "gold": "treatment_class_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "アシクロビル投与",
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "メトロニダゾール等、クロストリジウム・ディフィシル感染に対する適切な抗菌薬",
+            "gold": "抗C. difficile薬"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2311,
+        "completion_tokens": 1148,
+        "total_tokens": 3459,
+        "ttft_s": 0.7611600384116173,
+        "wall_time_s": 56.478233352303505,
+        "output_tokens_per_s": 20.60409730303925
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-003:medium:repeat1:seed42:395a3bc42ad8",
+      "item_id": "ANOM-INF-003",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": false
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2893,
+        "completion_tokens": 1918,
+        "total_tokens": 4811,
+        "ttft_s": 0.9361883848905563,
+        "wall_time_s": 94.52226706594229,
+        "output_tokens_per_s": 20.494501180423274
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-INF-004:medium:repeat1:seed42:300b0751563f",
+      "item_id": "ANOM-INF-004",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3309,
+        "completion_tokens": 1303,
+        "total_tokens": 4612,
+        "ttft_s": 1.0395287610590458,
+        "wall_time_s": 64.59889751672745,
+        "output_tokens_per_s": 20.500518263624116
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN01:medium:repeat1:seed42:32277d8d30eb",
+      "item_id": "ANOM-AN01",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.3333333333333333,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "pathogen_treatment_mismatch",
+            "gold": "organ_anatomy_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "CRP 27 mg/dL（高度炎症）にも関わらず、抗菌薬（CEZ）の投与を術後24時間で終了する計画となっている",
+            "gold": "右肺全摘術"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "術後高CRPは感染・炎症の可能性を示唆するため、症状が改善するまで抗菌薬を継続すべきである",
+            "gold": "右腎摘出術後"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3885,
+        "completion_tokens": 2707,
+        "total_tokens": 6592,
+        "ttft_s": 1.2294949740171432,
+        "wall_time_s": 134.19988831877708,
+        "output_tokens_per_s": 20.35791526149288
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN02:medium:repeat1:seed42:a0422ae48d93",
+      "item_id": "ANOM-AN02",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "diagnosis_finding_mismatch",
+            "gold": "diagnosis_finding_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "右肺血栓塞栓症（肺血栓塞栓症）に対し胸腔ドレーン留置という治療",
+            "gold": "右肺血栓塞栓症"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "肺血栓塞栓症では抗凝固療法または血栓溶解療法が標準であり、胸腔ドレーンは使用しない",
+            "gold": "右緊張性気胸"
+          },
+          "clinical_basis_nonempty": false
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2107,
+        "completion_tokens": 1021,
+        "total_tokens": 3128,
+        "ttft_s": 0.7139098159968853,
+        "wall_time_s": 50.15119266137481,
+        "output_tokens_per_s": 20.652429527596038
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN03:medium:repeat1:seed42:575f1ee66fc8",
+      "item_id": "ANOM-AN03",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": true,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "dose_frequency_route_mismatch",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "60 mEq/L/day",
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "20〜40 mEq/day のIV カリウム補正",
+            "gold": null
+          },
+          "clinical_basis_nonempty": false
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3863,
+        "completion_tokens": 2075,
+        "total_tokens": 5938,
+        "ttft_s": 1.5296791978180408,
+        "wall_time_s": 102.80925001204014,
+        "output_tokens_per_s": 20.48784353367955
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-AN04:medium:repeat1:seed42:62c5c6dce785",
+      "item_id": "ANOM-AN04",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2230,
+        "completion_tokens": 1304,
+        "total_tokens": 3534,
+        "ttft_s": 0.7546254880726337,
+        "wall_time_s": 64.03331767767668,
+        "output_tokens_per_s": 20.607252692466865
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D01:medium:repeat1:seed42:276f6043a526",
+      "item_id": "ANOM-D01",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.3333333333333333,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": null,
+            "gold": "dose_frequency_route_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "インスリン持続投与開始速度 50U/h は成人の HHS 治療として過剰であり、推奨は 0.05–0.1U/kg/h（例：体重70kg で約 5–10U/h）です。",
+            "gold": "インスリン50U/hr"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "インスリン持続投与は 0.05–0.1U/kg/h に設定し、過剰投与を避けることが標準治療です。",
+            "gold": "HHSに対する少量インスリン持続静注（成人では体重当たり約0.1単位/kg/hrを目安に調整）"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3058,
+        "completion_tokens": 1950,
+        "total_tokens": 5008,
+        "ttft_s": 0.9684657566249371,
+        "wall_time_s": 96.216153845191,
+        "output_tokens_per_s": 20.47293786476783
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D02:medium:repeat1:seed42:74f45dad8353",
+      "item_id": "ANOM-D02",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": null,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": null,
+            "gold": "ade_response_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "ケフレックスを被疑薬とした薬疹と考え、ケフレックスを継続",
+            "gold": "ケフレックスを継続"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "薬疹が疑われた際は原因薬を中止し、適切な代替薬または抗ヒスタミン等に変更すべき",
+            "gold": "薬疹の被疑薬であるケフレックス（セファレキシン）の中止と代替薬への変更"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2658,
+        "completion_tokens": 1705,
+        "total_tokens": 4363,
+        "ttft_s": 1.0093315988779068,
+        "wall_time_s": 83.81510919332504,
+        "output_tokens_per_s": 20.59035069207943
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D03:medium:repeat1:seed42:78384fb9a046",
+      "item_id": "ANOM-D03",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": true,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "treatment_class_mismatch",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "リバークト（ビタミンB2）",
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "肝性脳症の標準治療薬（例：ラクツロース、リファキシミン）",
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2863,
+        "completion_tokens": 1479,
+        "total_tokens": 4342,
+        "ttft_s": 0.9315354116261005,
+        "wall_time_s": 72.94510920345783,
+        "output_tokens_per_s": 20.537794781235508
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:anomaly:ANOM-D04:medium:repeat1:seed42:af8bd053a6c4",
+      "item_id": "ANOM-D04",
+      "track": "anomaly",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2399,
+        "completion_tokens": 1023,
+        "total_tokens": 3422,
+        "ttft_s": 0.7872710600495338,
+        "wall_time_s": 50.33904441446066,
+        "output_tokens_per_s": 20.645073440321827
+      }
+    }
+  ]
+}

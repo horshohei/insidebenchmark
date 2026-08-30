@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_at": "2026-08-28",
+  "review_policy": {
+    "raw_reference": "all mutation and clue offsets must validate against the SHA-256 of the full raw line",
+    "candidate_visibility": "raw PN only; DS and unmodified mutation substring are not shown",
+    "positive_requirements": "one recorded mutation, at least two raw clinical clues, one medical principle, and an authoritative source basis",
+    "clean_requirements": "no clear candidate-visible anomaly in the allowed medical categories",
+    "difficulty_note": "consistency-assisted items are retained as easy controls and must not be described as knowledge-exclusive"
+  },
+  "accepted_items": [
+    {
+      "item_id": "ANOM-INF-001",
+      "difficulty": "medium",
+      "knowledge_dependency": "primary",
+      "review_note": "膿尿・CVA叩打痛・E. coli培養と抗ウイルス薬の不一致を統合する"
+    },
+    {
+      "item_id": "ANOM-INF-002",
+      "difficulty": "medium",
+      "knowledge_dependency": "primary",
+      "review_note": "C. difficile治療計画に追加された抗ウイルス薬を検出する。正しいMTZも同じ行に残る"
+    },
+    {
+      "item_id": "ANOM-INF-003",
+      "difficulty": "clean_control",
+      "knowledge_dependency": "control",
+      "review_note": "胆管炎の無改変対照"
+    },
+    {
+      "item_id": "ANOM-INF-004",
+      "difficulty": "clean_control",
+      "knowledge_dependency": "control",
+      "review_note": "穿孔性腹膜炎の無改変対照。DSのみの表現差や非記載は異常としない"
+    },
+    {
+      "item_id": "ANOM-AN01",
+      "difficulty": "easy",
+      "knowledge_dependency": "consistency_assisted",
+      "review_note": "腹部・後腹膜経過と肺全摘の不一致だが、同一PNの右腎損傷見出しも手掛かりになる"
+    },
+    {
+      "item_id": "ANOM-AN02",
+      "difficulty": "easy",
+      "knowledge_dependency": "consistency_assisted",
+      "review_note": "胸腔ドレーン・エアリークと肺血栓塞栓症の不一致だが、後続PNに正しい診断が反復される"
+    },
+    {
+      "item_id": "ANOM-AN03",
+      "difficulty": "clean_control",
+      "knowledge_dependency": "control",
+      "review_note": "脾損傷・小腸損傷の無改変対照"
+    },
+    {
+      "item_id": "ANOM-AN04",
+      "difficulty": "clean_control",
+      "knowledge_dependency": "control",
+      "review_note": "肺血栓塞栓症・深部静脈血栓症の無改変対照"
+    },
+    {
+      "item_id": "ANOM-D01",
+      "difficulty": "medium",
+      "knowledge_dependency": "primary",
+      "review_note": "体重、HHS標準投与速度、目標血糖低下速度を用いて10倍量を検出する"
+    },
+    {
+      "item_id": "ANOM-D02",
+      "difficulty": "easy",
+      "knowledge_dependency": "primary",
+      "review_note": "薬疹の被疑薬と明記された薬剤の継続を検出する"
+    },
+    {
+      "item_id": "ANOM-D03",
+      "difficulty": "clean_control",
+      "knowledge_dependency": "control",
+      "review_note": "肝性脳症の無改変対照。短期蛋白制限の評価には議論があるため異常goldには用いない"
+    },
+    {
+      "item_id": "ANOM-D04",
+      "difficulty": "clean_control",
+      "knowledge_dependency": "control",
+      "review_note": "急性虫垂炎の無改変対照"
+    }
+  ]
+}

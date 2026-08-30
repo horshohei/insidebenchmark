@@ -1,0 +1,2759 @@
+{
+  "summary": {
+    "track": "clinical",
+    "scored_rows": 40,
+    "parse_errors": 3,
+    "judge_pending": 0,
+    "finish_reasons": {
+      "stop": 40
+    },
+    "timing": {
+      "ttft_s": {
+        "n": 40,
+        "median": 0.730077724903822,
+        "mean": 3.514998973440379
+      },
+      "wall_time_s": {
+        "n": 40,
+        "median": 51.44113372080028,
+        "mean": 57.59199944902211
+      },
+      "output_tokens_per_s": {
+        "n": 40,
+        "median": 20.531215699208794,
+        "mean": 24.350991582958088
+      }
+    }
+  },
+  "rows": [
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-001:low:repeat1:seed42:2bc3b2c18630",
+      "item_id": "STR-001",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.5714285714285714,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 3,
+            "predicted": 3,
+            "gold": 3
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 4,
+            "gold": 5
+          },
+          "vital_signs": {
+            "accuracy": 0.8571428571428571,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.1,
+                "gold": 36.1
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 122,
+                "gold": 122
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 86,
+                "gold": 86
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": false,
+                "predicted": null,
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.8333333333333334,
+            "recall": 0.7142857142857143,
+            "f1": 0.7692307692307692,
+            "true_positive": 5,
+            "predicted": 6,
+            "gold": 7
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3236,
+        "completion_tokens": 1730,
+        "total_tokens": 4966,
+        "ttft_s": 0.9592619687318802,
+        "wall_time_s": 81.47284681722522,
+        "output_tokens_per_s": 21.48705716253266
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-002:low:repeat1:seed42:9bfb6a898170",
+      "item_id": "STR-002",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.8,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 37.2,
+                "gold": 37.2
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 92,
+                "gold": 92
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 100,
+                "gold": 100
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 64,
+                "gold": 64
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 16,
+                "gold": 16
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 4
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3478,
+        "completion_tokens": 1481,
+        "total_tokens": 4959,
+        "ttft_s": 1.1865434497594833,
+        "wall_time_s": 71.98182599619031,
+        "output_tokens_per_s": 20.919472975175875
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-003:low:repeat1:seed42:c150f9b22968",
+      "item_id": "STR-003",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.5333333333333333,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p4",
+            "gold": "PN p4"
+          },
+          "diagnoses": {
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5,
+            "true_positive": 2,
+            "predicted": 4,
+            "gold": 4
+          },
+          "medications": {
+            "precision": 0.2,
+            "recall": 0.14285714285714285,
+            "f1": 0.16666666666666666,
+            "true_positive": 1,
+            "predicted": 5,
+            "gold": 7
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.8,
+                "gold": 36.8
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 68,
+                "gold": 68
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 112,
+                "gold": 112
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 68,
+                "gold": 68
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 16,
+                "gold": 16
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 6,
+            "gold": 3
+          },
+          "evidence": {
+            "precision": 0.7,
+            "recall": 0.7777777777777778,
+            "f1": 0.7368421052631577,
+            "true_positive": 7,
+            "predicted": 10,
+            "gold": 9
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3077,
+        "completion_tokens": 2253,
+        "total_tokens": 5330,
+        "ttft_s": 32.34283723682165,
+        "wall_time_s": 110.93266373872757,
+        "output_tokens_per_s": 28.667832724447628
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-004:low:repeat1:seed42:d3cf7489c66a",
+      "item_id": "STR-004",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.7333333333333333,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 2,
+            "predicted": 2,
+            "gold": 2
+          },
+          "medications": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "f1": 0.6666666666666666,
+            "true_positive": 2,
+            "predicted": 3,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 38.8,
+                "gold": 38.8
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 112,
+                "gold": 112
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 136,
+                "gold": 136
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 60,
+                "gold": 60
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 26,
+                "gold": 26
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 2
+          },
+          "evidence": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "f1": 0.75,
+            "true_positive": 3,
+            "predicted": 4,
+            "gold": 4
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3742,
+        "completion_tokens": 1263,
+        "total_tokens": 5005,
+        "ttft_s": 1.1622019596397877,
+        "wall_time_s": 62.94329476356506,
+        "output_tokens_per_s": 20.443147614892222
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-005:low:repeat1:seed42:35cc96c7c3ac",
+      "item_id": "STR-005",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.9333333333333332,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "medications": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 38.1,
+                "gold": 38.1
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 128,
+                "gold": 128
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 124,
+                "gold": 124
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 86,
+                "gold": 86
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 18,
+                "gold": 18
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": null,
+                "gold": null
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": null,
+                "gold": null
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "true_positive": 1,
+            "predicted": 2,
+            "gold": 1
+          },
+          "evidence": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 3,
+            "predicted": 3,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3314,
+        "completion_tokens": 1087,
+        "total_tokens": 4401,
+        "ttft_s": 1.048446025699377,
+        "wall_time_s": 54.0334987193346,
+        "output_tokens_per_s": 20.515219759903623
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-006:low:repeat1:seed42:4d4d3e65b3eb",
+      "item_id": "STR-006",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.4,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p2",
+            "gold": "PN p2"
+          },
+          "diagnoses": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 3
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 4
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.6,
+                "gold": 36.6
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 82,
+                "gold": 82
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 134,
+                "gold": 134
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 76,
+                "gold": 76
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 97,
+                "gold": 97
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.6666666666666666,
+            "recall": 0.5714285714285714,
+            "f1": 0.6153846153846153,
+            "true_positive": 4,
+            "predicted": 6,
+            "gold": 7
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3236,
+        "completion_tokens": 1854,
+        "total_tokens": 5090,
+        "ttft_s": 0.5308685973286629,
+        "wall_time_s": 91.08437109738588,
+        "output_tokens_per_s": 20.474083815795293
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-007:low:repeat1:seed42:34afbdbfaf63",
+      "item_id": "STR-007",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p2",
+            "gold": "PN p2"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.8,
+                "gold": 36.8
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 88,
+                "gold": 88
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 122,
+                "gold": 122
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 74,
+                "gold": 74
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.6666666666666666,
+            "recall": 0.4,
+            "f1": 0.5,
+            "true_positive": 2,
+            "predicted": 3,
+            "gold": 5
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3478,
+        "completion_tokens": 1033,
+        "total_tokens": 4511,
+        "ttft_s": 0.6731127686798573,
+        "wall_time_s": 50.835919100791216,
+        "output_tokens_per_s": 20.592946757421196
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-008:low:repeat1:seed42:78ccfeba8f52",
+      "item_id": "STR-008",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.5666666666666667,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p2",
+            "gold": "PN p2"
+          },
+          "diagnoses": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1": 0.3333333333333333,
+            "true_positive": 1,
+            "predicted": 2,
+            "gold": 4
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 38.1,
+                "gold": 38.1
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 124,
+                "gold": 124
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 88,
+                "gold": 88
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 50,
+                "gold": 50
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 24,
+                "gold": 24
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 96,
+                "gold": 96
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 3
+          },
+          "evidence": {
+            "precision": 0.8,
+            "recall": 0.6666666666666666,
+            "f1": 0.7272727272727272,
+            "true_positive": 4,
+            "predicted": 5,
+            "gold": 6
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3077,
+        "completion_tokens": 1340,
+        "total_tokens": 4417,
+        "ttft_s": 25.74181132018566,
+        "wall_time_s": 65.79621588811278,
+        "output_tokens_per_s": 33.45449806219269
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-009:low:repeat1:seed42:d22a639c2fb4",
+      "item_id": "STR-009",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p5",
+            "gold": "PN p5"
+          },
+          "diagnoses": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 2
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.0,
+                "gold": 36.0
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 54,
+                "gold": 54
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 120,
+                "gold": 120
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 62,
+                "gold": 62
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 99,
+                "gold": 99
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3742,
+        "completion_tokens": 1321,
+        "total_tokens": 5063,
+        "ttft_s": 0.5324732251465321,
+        "wall_time_s": 65.08548618108034,
+        "output_tokens_per_s": 20.463800828348038
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-010:low:repeat1:seed42:9c5fcd314853",
+      "item_id": "STR-010",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.76,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p3",
+            "gold": "PN p3"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.5,
+                "gold": 36.5
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 70,
+                "gold": 70
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 114,
+                "gold": 114
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 86,
+                "gold": 86
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 12,
+                "gold": 12
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "true_positive": 2,
+            "predicted": 2,
+            "gold": 3
+          },
+          "evidence": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 3,
+            "predicted": 3,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3314,
+        "completion_tokens": 711,
+        "total_tokens": 4025,
+        "ttft_s": 0.527483131736517,
+        "wall_time_s": 35.01826784014702,
+        "output_tokens_per_s": 20.61420190960817
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-001:low:repeat1:seed42:95eb4eec1cc1",
+      "item_id": "AUD-001",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "SUPPORTED",
+            "gold": "SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4150,
+        "completion_tokens": 203,
+        "total_tokens": 4353,
+        "ttft_s": 0.7860397212207317,
+        "wall_time_s": 10.529024753719568,
+        "output_tokens_per_s": 20.83550362880271
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-002:low:repeat1:seed42:61d9fde122b2",
+      "item_id": "AUD-002",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": false,
+            "predicted": "SUPPORTED",
+            "gold": "PARTIALLY_SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4837,
+        "completion_tokens": 265,
+        "total_tokens": 5102,
+        "ttft_s": 0.9272628128528595,
+        "wall_time_s": 13.73246095329523,
+        "output_tokens_per_s": 20.694720776171078
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-003:low:repeat1:seed42:ebf72d1bcc16",
+      "item_id": "AUD-003",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": false,
+            "predicted": "CONTRADICTED",
+            "gold": "TEMPORALLY_MISLEADING"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4627,
+        "completion_tokens": 262,
+        "total_tokens": 4889,
+        "ttft_s": 0.9655237123370171,
+        "wall_time_s": 13.622133925557137,
+        "output_tokens_per_s": 20.700645400798944
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-004:low:repeat1:seed42:35429174f95a",
+      "item_id": "AUD-004",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "NOT_DOCUMENTED",
+            "gold": "NOT_DOCUMENTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 2
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 5102,
+        "completion_tokens": 213,
+        "total_tokens": 5315,
+        "ttft_s": 0.9311794638633728,
+        "wall_time_s": 11.176189728081226,
+        "output_tokens_per_s": 20.79060874579429
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-005:low:repeat1:seed42:f1dbb0ded1ef",
+      "item_id": "AUD-005",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "CONTRADICTED",
+            "gold": "CONTRADICTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3665,
+        "completion_tokens": 340,
+        "total_tokens": 4005,
+        "ttft_s": 0.6326863467693329,
+        "wall_time_s": 17.034694876521826,
+        "output_tokens_per_s": 20.729168588301583
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-006:low:repeat1:seed42:fab4e9328909",
+      "item_id": "AUD-006",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": false,
+            "predicted": "SUPPORTED",
+            "gold": "PARTIALLY_SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4168,
+        "completion_tokens": 166,
+        "total_tokens": 4334,
+        "ttft_s": 0.3199954144656658,
+        "wall_time_s": 8.255416758358479,
+        "output_tokens_per_s": 20.918864015677684
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-007:low:repeat1:seed42:04eaef5ab795",
+      "item_id": "AUD-007",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "metrics": {
+        "prompt_tokens": 4864,
+        "completion_tokens": 450,
+        "total_tokens": 5314,
+        "ttft_s": 0.32207322120666504,
+        "wall_time_s": 22.23481896519661,
+        "output_tokens_per_s": 20.53599330989465
+      },
+      "score_error": "ValueError: model response contains no valid JSON object"
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-008:low:repeat1:seed42:33c70c3f0a5e",
+      "item_id": "AUD-008",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "CONTRADICTED",
+            "gold": "CONTRADICTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4635,
+        "completion_tokens": 505,
+        "total_tokens": 5140,
+        "ttft_s": 0.319693960249424,
+        "wall_time_s": 24.922111477702856,
+        "output_tokens_per_s": 20.526438088522934
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-009:low:repeat1:seed42:1628021f2763",
+      "item_id": "AUD-009",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "SUPPORTED",
+            "gold": "SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 5121,
+        "completion_tokens": 291,
+        "total_tokens": 5412,
+        "ttft_s": 0.4689547121524811,
+        "wall_time_s": 14.412488009780645,
+        "output_tokens_per_s": 20.869889560166214
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-010:low:repeat1:seed42:95b9136b62f4",
+      "item_id": "AUD-010",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "NOT_DOCUMENTED",
+            "gold": "NOT_DOCUMENTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 2
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3667,
+        "completion_tokens": 228,
+        "total_tokens": 3895,
+        "ttft_s": 0.31656746566295624,
+        "wall_time_s": 11.265407714992762,
+        "output_tokens_per_s": 20.824123359910764
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-001:medium:repeat1:seed42:2bc3b2c18630",
+      "item_id": "STR-001",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 3,
+            "predicted": 3,
+            "gold": 3
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 4,
+            "gold": 5
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.1,
+                "gold": 36.1
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 122,
+                "gold": 122
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 86,
+                "gold": 86
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.8333333333333334,
+            "recall": 0.7142857142857143,
+            "f1": 0.7692307692307692,
+            "true_positive": 5,
+            "predicted": 6,
+            "gold": 7
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3239,
+        "completion_tokens": 2640,
+        "total_tokens": 5879,
+        "ttft_s": 1.0403796136379242,
+        "wall_time_s": 130.0953562259674,
+        "output_tokens_per_s": 20.45639826761848
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-002:medium:repeat1:seed42:9bfb6a898170",
+      "item_id": "STR-002",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.8,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 37.2,
+                "gold": 37.2
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 92,
+                "gold": 92
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 100,
+                "gold": 100
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 64,
+                "gold": 64
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 16,
+                "gold": 16
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1": 0.888888888888889,
+            "true_positive": 4,
+            "predicted": 5,
+            "gold": 4
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3481,
+        "completion_tokens": 2350,
+        "total_tokens": 5831,
+        "ttft_s": 1.0703960321843624,
+        "wall_time_s": 115.74698853120208,
+        "output_tokens_per_s": 20.492412172258515
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-003:medium:repeat1:seed42:c150f9b22968",
+      "item_id": "STR-003",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.5,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p4",
+            "gold": "PN p4"
+          },
+          "diagnoses": {
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5,
+            "true_positive": 2,
+            "predicted": 4,
+            "gold": 4
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 5,
+            "gold": 7
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.8,
+                "gold": 36.8
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 68,
+                "gold": 68
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 112,
+                "gold": 112
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 68,
+                "gold": 68
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 16,
+                "gold": 16
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 3
+          },
+          "evidence": {
+            "precision": 0.7272727272727273,
+            "recall": 0.8888888888888888,
+            "f1": 0.7999999999999999,
+            "true_positive": 8,
+            "predicted": 11,
+            "gold": 9
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3080,
+        "completion_tokens": 3671,
+        "total_tokens": 6751,
+        "ttft_s": 0.9689880535006523,
+        "wall_time_s": 180.96121283620596,
+        "output_tokens_per_s": 20.39532543381691
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-004:medium:repeat1:seed42:d3cf7489c66a",
+      "item_id": "STR-004",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.7333333333333333,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 2,
+            "predicted": 2,
+            "gold": 2
+          },
+          "medications": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "f1": 0.6666666666666666,
+            "true_positive": 2,
+            "predicted": 3,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 38.8,
+                "gold": 38.8
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 112,
+                "gold": 112
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 136,
+                "gold": 136
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 60,
+                "gold": 60
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 26,
+                "gold": 26
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 2
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 4
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3745,
+        "completion_tokens": 1959,
+        "total_tokens": 5704,
+        "ttft_s": 1.3218521252274513,
+        "wall_time_s": 97.037910759449,
+        "output_tokens_per_s": 20.466785071941885
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-005:medium:repeat1:seed42:35cc96c7c3ac",
+      "item_id": "STR-005",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p1",
+            "gold": "PN p1"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "medications": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 38.1,
+                "gold": 38.1
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 128,
+                "gold": 128
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 124,
+                "gold": 124
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 86,
+                "gold": 86
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 18,
+                "gold": 18
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": null,
+                "gold": null
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": null,
+                "gold": null
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "evidence": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 3,
+            "predicted": 3,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3317,
+        "completion_tokens": 1897,
+        "total_tokens": 5214,
+        "ttft_s": 1.0405725203454494,
+        "wall_time_s": 93.73216508701444,
+        "output_tokens_per_s": 20.46571805998016
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-006:medium:repeat1:seed42:4d4d3e65b3eb",
+      "item_id": "STR-006",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.4,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p2",
+            "gold": "PN p2"
+          },
+          "diagnoses": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 3
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 3,
+            "gold": 4
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.6,
+                "gold": 36.6
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 82,
+                "gold": 82
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 134,
+                "gold": 134
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 76,
+                "gold": 76
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 97,
+                "gold": 97
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 1.0,
+            "recall": 0.7142857142857143,
+            "f1": 0.8333333333333333,
+            "true_positive": 5,
+            "predicted": 5,
+            "gold": 7
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3239,
+        "completion_tokens": 2591,
+        "total_tokens": 5830,
+        "ttft_s": 0.5281865336000919,
+        "wall_time_s": 127.09530611336231,
+        "output_tokens_per_s": 20.471351553253605
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-007:medium:repeat1:seed42:34afbdbfaf63",
+      "item_id": "STR-007",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p2",
+            "gold": "PN p2"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 2,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.8,
+                "gold": 36.8
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 88,
+                "gold": 88
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 122,
+                "gold": 122
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 74,
+                "gold": 74
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 2,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.6,
+            "recall": 0.6,
+            "f1": 0.6,
+            "true_positive": 3,
+            "predicted": 5,
+            "gold": 5
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3481,
+        "completion_tokens": 2491,
+        "total_tokens": 5972,
+        "ttft_s": 0.5303315743803978,
+        "wall_time_s": 122.22336633503437,
+        "output_tokens_per_s": 20.469536361709626
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-008:medium:repeat1:seed42:78ccfeba8f52",
+      "item_id": "STR-008",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.7666666666666666,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p2",
+            "gold": "PN p2"
+          },
+          "diagnoses": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1": 0.3333333333333333,
+            "true_positive": 1,
+            "predicted": 2,
+            "gold": 4
+          },
+          "medications": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 3,
+            "predicted": 3,
+            "gold": 3
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 38.1,
+                "gold": 38.1
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 124,
+                "gold": 124
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 88,
+                "gold": 88
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 50,
+                "gold": 50
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 24,
+                "gold": 24
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 96,
+                "gold": 96
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 3
+          },
+          "evidence": {
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091,
+            "true_positive": 5,
+            "predicted": 5,
+            "gold": 6
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3080,
+        "completion_tokens": 2321,
+        "total_tokens": 5401,
+        "ttft_s": 0.5275419317185879,
+        "wall_time_s": 113.97912312299013,
+        "output_tokens_per_s": 20.4580665657445
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-009:medium:repeat1:seed42:d22a639c2fb4",
+      "item_id": "STR-009",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p5",
+            "gold": "PN p5"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 2
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.0,
+                "gold": 36.0
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 54,
+                "gold": 54
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 120,
+                "gold": 120
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 62,
+                "gold": 62
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 14,
+                "gold": 14
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 99,
+                "gold": 99
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "evidence": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "true_positive": 3,
+            "predicted": 4,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3745,
+        "completion_tokens": 1464,
+        "total_tokens": 5209,
+        "ttft_s": 0.6741157285869122,
+        "wall_time_s": 72.03844308108091,
+        "output_tokens_per_s": 20.514451047352818
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:STR-010:medium:repeat1:seed42:9c5fcd314853",
+      "item_id": "STR-010",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.8,
+          "document_id": {
+            "passed": true,
+            "predicted": "PN p3",
+            "gold": "PN p3"
+          },
+          "diagnoses": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "medications": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "vital_signs": {
+            "accuracy": 1.0,
+            "fields": {
+              "temperature_c": {
+                "passed": true,
+                "predicted": 36.5,
+                "gold": 36.5
+              },
+              "heart_rate_per_min": {
+                "passed": true,
+                "predicted": 70,
+                "gold": 70
+              },
+              "blood_pressure_systolic_mmhg": {
+                "passed": true,
+                "predicted": 114,
+                "gold": 114
+              },
+              "blood_pressure_diastolic_mmhg": {
+                "passed": true,
+                "predicted": 86,
+                "gold": 86
+              },
+              "respiratory_rate_per_min": {
+                "passed": true,
+                "predicted": 12,
+                "gold": 12
+              },
+              "spo2_percent": {
+                "passed": true,
+                "predicted": 98,
+                "gold": 98
+              },
+              "oxygen_support": {
+                "passed": true,
+                "predicted": "room_air",
+                "gold": "room_air"
+              }
+            }
+          },
+          "procedures": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 3,
+            "predicted": 3,
+            "gold": 3
+          },
+          "evidence": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "true_positive": 2,
+            "predicted": 2,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3317,
+        "completion_tokens": 1629,
+        "total_tokens": 4946,
+        "ttft_s": 0.5269439481198788,
+        "wall_time_s": 80.05900150164962,
+        "output_tokens_per_s": 20.48230675917805
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-001:medium:repeat1:seed42:95eb4eec1cc1",
+      "item_id": "AUD-001",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "SUPPORTED",
+            "gold": "SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4153,
+        "completion_tokens": 360,
+        "total_tokens": 4513,
+        "ttft_s": 14.006686933338642,
+        "wall_time_s": 18.225747890770435,
+        "output_tokens_per_s": 85.32704401102977
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-002:medium:repeat1:seed42:61d9fde122b2",
+      "item_id": "AUD-002",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": false,
+            "predicted": "SUPPORTED",
+            "gold": "PARTIALLY_SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4840,
+        "completion_tokens": 1046,
+        "total_tokens": 5886,
+        "ttft_s": 0.9274416863918304,
+        "wall_time_s": 52.046348340809345,
+        "output_tokens_per_s": 20.4620964816666
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-003:medium:repeat1:seed42:ebf72d1bcc16",
+      "item_id": "AUD-003",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": false,
+            "predicted": "CONTRADICTED",
+            "gold": "TEMPORALLY_MISLEADING"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4630,
+        "completion_tokens": 417,
+        "total_tokens": 5047,
+        "ttft_s": 0.9627220034599304,
+        "wall_time_s": 21.212462335824966,
+        "output_tokens_per_s": 20.59285665671038
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-004:medium:repeat1:seed42:35429174f95a",
+      "item_id": "AUD-004",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "metrics": {
+        "prompt_tokens": 5105,
+        "completion_tokens": 641,
+        "total_tokens": 5746,
+        "ttft_s": 0.929800245910883,
+        "wall_time_s": 32.24642303213477,
+        "output_tokens_per_s": 20.468362900292508
+      },
+      "score_error": "ValueError: clinical audit output answer must be an object"
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-005:medium:repeat1:seed42:f1dbb0ded1ef",
+      "item_id": "AUD-005",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": false,
+            "predicted": "CONTRADICTEDICATED",
+            "gold": "CONTRADICTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3668,
+        "completion_tokens": 579,
+        "total_tokens": 4247,
+        "ttft_s": 0.6341564133763313,
+        "wall_time_s": 28.772515017539263,
+        "output_tokens_per_s": 20.576893206355678
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-006:medium:repeat1:seed42:fab4e9328909",
+      "item_id": "AUD-006",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "PARTIALLY_SUPPORTED",
+            "gold": "PARTIALLY_SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 3
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4171,
+        "completion_tokens": 784,
+        "total_tokens": 4955,
+        "ttft_s": 0.32011446729302406,
+        "wall_time_s": 38.570265270769596,
+        "output_tokens_per_s": 20.496651216568324
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-007:medium:repeat1:seed42:04eaef5ab795",
+      "item_id": "AUD-007",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "metrics": {
+        "prompt_tokens": 4867,
+        "completion_tokens": 1145,
+        "total_tokens": 6012,
+        "ttft_s": 42.93568352982402,
+        "wall_time_s": 56.444270465523005,
+        "output_tokens_per_s": 84.76090100690855
+      },
+      "score_error": "ValueError: model response contains no valid JSON object"
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-008:medium:repeat1:seed42:33c70c3f0a5e",
+      "item_id": "AUD-008",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "CONTRADICTED",
+            "gold": "CONTRADICTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 4638,
+        "completion_tokens": 736,
+        "total_tokens": 5374,
+        "ttft_s": 0.31995750218629837,
+        "wall_time_s": 36.280068568885326,
+        "output_tokens_per_s": 20.467122546837043
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-009:medium:repeat1:seed42:1628021f2763",
+      "item_id": "AUD-009",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": false,
+            "predicted": "PARTIALLY_SUPPORTED",
+            "gold": "SUPPORTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 5124,
+        "completion_tokens": 733,
+        "total_tokens": 5857,
+        "ttft_s": 0.3209516666829586,
+        "wall_time_s": 36.17779574543238,
+        "output_tokens_per_s": 20.442401411294668
+      }
+    },
+    {
+      "run_key": "llmjp:common:deployment:clinical:AUD-010:medium:repeat1:seed42:95b9136b62f4",
+      "item_id": "AUD-010",
+      "track": "clinical",
+      "model": "llm-jp-4-33b-thinking-deployment",
+      "model_profile": "llmjp",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "label": {
+            "passed": true,
+            "predicted": "NOT_DOCUMENTED",
+            "gold": "NOT_DOCUMENTED"
+          },
+          "evidence": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 2
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 3670,
+        "completion_tokens": 291,
+        "total_tokens": 3961,
+        "ttft_s": 0.31811991333961487,
+        "wall_time_s": 14.36607039347291,
+        "output_tokens_per_s": 20.71476550344722
+      }
+    }
+  ]
+}

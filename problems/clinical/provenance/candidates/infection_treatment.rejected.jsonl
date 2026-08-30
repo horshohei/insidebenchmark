@@ -1,0 +1,1 @@
+{"episode_id":"08_118F70-72_有機リン中毒","status":"rejected","reason":"clean control候補として全PNとDSを監査したが、候補に提示されるPN p2:L4に『プロポフォール 80mg/dlで鎮静』という、投与速度ではなく濃度単位となった明白な投与単位異常があるため、v1.0.2作問規則6・9によりclean controlへ採用できない。加えて、臨床症状ではなくChE値を主根拠にアトロピンを増量・中止し、PAMを見送る記載の妥当性にも追加監査を要する。","generation":{"prompt_version":"clinical_anomaly_generation_v1.0.2","assignment_id":"infection_treatment"}}

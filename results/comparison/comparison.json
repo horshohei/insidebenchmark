@@ -1,0 +1,7534 @@
+{
+  "schema_version": "0.1.0",
+  "models": [
+    "llmjp",
+    "llmjp_a3b",
+    "qwen"
+  ],
+  "model_directories": {
+    "llmjp": "results/llmjp",
+    "llmjp_a3b": "results/llmjp_a3b",
+    "qwen": "results/qwen"
+  },
+  "input_files": [
+    "results/llmjp/pilot_anomaly.jsonl.gz",
+    "results/llmjp/pilot_challenge.jsonl.gz",
+    "results/llmjp/pilot_clinical.jsonl.gz",
+    "results/llmjp/pilot_history.jsonl.gz",
+    "results/llmjp_a3b/pilot_anomaly.jsonl.gz",
+    "results/llmjp_a3b/pilot_challenge.jsonl.gz",
+    "results/llmjp_a3b/pilot_clinical.jsonl.gz",
+    "results/llmjp_a3b/pilot_history.jsonl.gz",
+    "results/qwen/pilot_anomaly.jsonl.gz",
+    "results/qwen/pilot_challenge.jsonl.gz",
+    "results/qwen/pilot_clinical.jsonl.gz",
+    "results/qwen/pilot_history.jsonl.gz"
+  ],
+  "lap_definition": "Sum and distribution of per-request client wall time, grouped by problem type and canonical reasoning effort.",
+  "rows": [
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 38.78374965116382,
+        "median": 38.78374965116382,
+        "p95": 38.78374965116382,
+        "total": 38.78374965116382
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.8660050444304943,
+        "median": 0.8660050444304943,
+        "p95": 0.8660050444304943
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.597216635646422,
+        "median": 20.597216635646422,
+        "p95": 20.597216635646422
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 781.0,
+        "median": 781.0,
+        "p95": 781.0,
+        "total": 781.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 83.81510919332504,
+        "median": 83.81510919332504,
+        "p95": 83.81510919332504,
+        "total": 83.81510919332504
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 1.0093315988779068,
+        "median": 1.0093315988779068,
+        "p95": 1.0093315988779068
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.59035069207943,
+        "median": 20.59035069207943,
+        "p95": 20.59035069207943
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1705.0,
+        "median": 1705.0,
+        "p95": 1705.0,
+        "total": 1705.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 6,
+      "successful_runs": 6,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 6
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 6,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 6,
+        "mean": 16.46716798779865,
+        "median": 16.204408194869757,
+        "p95": 24.724106457084417,
+        "total": 98.8030079267919
+      },
+      "ttft_s": {
+        "n": 6,
+        "mean": 0.9447718660036722,
+        "median": 0.9364396166056395,
+        "p95": 1.1971061155200005
+      },
+      "output_tokens_per_s": {
+        "n": 6,
+        "mean": 20.80952452674508,
+        "median": 20.803443023173486,
+        "p95": 21.18505155696408
+      },
+      "completion_tokens": {
+        "n": 6,
+        "mean": 322.0,
+        "median": 319.5,
+        "p95": 488.0,
+        "total": 1932.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 6,
+      "successful_runs": 6,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 6
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 6,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 6,
+        "mean": 74.87464764838417,
+        "median": 68.77200336009264,
+        "p95": 102.80925001204014,
+        "total": 449.24788589030504
+      },
+      "ttft_s": {
+        "n": 6,
+        "mean": 0.9964713839193186,
+        "median": 0.9338618982583284,
+        "p95": 1.5296791978180408
+      },
+      "output_tokens_per_s": {
+        "n": 6,
+        "mean": 20.545497315291858,
+        "median": 20.51915652242981,
+        "p95": 20.645073440321827
+      },
+      "completion_tokens": {
+        "n": 6,
+        "mean": 1517.0,
+        "median": 1391.5,
+        "p95": 2075.0,
+        "total": 9102.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 21.359050773084164,
+        "median": 21.359050773084164,
+        "p95": 21.359050773084164,
+        "total": 21.359050773084164
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.7249172851443291,
+        "median": 0.7249172851443291,
+        "p95": 0.7249172851443291
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.790793092946714,
+        "median": 20.790793092946714,
+        "p95": 20.790793092946714
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 429.0,
+        "median": 429.0,
+        "p95": 429.0,
+        "total": 429.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 50.15119266137481,
+        "median": 50.15119266137481,
+        "p95": 50.15119266137481,
+        "total": 50.15119266137481
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.7139098159968853,
+        "median": 0.7139098159968853,
+        "p95": 0.7139098159968853
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.652429527596038,
+        "median": 20.652429527596038,
+        "p95": 20.652429527596038
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1021.0,
+        "median": 1021.0,
+        "p95": 1021.0,
+        "total": 1021.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 21.757739692926407,
+        "median": 21.757739692926407,
+        "p95": 21.757739692926407,
+        "total": 21.757739692926407
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.9750734008848667,
+        "median": 0.9750734008848667,
+        "p95": 0.9750734008848667
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.690319228416957,
+        "median": 20.690319228416957,
+        "p95": 20.690319228416957
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 430.0,
+        "median": 430.0,
+        "p95": 430.0,
+        "total": 430.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "p95": 0.3333333333333333
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 96.216153845191,
+        "median": 96.216153845191,
+        "p95": 96.216153845191,
+        "total": 96.216153845191
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.9684657566249371,
+        "median": 0.9684657566249371,
+        "p95": 0.9684657566249371
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.47293786476783,
+        "median": 20.47293786476783,
+        "p95": 20.47293786476783
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1950.0,
+        "median": 1950.0,
+        "p95": 1950.0,
+        "total": 1950.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "p95": 0.3333333333333333
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 24.098478510975838,
+        "median": 24.098478510975838,
+        "p95": 24.098478510975838,
+        "total": 24.098478510975838
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 1.2287802807986736,
+        "median": 1.2287802807986736,
+        "p95": 1.2287802807986736
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.594937251008552,
+        "median": 20.594937251008552,
+        "p95": 20.594937251008552
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 471.0,
+        "median": 471.0,
+        "p95": 471.0,
+        "total": 471.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "p95": 0.3333333333333333
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 134.19988831877708,
+        "median": 134.19988831877708,
+        "p95": 134.19988831877708,
+        "total": 134.19988831877708
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 1.2294949740171432,
+        "median": 1.2294949740171432,
+        "p95": 1.2294949740171432
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.35791526149288,
+        "median": 20.35791526149288,
+        "p95": 20.35791526149288
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2707.0,
+        "median": 2707.0,
+        "p95": 2707.0,
+        "total": 2707.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 17.560494013130665,
+        "median": 17.560494013130665,
+        "p95": 17.560494013130665,
+        "total": 17.560494013130665
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 1.0424675568938255,
+        "median": 1.0424675568938255,
+        "p95": 1.0424675568938255
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.704652635476826,
+        "median": 20.704652635476826,
+        "p95": 20.704652635476826
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 342.0,
+        "median": 342.0,
+        "p95": 342.0,
+        "total": 342.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 56.69566757977009,
+        "median": 56.69566757977009,
+        "p95": 56.69566757977009,
+        "total": 56.69566757977009
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 1.0755861513316631,
+        "median": 1.0755861513316631,
+        "p95": 1.0755861513316631
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.532152608753606,
+        "median": 20.532152608753606,
+        "p95": 20.532152608753606
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1142.0,
+        "median": 1142.0,
+        "p95": 1142.0,
+        "total": 1142.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 24.500721711665392,
+        "median": 24.500721711665392,
+        "p95": 24.500721711665392,
+        "total": 24.500721711665392
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.7603902779519558,
+        "median": 0.7603902779519558,
+        "p95": 0.7603902779519558
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.766348666046635,
+        "median": 20.766348666046635,
+        "p95": 20.766348666046635
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 493.0,
+        "median": 493.0,
+        "p95": 493.0,
+        "total": 493.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "anomaly",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 56.478233352303505,
+        "median": 56.478233352303505,
+        "p95": 56.478233352303505,
+        "total": 56.478233352303505
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.7611600384116173,
+        "median": 0.7611600384116173,
+        "p95": 0.7611600384116173
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.60409730303925,
+        "median": 20.60409730303925,
+        "p95": 20.60409730303925
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1148.0,
+        "median": 1148.0,
+        "p95": 1148.0,
+        "total": 1148.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 1.7404161570593715,
+        "median": 1.019757580012083,
+        "p95": 5.523307878524065,
+        "total": 13.923329256474972
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.29801667062565684,
+        "median": 0.3092569578438997,
+        "p95": 0.31098899990320206
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 25.47927262356078,
+        "median": 26.451640854430124,
+        "p95": 27.620476991070365
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 33.875,
+        "median": 19.0,
+        "p95": 112.0,
+        "total": 271.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 11.050323656760156,
+        "median": 9.9542257450521,
+        "p95": 18.334030997008085,
+        "total": 88.40258925408125
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.32038339180871844,
+        "median": 0.3090655989944935,
+        "p95": 0.4246377497911453
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.142782267364367,
+        "median": 21.101419604289966,
+        "p95": 21.57964447698557
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 226.375,
+        "median": 203.5,
+        "p95": 377.0,
+        "total": 1811.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.75,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 13.373045780695975,
+        "median": 11.928407706320286,
+        "p95": 24.44315578788519,
+        "total": 106.9843662455678
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.2831199588254094,
+        "median": 0.279116852208972,
+        "p95": 0.3118380382657051
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.819431244303097,
+        "median": 21.033946284402127,
+        "p95": 27.56820374833118
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 274.875,
+        "median": 245.0,
+        "p95": 504.0,
+        "total": 2199.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 35.5891160517931,
+        "median": 26.432916656136513,
+        "p95": 94.88170876726508,
+        "total": 284.7129284143448
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.2826671809889376,
+        "median": 0.27882154285907745,
+        "p95": 0.3112957067787647
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 20.92288560625038,
+        "median": 20.840752582335575,
+        "p95": 21.658723784958443
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 733.5,
+        "median": 545.0,
+        "p95": 1956.0,
+        "total": 5868.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.75,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 15.606270827818662,
+        "median": 11.532469775527716,
+        "p95": 46.23773753643036,
+        "total": 124.8501666225493
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.33321382477879524,
+        "median": 0.2808270938694477,
+        "p95": 0.4247872419655323
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.20700332303897,
+        "median": 21.118258751963218,
+        "p95": 21.850432468157106
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 321.25,
+        "median": 237.0,
+        "p95": 955.0,
+        "total": 2570.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.75,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 49.86372492136434,
+        "median": 39.83935088850558,
+        "p95": 132.22415886074305,
+        "total": 398.9097993709147
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.31271681236103177,
+        "median": 0.27789667807519436,
+        "p95": 0.4211907610297203
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 20.89591810985565,
+        "median": 20.836587477942853,
+        "p95": 21.180370209090206
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 1029.5,
+        "median": 823.5,
+        "p95": 2727.0,
+        "total": 8236.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.75,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 28.09125142591074,
+        "median": 26.874412076547742,
+        "p95": 40.577865768224,
+        "total": 224.73001140728593
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.4753421740606427,
+        "median": 0.4563130158931017,
+        "p95": 0.6054088585078716
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 20.97578389152954,
+        "median": 20.957436893712153,
+        "p95": 21.230003901456897
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 578.5,
+        "median": 553.5,
+        "p95": 836.0,
+        "total": 4628.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.9375,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 53.89636478852481,
+        "median": 43.55373581312597,
+        "p95": 144.52564608305693,
+        "total": 431.17091830819845
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.3151314011774957,
+        "median": 0.3083692155778408,
+        "p95": 0.3618360608816147
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 20.771874471700137,
+        "median": 20.77898711073214,
+        "p95": 20.856607836203573
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 1111.0,
+        "median": 898.0,
+        "p95": 2977.0,
+        "total": 8888.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.375,
+        "median": 0.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.341002318076789,
+        "median": 6.7923787869513035,
+        "p95": 7.478576321154833,
+        "total": 50.728018544614315
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.5675120493397117,
+        "median": 0.5457755159586668,
+        "p95": 0.6670529581606388
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.51663932869651,
+        "median": 21.39230310154926,
+        "p95": 22.210685424653374
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 124.0,
+        "median": 133.5,
+        "p95": 147.0,
+        "total": 992.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 20.029868103098124,
+        "median": 17.9177266061306,
+        "p95": 38.36403964087367,
+        "total": 160.238944824785
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 3.157186219934374,
+        "median": 0.5454088542610407,
+        "p95": 21.251039300113916
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 58.213076878409076,
+        "median": 20.958644785613224,
+        "p95": 318.830114350739
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 407.0,
+        "median": 363.5,
+        "p95": 785.0,
+        "total": 3256.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.628268739208579,
+        "median": 4.964124636724591,
+        "p95": 15.164698164910078,
+        "total": 53.02614991366863
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.33384048799052835,
+        "median": 0.2819235175848007,
+        "p95": 0.4279276691377163
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 22.69757671105315,
+        "median": 21.662004132964,
+        "p95": 27.27159347823608
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 135.375,
+        "median": 101.0,
+        "p95": 312.0,
+        "total": 1083.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 15.912021935917437,
+        "median": 15.433559492230415,
+        "p95": 25.299290165305138,
+        "total": 127.2961754873395
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.32414844864979386,
+        "median": 0.28116422705352306,
+        "p95": 0.4525749795138836
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.156189628457266,
+        "median": 20.99025290422408,
+        "p95": 22.27500386690788
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 327.625,
+        "median": 317.5,
+        "p95": 522.0,
+        "total": 2621.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 14.576855547726154,
+        "median": 14.297222772613168,
+        "p95": 28.127533201128244,
+        "total": 116.61484438180923
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.323717865627259,
+        "median": 0.27979334630072117,
+        "p95": 0.4667408876121044
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.089344832714954,
+        "median": 21.136182078037958,
+        "p95": 21.345057039855288
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 299.75,
+        "median": 294.0,
+        "p95": 579.0,
+        "total": 2398.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 28.679581124335527,
+        "median": 25.47931001894176,
+        "p95": 49.839452899992466,
+        "total": 229.43664899468422
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.293004993814975,
+        "median": 0.2785991597920656,
+        "p95": 0.3725234158337116
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 20.909611808289405,
+        "median": 20.891568022340664,
+        "p95": 21.103068652080772
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 592.5,
+        "median": 526.5,
+        "p95": 1030.0,
+        "total": 4740.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 22.800528140738606,
+        "median": 22.971949080005288,
+        "p95": 44.71265908703208,
+        "total": 182.40422512590885
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.3503932231105864,
+        "median": 0.3499051220715046,
+        "p95": 0.42530183866620064
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.555797744572324,
+        "median": 20.9876969361598,
+        "p95": 25.284975568421068
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 469.875,
+        "median": 473.5,
+        "p95": 923.0,
+        "total": 3759.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 53.33547049853951,
+        "median": 31.515191968530416,
+        "p95": 188.10117745026946,
+        "total": 426.68376398831606
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.2949222601018846,
+        "median": 0.27674735337495804,
+        "p95": 0.42333127185702324
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.03992338258231,
+        "median": 20.84094875123318,
+        "p95": 22.693722367586968
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 1100.0,
+        "median": 651.0,
+        "p95": 3872.0,
+        "total": 8800.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 15.628135844599456,
+        "median": 16.48913048580289,
+        "p95": 28.685810074210167,
+        "total": 125.02508675679564
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.31289708334952593,
+        "median": 0.2774643301963806,
+        "p95": 0.4207037575542927
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.228144872130564,
+        "median": 21.002583427894848,
+        "p95": 22.619320260841608
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 321.75,
+        "median": 339.5,
+        "p95": 592.0,
+        "total": 2574.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 24.001931828446686,
+        "median": 25.16262361034751,
+        "p95": 40.34257332235575,
+        "total": 192.0154546275735
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.3426828500814736,
+        "median": 0.2772672101855278,
+        "p95": 0.5673396028578281
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.019748492643334,
+        "median": 20.8915463862409,
+        "p95": 21.735022035098517
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 495.0,
+        "median": 519.0,
+        "p95": 833.0,
+        "total": 3960.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 18.159688266459852,
+        "median": 14.879429262131453,
+        "p95": 48.614301446825266,
+        "total": 145.27750613167882
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.33199506578966975,
+        "median": 0.2786883097141981,
+        "p95": 0.4250897914171219
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 21.074224339900702,
+        "median": 21.10077930843576,
+        "p95": 21.275427499188794
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 374.375,
+        "median": 306.5,
+        "p95": 1005.0,
+        "total": 2995.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "challenge",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.75,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 47.22402481222525,
+        "median": 31.045200979337096,
+        "p95": 135.60062941536307,
+        "total": 377.792198497802
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.31857189908623695,
+        "median": 0.2785085439682007,
+        "p95": 0.4221271313726902
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 20.869385843653287,
+        "median": 20.85097682963853,
+        "p95": 21.089339750300287
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 974.75,
+        "median": 641.0,
+        "p95": 2797.0,
+        "total": 7798.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "clinical",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.6498095238095238,
+        "median": 0.6,
+        "p95": 0.9333333333333332
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 68.918439014256,
+        "median": 65.44085103459656,
+        "p95": 110.93266373872757,
+        "total": 689.18439014256
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 6.470503968372941,
+        "median": 1.0038539972156286,
+        "p95": 32.34283723682165
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 22.76322616103174,
+        "median": 20.603574333514683,
+        "p95": 33.45449806219269
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 1407.3,
+        "median": 1330.5,
+        "p95": 2253.0,
+        "total": 14073.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "clinical",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.6799999999999999,
+        "median": 0.6666666666666666,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 113.29688735939563,
+        "median": 114.8630558270961,
+        "p95": 180.96121283620596,
+        "total": 1132.9688735939562
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.8229308061301708,
+        "median": 0.8215518910437822,
+        "p95": 1.3218521252274513
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 20.467235129285456,
+        "median": 20.468160716825757,
+        "p95": 20.514451047352818
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 2301.3,
+        "median": 2335.5,
+        "p95": 3671.0,
+        "total": 23013.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "clinical",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic",
+          "automatic_invalid_zero"
+        ],
+        "n": 10,
+        "mean": 0.6,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 14.718474716320634,
+        "median": 13.677297439426184,
+        "p95": 24.922111477702856,
+        "total": 147.18474716320634
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.5989976830780506,
+        "median": 0.550820529460907,
+        "p95": 0.9655237123370171
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 20.742595547404086,
+        "median": 20.75988866704794,
+        "p95": 20.918864015677684
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 292.3,
+        "median": 263.5,
+        "p95": 505.0,
+        "total": 2923.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "clinical",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic",
+          "automatic_invalid_zero"
+        ],
+        "n": 10,
+        "mean": 0.4,
+        "median": 0.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 33.4341967061162,
+        "median": 34.212109388783574,
+        "p95": 56.444270465523005,
+        "total": 334.341967061162
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 6.1675634361803535,
+        "median": 0.7807990498840809,
+        "p95": 42.93568352982402
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 33.43090949411108,
+        "median": 20.536772211462,
+        "p95": 85.32704401102977
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 673.2,
+        "median": 687.0,
+        "p95": 1145.0,
+        "total": 6732.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 116.07112206146121,
+        "median": 116.07112206146121,
+        "p95": 116.07112206146121,
+        "total": 116.07112206146121
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.34125231951475143,
+        "median": 0.34125231951475143,
+        "p95": 0.34125231951475143
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.64289889314637,
+        "median": 20.64289889314637,
+        "p95": 20.64289889314637
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2389.0,
+        "median": 2389.0,
+        "p95": 2389.0,
+        "total": 2389.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 89.8837442882359,
+        "median": 89.8837442882359,
+        "p95": 89.8837442882359,
+        "total": 89.8837442882359
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3393660895526409,
+        "median": 0.3393660895526409,
+        "p95": 0.3393660895526409
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.693649755303657,
+        "median": 20.693649755303657,
+        "p95": 20.693649755303657
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1853.0,
+        "median": 1853.0,
+        "p95": 1853.0,
+        "total": 1853.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 110.28012619167566,
+        "median": 110.28012619167566,
+        "p95": 110.28012619167566,
+        "total": 110.28012619167566
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3446460999548435,
+        "median": 0.3446460999548435,
+        "p95": 0.3446460999548435
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.657571132679557,
+        "median": 20.657571132679557,
+        "p95": 20.657571132679557
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2271.0,
+        "median": 2271.0,
+        "p95": 2271.0,
+        "total": 2271.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 101.23042256012559,
+        "median": 101.23042256012559,
+        "p95": 101.23042256012559,
+        "total": 101.23042256012559
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3470968045294285,
+        "median": 0.3470968045294285,
+        "p95": 0.3470968045294285
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.677351627499117,
+        "median": 20.677351627499117,
+        "p95": 20.677351627499117
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2086.0,
+        "median": 2086.0,
+        "p95": 2086.0,
+        "total": 2086.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 70.89386350288987,
+        "median": 70.89386350288987,
+        "p95": 70.89386350288987,
+        "total": 70.89386350288987
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.302558533847332,
+        "median": 0.302558533847332,
+        "p95": 0.302558533847332
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.72493206693928,
+        "median": 20.72493206693928,
+        "p95": 20.72493206693928
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1463.0,
+        "median": 1463.0,
+        "p95": 1463.0,
+        "total": 1463.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 96.95746445655823,
+        "median": 96.95746445655823,
+        "p95": 96.95746445655823,
+        "total": 96.95746445655823
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3415847420692444,
+        "median": 0.3415847420692444,
+        "p95": 0.3415847420692444
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.679830333319114,
+        "median": 20.679830333319114,
+        "p95": 20.679830333319114
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1998.0,
+        "median": 1998.0,
+        "p95": 1998.0,
+        "total": 1998.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 80.64956403523684,
+        "median": 80.64956403523684,
+        "p95": 80.64956403523684,
+        "total": 80.64956403523684
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3363044336438179,
+        "median": 0.3363044336438179,
+        "p95": 0.3363044336438179
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.70641894314316,
+        "median": 20.70641894314316,
+        "p95": 20.70641894314316
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1663.0,
+        "median": 1663.0,
+        "p95": 1663.0,
+        "total": 1663.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 62.80089107528329,
+        "median": 62.80089107528329,
+        "p95": 62.80089107528329,
+        "total": 62.80089107528329
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3410416394472122,
+        "median": 0.3410416394472122,
+        "p95": 0.3410416394472122
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.749329556603534,
+        "median": 20.749329556603534,
+        "p95": 20.749329556603534
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1296.0,
+        "median": 1296.0,
+        "p95": 1296.0,
+        "total": 1296.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 84.43447102978826,
+        "median": 84.43447102978826,
+        "p95": 84.43447102978826,
+        "total": 84.43447102978826
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3132259361445904,
+        "median": 0.3132259361445904,
+        "p95": 0.3132259361445904
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.70820513962683,
+        "median": 20.70820513962683,
+        "p95": 20.70820513962683
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1742.0,
+        "median": 1742.0,
+        "p95": 1742.0,
+        "total": 1742.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 76.70658136159182,
+        "median": 76.70658136159182,
+        "p95": 76.70658136159182,
+        "total": 76.70658136159182
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.34052596241235733,
+        "median": 0.34052596241235733,
+        "p95": 0.34052596241235733
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.716010428070355,
+        "median": 20.716010428070355,
+        "p95": 20.716010428070355
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1582.0,
+        "median": 1582.0,
+        "p95": 1582.0,
+        "total": 1582.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 114.77617870643735,
+        "median": 114.77617870643735,
+        "p95": 114.77617870643735,
+        "total": 114.77617870643735
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3067038021981716,
+        "median": 0.3067038021981716,
+        "p95": 0.3067038021981716
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.660529822282047,
+        "median": 20.660529822282047,
+        "p95": 20.660529822282047
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2365.0,
+        "median": 2365.0,
+        "p95": 2365.0,
+        "total": 2365.0
+      }
+    },
+    {
+      "model_profile": "llmjp",
+      "track": "history",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 100.72686326876283,
+        "median": 100.72686326876283,
+        "p95": 100.72686326876283,
+        "total": 100.72686326876283
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3115583211183548,
+        "median": 0.3115583211183548,
+        "p95": 0.3115583211183548
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 20.684097917971037,
+        "median": 20.684097917971037,
+        "p95": 20.684097917971037
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2077.0,
+        "median": 2077.0,
+        "p95": 2077.0,
+        "total": 2077.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 2.178828649222851,
+        "median": 2.178828649222851,
+        "p95": 2.178828649222851,
+        "total": 2.178828649222851
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.1111282967031002,
+        "median": 0.1111282967031002,
+        "p95": 0.1111282967031002
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 158.63033519353573,
+        "median": 158.63033519353573,
+        "p95": 158.63033519353573
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 328.0,
+        "median": 328.0,
+        "p95": 328.0,
+        "total": 328.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 12.45433685183525,
+        "median": 12.45433685183525,
+        "p95": 12.45433685183525,
+        "total": 12.45433685183525
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.11134941875934601,
+        "median": 0.11134941875934601,
+        "p95": 0.11134941875934601
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 156.44510783713807,
+        "median": 156.44510783713807,
+        "p95": 156.44510783713807
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1931.0,
+        "median": 1931.0,
+        "p95": 1931.0,
+        "total": 1931.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 6,
+      "successful_runs": 6,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 6
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 6,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 6,
+        "mean": 1.7704504237820704,
+        "median": 1.326675271615386,
+        "p95": 4.256836831569672,
+        "total": 10.622702542692423
+      },
+      "ttft_s": {
+        "n": 6,
+        "mean": 0.11660601012408733,
+        "median": 0.11507141403853893,
+        "p95": 0.13541844114661217
+      },
+      "output_tokens_per_s": {
+        "n": 6,
+        "mean": 159.75234791372796,
+        "median": 159.99212178276198,
+        "p95": 161.76470798101036
+      },
+      "completion_tokens": {
+        "n": 6,
+        "mean": 262.6666666666667,
+        "median": 194.5,
+        "p95": 647.0,
+        "total": 1576.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 6,
+      "successful_runs": 6,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 6
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 6,
+        "mean": 0.6666666666666666,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 6,
+        "mean": 6.44409182233115,
+        "median": 4.921919563785195,
+        "p95": 12.059005685150623,
+        "total": 38.6645509339869
+      },
+      "ttft_s": {
+        "n": 6,
+        "mean": 0.11675206820170085,
+        "median": 0.11602342501282692,
+        "p95": 0.13495885208249092
+      },
+      "output_tokens_per_s": {
+        "n": 6,
+        "mean": 157.14429368972193,
+        "median": 157.37339355506361,
+        "p95": 158.1173220682336
+      },
+      "completion_tokens": {
+        "n": 6,
+        "mean": 991.8333333333334,
+        "median": 758.0,
+        "p95": 1867.0,
+        "total": 5951.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 0.7988302707672119,
+        "median": 0.7988302707672119,
+        "p95": 0.7988302707672119,
+        "total": 0.7988302707672119
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.09798797592520714,
+        "median": 0.09798797592520714,
+        "p95": 0.09798797592520714
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 162.66141589770882,
+        "median": 162.66141589770882,
+        "p95": 162.66141589770882
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 114.0,
+        "median": 114.0,
+        "p95": 114.0,
+        "total": 114.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 7.525131020694971,
+        "median": 7.525131020694971,
+        "p95": 7.525131020694971,
+        "total": 7.525131020694971
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.09780837222933769,
+        "median": 0.09780837222933769,
+        "p95": 0.09780837222933769
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.25720495544786,
+        "median": 157.25720495544786,
+        "p95": 157.25720495544786
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1168.0,
+        "median": 1168.0,
+        "p95": 1168.0,
+        "total": 1168.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 1.4305525533854961,
+        "median": 1.4305525533854961,
+        "p95": 1.4305525533854961,
+        "total": 1.4305525533854961
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.12042839452624321,
+        "median": 0.12042839452624321,
+        "p95": 0.12042839452624321
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 159.52686513466006,
+        "median": 159.52686513466006,
+        "p95": 159.52686513466006
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 209.0,
+        "median": 209.0,
+        "p95": 209.0,
+        "total": 209.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 6.785160068422556,
+        "median": 6.785160068422556,
+        "p95": 6.785160068422556,
+        "total": 6.785160068422556
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.12040853872895241,
+        "median": 0.12040853872895241,
+        "p95": 0.12040853872895241
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 156.79504259749072,
+        "median": 156.79504259749072,
+        "p95": 156.79504259749072
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1045.0,
+        "median": 1045.0,
+        "p95": 1045.0,
+        "total": 1045.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 2.6276204586029053,
+        "median": 2.6276204586029053,
+        "p95": 2.6276204586029053,
+        "total": 2.6276204586029053
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.13573341444134712,
+        "median": 0.13573341444134712,
+        "p95": 0.13573341444134712
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.71180355899003,
+        "median": 157.71180355899003,
+        "p95": 157.71180355899003
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 393.0,
+        "median": 393.0,
+        "p95": 393.0,
+        "total": 393.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 10.400491263717413,
+        "median": 10.400491263717413,
+        "p95": 10.400491263717413,
+        "total": 10.400491263717413
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.13475213199853897,
+        "median": 0.13475213199853897,
+        "p95": 0.13475213199853897
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 155.95564814746388,
+        "median": 155.95564814746388,
+        "p95": 155.95564814746388
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1601.0,
+        "median": 1601.0,
+        "p95": 1601.0,
+        "total": 1601.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 0.7686773352324963,
+        "median": 0.7686773352324963,
+        "p95": 0.7686773352324963,
+        "total": 0.7686773352324963
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.12302066013216972,
+        "median": 0.12302066013216972,
+        "p95": 0.12302066013216972
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 162.62512887934503,
+        "median": 162.62512887934503,
+        "p95": 162.62512887934503
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 105.0,
+        "median": 105.0,
+        "p95": 105.0,
+        "total": 105.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 7.180672746151686,
+        "median": 7.180672746151686,
+        "p95": 7.180672746151686,
+        "total": 7.180672746151686
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.12262479215860367,
+        "median": 0.12262479215860367,
+        "p95": 0.12262479215860367
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 156.70055052180282,
+        "median": 156.70055052180282,
+        "p95": 156.70055052180282
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1106.0,
+        "median": 1106.0,
+        "p95": 1106.0,
+        "total": 1106.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "p95": 0.3333333333333333
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 2.2585409842431545,
+        "median": 2.2585409842431545,
+        "p95": 2.2585409842431545,
+        "total": 2.2585409842431545
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.10362551733851433,
+        "median": 0.10362551733851433,
+        "p95": 0.10362551733851433
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 158.70692157184942,
+        "median": 158.70692157184942,
+        "p95": 158.70692157184942
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 342.0,
+        "median": 342.0,
+        "p95": 342.0,
+        "total": 342.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "anomaly",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 6.365318804979324,
+        "median": 6.365318804979324,
+        "p95": 6.365318804979324,
+        "total": 6.365318804979324
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.10397368669509888,
+        "median": 0.10397368669509888,
+        "p95": 0.10397368669509888
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.31443985153084,
+        "median": 157.31443985153084,
+        "p95": 157.31443985153084
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 985.0,
+        "median": 985.0,
+        "p95": 985.0,
+        "total": 985.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 0.1979754278436303,
+        "median": 0.1565943919122219,
+        "p95": 0.3770860470831394,
+        "total": 1.5838034227490425
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07994402339681983,
+        "median": 0.07982097752392292,
+        "p95": 0.08351106569170952
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 203.6960479688095,
+        "median": 208.3590604700854,
+        "p95": 225.61562379018838
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 22.5,
+        "median": 16.0,
+        "p95": 51.0,
+        "total": 180.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 1.0541612175293267,
+        "median": 1.0400675404816866,
+        "p95": 1.4027486480772495,
+        "total": 8.433289740234613
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07986888661980629,
+        "median": 0.07986689172685146,
+        "p95": 0.08098579570651054
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 161.73872989148973,
+        "median": 161.44918024968783,
+        "p95": 164.47149608766568
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 157.25,
+        "median": 155.0,
+        "p95": 212.0,
+        "total": 1258.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 2.6376999029889703,
+        "median": 2.3818454220891,
+        "p95": 5.098285552114248,
+        "total": 21.101599223911762
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.0800768923945725,
+        "median": 0.07972721941769123,
+        "p95": 0.08173688873648643
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 162.62420888778536,
+        "median": 159.04475076628069,
+        "p95": 188.42404914592876
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 406.25,
+        "median": 366.0,
+        "p95": 793.0,
+        "total": 3250.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.306496428325772,
+        "median": 4.278330072760582,
+        "p95": 20.379686795175076,
+        "total": 50.45197142660618
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.0795246702618897,
+        "median": 0.07924925535917282,
+        "p95": 0.08157671615481377
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 160.18956563874548,
+        "median": 158.2367059662812,
+        "p95": 175.59877653469314
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 981.375,
+        "median": 664.5,
+        "p95": 3182.0,
+        "total": 7851.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 3.407437560148537,
+        "median": 3.23261964507401,
+        "p95": 8.886846624314785,
+        "total": 27.259500481188297
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07949603721499443,
+        "median": 0.07951719872653484,
+        "p95": 0.08016252890229225
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 159.17148315779437,
+        "median": 158.56132209557143,
+        "p95": 161.06283732235394
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 527.25,
+        "median": 500.0,
+        "p95": 1388.0,
+        "total": 4218.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 4.648035393096507,
+        "median": 4.581008289009333,
+        "p95": 9.105748686939478,
+        "total": 37.18428314477205
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.0794181963428855,
+        "median": 0.07951878197491169,
+        "p95": 0.0802246443927288
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 158.3225617970248,
+        "median": 158.1437429128817,
+        "p95": 159.29055387518457
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 722.25,
+        "median": 712.0,
+        "p95": 1422.0,
+        "total": 5778.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.8125,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 3.392456660512835,
+        "median": 3.489526668563485,
+        "p95": 4.800149109214544,
+        "total": 27.13965328410268
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.08137316443026066,
+        "median": 0.08142719231545925,
+        "p95": 0.0823739729821682
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 158.60282278186276,
+        "median": 158.45633362935519,
+        "p95": 159.40434208266237
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 524.75,
+        "median": 540.0,
+        "p95": 746.0,
+        "total": 4198.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.65625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 5.84344183281064,
+        "median": 5.30786894634366,
+        "p95": 9.673872888088226,
+        "total": 46.74753466248512
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.08026946242898703,
+        "median": 0.08022946305572987,
+        "p95": 0.08179458975791931
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 158.00255757626027,
+        "median": 158.01801693618322,
+        "p95": 158.57232442296723
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 910.0,
+        "median": 826.0,
+        "p95": 1511.0,
+        "total": 7280.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 0.5478264610283077,
+        "median": 0.534282736480236,
+        "p95": 0.8491094969213009,
+        "total": 4.382611688226461
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.08632763475179672,
+        "median": 0.08629175648093224,
+        "p95": 0.08729159832000732
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 166.91643802412818,
+        "median": 166.02053816134014,
+        "p95": 172.00240730332536
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 76.5,
+        "median": 74.5,
+        "p95": 124.0,
+        "total": 612.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 2.1948230108246207,
+        "median": 1.9643845055252314,
+        "p95": 4.54202064499259,
+        "total": 17.558584086596966
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.08751336252316833,
+        "median": 0.0874928068369627,
+        "p95": 0.08865218609571457
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 159.35227189728081,
+        "median": 159.33570775239562,
+        "p95": 160.27894119824597
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 335.25,
+        "median": 299.0,
+        "p95": 704.0,
+        "total": 2682.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 0.9428553786128759,
+        "median": 0.7727724481374025,
+        "p95": 2.2597670070827007,
+        "total": 7.5428430289030075
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.0788738476112485,
+        "median": 0.0788680873811245,
+        "p95": 0.0797666646540165
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 171.71753767197896,
+        "median": 164.98089485303242,
+        "p95": 225.05219609406856
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 139.875,
+        "median": 113.0,
+        "p95": 347.0,
+        "total": 1119.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 2.2192806256935,
+        "median": 1.9959211274981499,
+        "p95": 5.382165834307671,
+        "total": 17.754245005548
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07904626103118062,
+        "median": 0.0785088837146759,
+        "p95": 0.08089195191860199
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 160.64200985656979,
+        "median": 159.4143996488993,
+        "p95": 169.22485718810526
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 340.625,
+        "median": 305.5,
+        "p95": 838.0,
+        "total": 2725.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 2.0898119769990444,
+        "median": 1.9676187690347433,
+        "p95": 4.08692492172122,
+        "total": 16.718495815992355
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07892421819269657,
+        "median": 0.0787348710000515,
+        "p95": 0.08034499362111092
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 159.52400567866903,
+        "median": 159.38478090935746,
+        "p95": 160.56295647036936
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 320.25,
+        "median": 301.0,
+        "p95": 634.0,
+        "total": 2562.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 3.2821102449670434,
+        "median": 2.5876961797475815,
+        "p95": 7.136134326457977,
+        "total": 26.256881959736347
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07964485976845026,
+        "median": 0.0795937217772007,
+        "p95": 0.08077289164066315
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 158.72043064877064,
+        "median": 158.9020106325674,
+        "p95": 159.44467421865434
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 507.625,
+        "median": 398.5,
+        "p95": 1113.0,
+        "total": 4061.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 3.0112008876167238,
+        "median": 2.3736895229667425,
+        "p95": 8.40892231836915,
+        "total": 24.08960710093379
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07915918761864305,
+        "median": 0.07925575971603394,
+        "p95": 0.08104893565177917
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 164.73641868886685,
+        "median": 159.20523032418708,
+        "p95": 204.61543302700224
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 465.0,
+        "median": 365.0,
+        "p95": 1313.0,
+        "total": 3720.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.625,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 7.489528814330697,
+        "median": 6.799192860722542,
+        "p95": 15.554601639509201,
+        "total": 59.91623051464558
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07909714616835117,
+        "median": 0.07907091453671455,
+        "p95": 0.07965493574738503
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 158.20408287562844,
+        "median": 157.80999481229756,
+        "p95": 161.0436076715612
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 1167.75,
+        "median": 1060.5,
+        "p95": 2431.0,
+        "total": 9342.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 2.6510876226238906,
+        "median": 1.5118205845355988,
+        "p95": 9.33906864002347,
+        "total": 21.208700980991125
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07962910970672965,
+        "median": 0.07957719825208187,
+        "p95": 0.0811898224055767
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 162.2507591969884,
+        "median": 160.05730973604932,
+        "p95": 176.87295848249633
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 408.25,
+        "median": 229.5,
+        "p95": 1459.0,
+        "total": 3266.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 3.3821693272329867,
+        "median": 3.570095155388117,
+        "p95": 5.2361536510288715,
+        "total": 27.057354617863894
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07886055717244744,
+        "median": 0.0786108672618866,
+        "p95": 0.0802377425134182
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 158.80487398150555,
+        "median": 158.4211288061851,
+        "p95": 160.97911437873307
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 523.5,
+        "median": 553.0,
+        "p95": 815.0,
+        "total": 4188.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 2.3450617198832333,
+        "median": 2.229734631255269,
+        "p95": 3.1172147281467915,
+        "total": 18.760493759065866
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.07999787572771311,
+        "median": 0.08032835088670254,
+        "p95": 0.08120454475283623
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 159.1714836816945,
+        "median": 159.1561382482352,
+        "p95": 160.16932397910148
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 360.25,
+        "median": 342.0,
+        "p95": 482.0,
+        "total": 2882.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "challenge",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.5629987036809325,
+        "median": 4.127274619415402,
+        "p95": 17.671050805598497,
+        "total": 52.50398962944746
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.0793097629211843,
+        "median": 0.07941907830536366,
+        "p95": 0.08013009652495384
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 158.07862431164642,
+        "median": 158.24923469212817,
+        "p95": 158.8340177025995
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 1022.125,
+        "median": 640.5,
+        "p95": 2761.0,
+        "total": 8177.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "clinical",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.6074285714285714,
+        "median": 0.6066666666666667,
+        "p95": 0.8
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 6.509394250810146,
+        "median": 6.527220943942666,
+        "p95": 8.93400477617979,
+        "total": 65.09394250810146
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.11039960905909538,
+        "median": 0.10742967203259468,
+        "p95": 0.1301625333726406
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 156.67524644707058,
+        "median": 156.6186572707657,
+        "p95": 157.4038849633145
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 1002.1,
+        "median": 1002.5,
+        "p95": 1375.0,
+        "total": 10021.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "clinical",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.6211904761904762,
+        "median": 0.6,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 13.834088402613997,
+        "median": 13.588786849752069,
+        "p95": 21.904632676392794,
+        "total": 138.34088402613997
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.11096015125513077,
+        "median": 0.10893507674336433,
+        "p95": 0.13080985099077225
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 155.95500868265722,
+        "median": 155.92349818187307,
+        "p95": 156.52906840842522
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 2138.7,
+        "median": 2100.0,
+        "p95": 3386.0,
+        "total": 21387.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "clinical",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic",
+          "automatic_invalid_zero"
+        ],
+        "n": 10,
+        "mean": 0.4,
+        "median": 0.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 1.933598716929555,
+        "median": 1.7635771725326777,
+        "p95": 4.284583389759064,
+        "total": 19.33598716929555
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.10657176561653614,
+        "median": 0.10055846907198429,
+        "p95": 0.12503650784492493
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 158.34822473260533,
+        "median": 158.16444408404962,
+        "p95": 162.26660525198204
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 288.2,
+        "median": 263.5,
+        "p95": 650.0,
+        "total": 2882.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "clinical",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic",
+          "automatic_invalid_zero"
+        ],
+        "n": 10,
+        "mean": 0.6,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 3.985029969736934,
+        "median": 4.315375253558159,
+        "p95": 5.095211662352085,
+        "total": 39.85029969736934
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.1076943289488554,
+        "median": 0.099452780559659,
+        "p95": 0.12796233594417572
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 156.69022354171346,
+        "median": 156.4444271642423,
+        "p95": 157.87552088191234
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 607.0,
+        "median": 660.5,
+        "p95": 779.0,
+        "total": 6070.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 13.64604027941823,
+        "median": 13.64604027941823,
+        "p95": 13.64604027941823,
+        "total": 13.64604027941823
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08518925309181213,
+        "median": 0.08518925309181213,
+        "p95": 0.08518925309181213
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.14352999402277,
+        "median": 157.14352999402277,
+        "p95": 157.14352999402277
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2131.0,
+        "median": 2131.0,
+        "p95": 2131.0,
+        "total": 2131.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 14.50202963128686,
+        "median": 14.50202963128686,
+        "p95": 14.50202963128686,
+        "total": 14.50202963128686
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.0841619074344635,
+        "median": 0.0841619074344635,
+        "p95": 0.0841619074344635
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.09673880922534,
+        "median": 157.09673880922534,
+        "p95": 157.09673880922534
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2265.0,
+        "median": 2265.0,
+        "p95": 2265.0,
+        "total": 2265.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 12.041385069489479,
+        "median": 12.041385069489479,
+        "p95": 12.041385069489479,
+        "total": 12.041385069489479
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08402073755860329,
+        "median": 0.08402073755860329,
+        "p95": 0.08402073755860329
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.22528375083957,
+        "median": 157.22528375083957,
+        "p95": 157.22528375083957
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1880.0,
+        "median": 1880.0,
+        "p95": 1880.0,
+        "total": 1880.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 11.035876616835594,
+        "median": 11.035876616835594,
+        "p95": 11.035876616835594,
+        "total": 11.035876616835594
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08442795649170876,
+        "median": 0.08442795649170876,
+        "p95": 0.08442795649170876
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.3307836650988,
+        "median": 157.3307836650988,
+        "p95": 157.3307836650988
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1723.0,
+        "median": 1723.0,
+        "p95": 1723.0,
+        "total": 1723.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 12.358468856662512,
+        "median": 12.358468856662512,
+        "p95": 12.358468856662512,
+        "total": 12.358468856662512
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.0867440514266491,
+        "median": 0.0867440514266491,
+        "p95": 0.0867440514266491
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.27210564374332,
+        "median": 157.27210564374332,
+        "p95": 157.27210564374332
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1930.0,
+        "median": 1930.0,
+        "p95": 1930.0,
+        "total": 1930.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 10.61625050380826,
+        "median": 10.61625050380826,
+        "p95": 10.61625050380826,
+        "total": 10.61625050380826
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.0831160806119442,
+        "median": 0.0831160806119442,
+        "p95": 0.0831160806119442
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.4080357646166,
+        "median": 157.4080357646166,
+        "p95": 157.4080357646166
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1658.0,
+        "median": 1658.0,
+        "p95": 1658.0,
+        "total": 1658.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.7,
+        "median": 0.7,
+        "p95": 0.7
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 17.09511425346136,
+        "median": 17.09511425346136,
+        "p95": 17.09511425346136,
+        "total": 17.09511425346136
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08501026406884193,
+        "median": 0.08501026406884193,
+        "p95": 0.08501026406884193
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 156.906742114239,
+        "median": 156.906742114239,
+        "p95": 156.906742114239
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2669.0,
+        "median": 2669.0,
+        "p95": 2669.0,
+        "total": 2669.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 7.828229397535324,
+        "median": 7.828229397535324,
+        "p95": 7.828229397535324,
+        "total": 7.828229397535324
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08265787735581398,
+        "median": 0.08265787735581398,
+        "p95": 0.08265787735581398
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.63846435591395,
+        "median": 157.63846435591395,
+        "p95": 157.63846435591395
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1221.0,
+        "median": 1221.0,
+        "p95": 1221.0,
+        "total": 1221.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 8.966066438704729,
+        "median": 8.966066438704729,
+        "p95": 8.966066438704729,
+        "total": 8.966066438704729
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.0847877711057663,
+        "median": 0.0847877711057663,
+        "p95": 0.0847877711057663
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.52236275435067,
+        "median": 157.52236275435067,
+        "p95": 157.52236275435067
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1399.0,
+        "median": 1399.0,
+        "p95": 1399.0,
+        "total": 1399.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 5.1229436956346035,
+        "median": 5.1229436956346035,
+        "p95": 5.1229436956346035,
+        "total": 5.1229436956346035
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08496171981096268,
+        "median": 0.08496171981096268,
+        "p95": 0.08496171981096268
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.99977130125896,
+        "median": 157.99977130125896,
+        "p95": 157.99977130125896
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 796.0,
+        "median": 796.0,
+        "p95": 796.0,
+        "total": 796.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.2,
+        "median": 0.2,
+        "p95": 0.2
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 15.718270879238844,
+        "median": 15.718270879238844,
+        "p95": 15.718270879238844,
+        "total": 15.718270879238844
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08385573700070381,
+        "median": 0.08385573700070381,
+        "p95": 0.08385573700070381
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.02538135676977,
+        "median": 157.02538135676977,
+        "p95": 157.02538135676977
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2455.0,
+        "median": 2455.0,
+        "p95": 2455.0,
+        "total": 2455.0
+      }
+    },
+    {
+      "model_profile": "llmjp_a3b",
+      "track": "history",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.1,
+        "median": 0.1,
+        "p95": 0.1
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 11.160511188209057,
+        "median": 11.160511188209057,
+        "p95": 11.160511188209057,
+        "total": 11.160511188209057
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.08353262394666672,
+        "median": 0.08353262394666672,
+        "p95": 0.08353262394666672
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 157.35337844052833,
+        "median": 157.35337844052833,
+        "p95": 157.35337844052833
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1743.0,
+        "median": 1743.0,
+        "p95": 1743.0,
+        "total": 1743.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 26.17041051760316,
+        "median": 26.17041051760316,
+        "p95": 26.17041051760316,
+        "total": 26.17041051760316
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.4168667681515217,
+        "median": 0.4168667681515217,
+        "p95": 0.4168667681515217
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 66.55394755280992,
+        "median": 66.55394755280992,
+        "p95": 66.55394755280992
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1714.0,
+        "median": 1714.0,
+        "p95": 1714.0,
+        "total": 1714.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 21.92711890488863,
+        "median": 21.92711890488863,
+        "p95": 21.92711890488863,
+        "total": 21.92711890488863
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.38876480981707573,
+        "median": 0.38876480981707573,
+        "p95": 0.38876480981707573
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 65.09318185649146,
+        "median": 65.09318185649146,
+        "p95": 65.09318185649146
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1402.0,
+        "median": 1402.0,
+        "p95": 1402.0,
+        "total": 1402.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 6,
+      "successful_runs": 6,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 6
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 6,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 6,
+        "mean": 70.85513683594763,
+        "median": 72.17836659401655,
+        "p95": 82.25256763771176,
+        "total": 425.1308210156858
+      },
+      "ttft_s": {
+        "n": 6,
+        "mean": 0.46955991474290687,
+        "median": 0.4815245755016804,
+        "p95": 0.6355781443417072
+      },
+      "output_tokens_per_s": {
+        "n": 6,
+        "mean": 63.60763910169965,
+        "median": 63.59867814604843,
+        "p95": 65.12488087825476
+      },
+      "completion_tokens": {
+        "n": 6,
+        "mean": 4481.0,
+        "median": 4645.0,
+        "p95": 5244.0,
+        "total": 26886.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 6,
+      "successful_runs": 6,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 6
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 6,
+        "mean": 0.8333333333333334,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 6,
+        "mean": 102.75398758798838,
+        "median": 88.03516076877713,
+        "p95": 155.01085059344769,
+        "total": 616.5239255279303
+      },
+      "ttft_s": {
+        "n": 6,
+        "mean": 0.46429620931545895,
+        "median": 0.4811085890978575,
+        "p95": 0.6060855127871037
+      },
+      "output_tokens_per_s": {
+        "n": 6,
+        "mean": 63.03828190304743,
+        "median": 63.3454678232235,
+        "p95": 64.14139210888207
+      },
+      "completion_tokens": {
+        "n": 6,
+        "mean": 6419.833333333333,
+        "median": 5581.5,
+        "p95": 9641.0,
+        "total": 38519.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 44.35077702999115,
+        "median": 44.35077702999115,
+        "p95": 44.35077702999115,
+        "total": 44.35077702999115
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.30428675934672356,
+        "median": 0.30428675934672356,
+        "p95": 0.30428675934672356
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 63.38757033408354,
+        "median": 63.38757033408354,
+        "p95": 63.38757033408354
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2792.0,
+        "median": 2792.0,
+        "p95": 2792.0,
+        "total": 2792.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 38.99604120105505,
+        "median": 38.99604120105505,
+        "p95": 38.99604120105505,
+        "total": 38.99604120105505
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.30406153574585915,
+        "median": 0.30406153574585915,
+        "p95": 0.30406153574585915
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 67.01647272715941,
+        "median": 67.01647272715941,
+        "p95": 67.01647272715941
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2593.0,
+        "median": 2593.0,
+        "p95": 2593.0,
+        "total": 2593.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 48.86834470555186,
+        "median": 48.86834470555186,
+        "p95": 48.86834470555186,
+        "total": 48.86834470555186
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.5273257456719875,
+        "median": 0.5273257456719875,
+        "p95": 0.5273257456719875
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 62.017724584749836,
+        "median": 62.017724584749836,
+        "p95": 62.017724584749836
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2998.0,
+        "median": 2998.0,
+        "p95": 2998.0,
+        "total": 2998.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 160.78791772574186,
+        "median": 160.78791772574186,
+        "p95": 160.78791772574186,
+        "total": 160.78791772574186
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.5274622924625874,
+        "median": 0.5274622924625874,
+        "p95": 0.5274622924625874
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 59.50937787001678,
+        "median": 59.50937787001678,
+        "p95": 59.50937787001678
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 9537.0,
+        "median": 9537.0,
+        "p95": 9537.0,
+        "total": 9537.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 57.872812546789646,
+        "median": 57.872812546789646,
+        "p95": 57.872812546789646,
+        "total": 57.872812546789646
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.6312477290630341,
+        "median": 0.6312477290630341,
+        "p95": 0.6312477290630341
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 64.48111633134404,
+        "median": 64.48111633134404,
+        "p95": 64.48111633134404
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 3691.0,
+        "median": 3691.0,
+        "p95": 3691.0,
+        "total": 3691.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 56.47847544029355,
+        "median": 56.47847544029355,
+        "p95": 56.47847544029355,
+        "total": 56.47847544029355
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.6115787029266357,
+        "median": 0.6115787029266357,
+        "p95": 0.6115787029266357
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 66.46154013986134,
+        "median": 66.46154013986134,
+        "p95": 66.46154013986134
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 3713.0,
+        "median": 3713.0,
+        "p95": 3713.0,
+        "total": 3713.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 11.65823346376419,
+        "median": 11.65823346376419,
+        "p95": 11.65823346376419,
+        "total": 11.65823346376419
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.5322809666395187,
+        "median": 0.5322809666395187,
+        "p95": 0.5322809666395187
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 64.084400880218,
+        "median": 64.084400880218,
+        "p95": 64.084400880218
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 713.0,
+        "median": 713.0,
+        "p95": 713.0,
+        "total": 713.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 46.127001628279686,
+        "median": 46.127001628279686,
+        "p95": 46.127001628279686,
+        "total": 46.127001628279686
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.5559513978660107,
+        "median": 0.5559513978660107,
+        "p95": 0.5559513978660107
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 61.81556022423994,
+        "median": 61.81556022423994,
+        "p95": 61.81556022423994
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2817.0,
+        "median": 2817.0,
+        "p95": 2817.0,
+        "total": 2817.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 23.400692269206047,
+        "median": 23.400692269206047,
+        "p95": 23.400692269206047,
+        "total": 23.400692269206047
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3358052298426628,
+        "median": 0.3358052298426628,
+        "p95": 0.3358052298426628
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 66.98493677264693,
+        "median": 66.98493677264693,
+        "p95": 66.98493677264693
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1545.0,
+        "median": 1545.0,
+        "p95": 1545.0,
+        "total": 1545.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "anomaly",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 1,
+        "mean": 0.6666666666666666,
+        "median": 0.6666666666666666,
+        "p95": 0.6666666666666666
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 26.30096561461687,
+        "median": 26.30096561461687,
+        "p95": 26.30096561461687,
+        "total": 26.30096561461687
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.3373642563819885,
+        "median": 0.3373642563819885,
+        "p95": 0.3373642563819885
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 66.86283524567337,
+        "median": 66.86283524567337,
+        "p95": 66.86283524567337
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 1736.0,
+        "median": 1736.0,
+        "p95": 1736.0,
+        "total": 1736.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 5.357101429253817,
+        "median": 5.399868899956346,
+        "p95": 7.508908577263355,
+        "total": 42.85681143403053
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11540732579305768,
+        "median": 0.11907381564378738,
+        "p95": 0.12017296627163887
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 67.80435302757526,
+        "median": 66.95567982394053,
+        "p95": 75.52368191877635
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 353.375,
+        "median": 358.0,
+        "p95": 480.0,
+        "total": 2827.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.099666065070778,
+        "median": 5.90175431035459,
+        "p95": 10.28298244252801,
+        "total": 48.797328520566225
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11539023648947477,
+        "median": 0.11752174980938435,
+        "p95": 0.11883023381233215
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 67.55280172211917,
+        "median": 68.0533389280816,
+        "p95": 73.11627679528267
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 402.375,
+        "median": 382.5,
+        "p95": 664.0,
+        "total": 3219.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 8.746926121413708,
+        "median": 5.881493853405118,
+        "p95": 25.938900895416737,
+        "total": 69.97540897130966
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11578547349199653,
+        "median": 0.11751650832593441,
+        "p95": 0.1206282489001751
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 75.44719678670336,
+        "median": 75.50426835362283,
+        "p95": 78.61651699524967
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 653.0,
+        "median": 440.5,
+        "p95": 1976.0,
+        "total": 5224.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 9.71295314701274,
+        "median": 6.164609681814909,
+        "p95": 27.77091294527054,
+        "total": 77.70362517610192
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.10606836248189211,
+        "median": 0.10267951712012291,
+        "p95": 0.11928440630435944
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 75.1916542886858,
+        "median": 75.53764098440958,
+        "p95": 79.44498406067245
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 728.25,
+        "median": 458.0,
+        "p95": 2197.0,
+        "total": 5826.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 53.68183768726885,
+        "median": 7.431133318692446,
+        "p95": 198.06633412837982,
+        "total": 429.4547014981508
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11603454081341624,
+        "median": 0.11755385249853134,
+        "p95": 0.12166531383991241
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 75.87998005559047,
+        "median": 76.21915165950759,
+        "p95": 80.9156405223935
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 3956.5,
+        "median": 572.5,
+        "p95": 14162.0,
+        "total": 31652.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 27.927825269754976,
+        "median": 8.335146144032478,
+        "p95": 69.08961815014482,
+        "total": 223.4226021580398
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.104556854814291,
+        "median": 0.10289709083735943,
+        "p95": 0.11828625574707985
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 76.75701697331779,
+        "median": 76.53207389805625,
+        "p95": 80.5603270265645
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 2116.75,
+        "median": 631.0,
+        "p95": 5277.0,
+        "total": 16934.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 16.062114492524415,
+        "median": 13.25282740406692,
+        "p95": 32.63900680094957,
+        "total": 128.49691594019532
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11789491027593613,
+        "median": 0.1178828552365303,
+        "p95": 0.11880229040980339
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 74.79463391083912,
+        "median": 75.0339800931304,
+        "p95": 79.05964132162337
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 1175.125,
+        "median": 986.0,
+        "p95": 2353.0,
+        "total": 9401.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 13.590165580622852,
+        "median": 13.025391770526767,
+        "p95": 21.952646907418966,
+        "total": 108.72132464498281
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.10656302655115724,
+        "median": 0.10079870373010635,
+        "p95": 0.11755818501114845
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 75.06279307234786,
+        "median": 75.26467918929714,
+        "p95": 78.02638975155526
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 1008.625,
+        "median": 948.0,
+        "p95": 1598.0,
+        "total": 8069.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 7.881268958561122,
+        "median": 8.510074593126774,
+        "p95": 13.208572033792734,
+        "total": 63.05015166848898
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.16975583182647824,
+        "median": 0.1701086014509201,
+        "p95": 0.17082281038165092
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 64.81471620249118,
+        "median": 64.2331198702158,
+        "p95": 72.29880532020358
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 498.0,
+        "median": 544.0,
+        "p95": 801.0,
+        "total": 3984.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 12.09580747783184,
+        "median": 10.846194565296173,
+        "p95": 20.43864842131734,
+        "total": 96.76645982265472
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.16969113657251,
+        "median": 0.16960282996296883,
+        "p95": 0.1704297810792923
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 63.88464649019837,
+        "median": 63.85737959011358,
+        "p95": 68.04481246146547
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 761.875,
+        "median": 684.0,
+        "p95": 1276.0,
+        "total": 6095.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.039338076487184,
+        "median": 4.538609763607383,
+        "p95": 18.267271492630243,
+        "total": 48.31470461189747
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.1124380654655397,
+        "median": 0.1161855012178421,
+        "p95": 0.11823443323373795
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 71.33053872023872,
+        "median": 69.71914525100257,
+        "p95": 77.51872788688614
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 426.0,
+        "median": 303.5,
+        "p95": 1376.0,
+        "total": 3408.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.958790681324899,
+        "median": 4.906056862324476,
+        "p95": 19.87784430384636,
+        "total": 55.670325450599194
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.10216549970209599,
+        "median": 0.10001316480338573,
+        "p95": 0.11670246347784996
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 71.79005475630576,
+        "median": 71.8951951464015,
+        "p95": 82.76655222089484
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 498.125,
+        "median": 330.0,
+        "p95": 1511.0,
+        "total": 3985.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 5.245490986853838,
+        "median": 4.108727587386966,
+        "p95": 14.010949812829494,
+        "total": 41.963927894830704
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11066425452008843,
+        "median": 0.11527000367641449,
+        "p95": 0.11997487396001816
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 78.50599302998168,
+        "median": 79.09491102124558,
+        "p95": 83.03817028924112
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 398.0,
+        "median": 318.5,
+        "p95": 1025.0,
+        "total": 3184.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 4.223589519970119,
+        "median": 3.7791000362485647,
+        "p95": 7.402274016290903,
+        "total": 33.78871615976095
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.10443247249349952,
+        "median": 0.10002890601754189,
+        "p95": 0.11833157762885094
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 78.92002024186606,
+        "median": 79.62988606105372,
+        "p95": 82.77464098762275
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 323.625,
+        "median": 284.0,
+        "p95": 545.0,
+        "total": 2589.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 65.05802229465917,
+        "median": 14.389224760234356,
+        "p95": 243.48646316677332,
+        "total": 520.4641783572733
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.1156751187518239,
+        "median": 0.11688346043229103,
+        "p95": 0.12006940320134163
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 74.01558979991145,
+        "median": 74.97716198363872,
+        "p95": 76.91592520702235
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 4719.625,
+        "median": 1082.5,
+        "p95": 17312.0,
+        "total": 37757.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 39.420182056725025,
+        "median": 18.01578453555703,
+        "p95": 91.12767286971211,
+        "total": 315.3614564538002
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.1017560213804245,
+        "median": 0.10138112306594849,
+        "p95": 0.10385126993060112
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 74.31114832482538,
+        "median": 75.64583743215867,
+        "p95": 78.79848106022119
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 2957.375,
+        "median": 1333.0,
+        "p95": 6827.0,
+        "total": 23659.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 5.313559454865754,
+        "median": 5.67551489546895,
+        "p95": 7.108621660619974,
+        "total": 42.50847563892603
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.10648326762020588,
+        "median": 0.10048366710543633,
+        "p95": 0.1176646463572979
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 75.28524883628194,
+        "median": 74.70370656411453,
+        "p95": 80.76344423439485
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 392.75,
+        "median": 413.0,
+        "p95": 566.0,
+        "total": 3142.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.326809821650386,
+        "median": 6.073285609483719,
+        "p95": 9.148717667907476,
+        "total": 50.61447857320309
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.09999323170632124,
+        "median": 0.09984469041228294,
+        "p95": 0.1011599712073803
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 76.02526198173787,
+        "median": 76.00370679730278,
+        "p95": 80.96303662183766
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 473.5,
+        "median": 456.0,
+        "p95": 692.0,
+        "total": 3788.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 1.0,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 6.294738565571606,
+        "median": 5.556533224880695,
+        "p95": 12.282391306012869,
+        "total": 50.35790852457285
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11736979568377137,
+        "median": 0.11699586361646652,
+        "p95": 0.11940952017903328
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 74.44129104095963,
+        "median": 76.04453915296942,
+        "p95": 79.70421007398869
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 464.75,
+        "median": 426.5,
+        "p95": 938.0,
+        "total": 3718.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "challenge",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 8,
+      "successful_runs": 8,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 8
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 8,
+        "mean": 0.875,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 8,
+        "mean": 10.018931664060801,
+        "median": 6.4596074018627405,
+        "p95": 35.009136877954006,
+        "total": 80.15145331248641
+      },
+      "ttft_s": {
+        "n": 8,
+        "mean": 0.11108857532963157,
+        "median": 0.10058279894292355,
+        "p95": 0.15279242396354675
+      },
+      "output_tokens_per_s": {
+        "n": 8,
+        "mean": 74.63987134124595,
+        "median": 75.40256089409313,
+        "p95": 79.50559750481314
+      },
+      "completion_tokens": {
+        "n": 8,
+        "mean": 748.25,
+        "median": 483.0,
+        "p95": 2716.0,
+        "total": 5986.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "clinical",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.7818333333333334,
+        "median": 0.8133333333333332,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 42.19878880642354,
+        "median": 38.14460187032819,
+        "p95": 82.24846350029111,
+        "total": 421.98788806423545
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.5416527893394232,
+        "median": 0.5386998225003481,
+        "p95": 0.6040662303566933
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 69.92535359945413,
+        "median": 69.98510410902173,
+        "p95": 73.80793289454931
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 2879.0,
+        "median": 2702.5,
+        "p95": 5470.0,
+        "total": 28790.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "clinical",
+      "problem_type": "clinical_structured_extraction",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.7418333333333333,
+        "median": 0.6458333333333333,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 62.695463691651824,
+        "median": 68.34403871744871,
+        "p95": 88.86275913566351,
+        "total": 626.9546369165182
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.541950099170208,
+        "median": 0.5311546456068754,
+        "p95": 0.5794225074350834
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 68.53254634626947,
+        "median": 68.13250823949767,
+        "p95": 73.9641690921584
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 4210.8,
+        "median": 4457.5,
+        "p95": 5987.0,
+        "total": 42108.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "clinical",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.7,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 12.265232898667454,
+        "median": 9.41458235308528,
+        "p95": 24.84708734601736,
+        "total": 122.65232898667455
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.6896622709929943,
+        "median": 0.6847344972193241,
+        "p95": 0.7711108662188053
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 68.3443835811463,
+        "median": 67.74986692985487,
+        "p95": 72.6565374229441
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 780.9,
+        "median": 599.5,
+        "p95": 1616.0,
+        "total": 7809.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "clinical",
+      "problem_type": "pn_ds_consistency_audit",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 10,
+      "successful_runs": 10,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 10
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "automatic"
+        ],
+        "n": 10,
+        "mean": 0.7,
+        "median": 1.0,
+        "p95": 1.0
+      },
+      "lap_wall_time_s": {
+        "n": 10,
+        "mean": 17.37371328808367,
+        "median": 16.50674150325358,
+        "p95": 33.78074923530221,
+        "total": 173.73713288083673
+      },
+      "ttft_s": {
+        "n": 10,
+        "mean": 0.688137286901474,
+        "median": 0.6857739891856909,
+        "p95": 0.7716666348278522
+      },
+      "output_tokens_per_s": {
+        "n": 10,
+        "mean": 67.18194964050726,
+        "median": 66.80961033533299,
+        "p95": 72.11415805472295
+      },
+      "completion_tokens": {
+        "n": 10,
+        "mean": 1104.7,
+        "median": 1081.0,
+        "p95": 2097.0,
+        "total": 11047.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.6,
+        "median": 0.6,
+        "p95": 0.6
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 89.26559770479798,
+        "median": 89.26559770479798,
+        "p95": 89.26559770479798,
+        "total": 89.26559770479798
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14957354217767715,
+        "median": 0.14957354217767715,
+        "p95": 0.14957354217767715
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 52.661685079623176,
+        "median": 52.661685079623176,
+        "p95": 52.661685079623176
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 4693.0,
+        "median": 4693.0,
+        "p95": 4693.0,
+        "total": 4693.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.7,
+        "median": 0.7,
+        "p95": 0.7
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 55.206423085182905,
+        "median": 55.206423085182905,
+        "p95": 55.206423085182905,
+        "total": 55.206423085182905
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14615169540047646,
+        "median": 0.14615169540047646,
+        "p95": 0.14615169540047646
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 47.166494723851415,
+        "median": 47.166494723851415,
+        "p95": 47.166494723851415
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2597.0,
+        "median": 2597.0,
+        "p95": 2597.0,
+        "total": 2597.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.1,
+        "median": 0.1,
+        "p95": 0.1
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 67.09008622542024,
+        "median": 67.09008622542024,
+        "p95": 67.09008622542024,
+        "total": 67.09008622542024
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.16746187955141068,
+        "median": 0.16746187955141068,
+        "p95": 0.16746187955141068
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 56.70728004309454,
+        "median": 56.70728004309454,
+        "p95": 56.70728004309454
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 3795.0,
+        "median": 3795.0,
+        "p95": 3795.0,
+        "total": 3795.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 57.38382702693343,
+        "median": 57.38382702693343,
+        "p95": 57.38382702693343,
+        "total": 57.38382702693343
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.16910724714398384,
+        "median": 0.16910724714398384,
+        "p95": 0.16910724714398384
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 49.847312212257684,
+        "median": 49.847312212257684,
+        "p95": 49.847312212257684
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 2852.0,
+        "median": 2852.0,
+        "p95": 2852.0,
+        "total": 2852.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 70.71313359588385,
+        "median": 70.71313359588385,
+        "p95": 70.71313359588385,
+        "total": 70.71313359588385
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14165812730789185,
+        "median": 0.14165812730789185,
+        "p95": 0.14165812730789185
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 52.92506604404381,
+        "median": 52.92506604404381,
+        "p95": 52.92506604404381
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 3735.0,
+        "median": 3735.0,
+        "p95": 3735.0,
+        "total": 3735.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 91.50486419349909,
+        "median": 91.50486419349909,
+        "p95": 91.50486419349909,
+        "total": 91.50486419349909
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.1457662470638752,
+        "median": 0.1457662470638752,
+        "p95": 0.1457662470638752
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 49.442257000483565,
+        "median": 49.442257000483565,
+        "p95": 49.442257000483565
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 4517.0,
+        "median": 4517.0,
+        "p95": 4517.0,
+        "total": 4517.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 89.38866224139929,
+        "median": 89.38866224139929,
+        "p95": 89.38866224139929,
+        "total": 89.38866224139929
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14722741767764091,
+        "median": 0.14722741767764091,
+        "p95": 0.14722741767764091
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 58.87399738000864,
+        "median": 58.87399738000864,
+        "p95": 58.87399738000864
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 5254.0,
+        "median": 5254.0,
+        "p95": 5254.0,
+        "total": 5254.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 86.17797761410475,
+        "median": 86.17797761410475,
+        "p95": 86.17797761410475,
+        "total": 86.17797761410475
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14537227898836136,
+        "median": 0.14537227898836136,
+        "p95": 0.14537227898836136
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 55.165131655763076,
+        "median": 55.165131655763076,
+        "p95": 55.165131655763076
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 4746.0,
+        "median": 4746.0,
+        "p95": 4746.0,
+        "total": 4746.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "p95": 0.3
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 57.85650709271431,
+        "median": 57.85650709271431,
+        "p95": 57.85650709271431,
+        "total": 57.85650709271431
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14684828370809555,
+        "median": 0.14684828370809555,
+        "p95": 0.14684828370809555
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 57.16547399661901,
+        "median": 57.16547399661901,
+        "p95": 57.16547399661901
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 3299.0,
+        "median": 3299.0,
+        "p95": 3299.0,
+        "total": 3299.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "p95": 0.5
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 132.0929401665926,
+        "median": 132.0929401665926,
+        "p95": 132.0929401665926,
+        "total": 132.0929401665926
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14584790915250778,
+        "median": 0.14584790915250778,
+        "p95": 0.14584790915250778
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 54.294489385354716,
+        "median": 54.294489385354716,
+        "p95": 54.294489385354716
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 7164.0,
+        "median": 7164.0,
+        "p95": 7164.0,
+        "total": 7164.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "low",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 76.75979318469763,
+        "median": 76.75979318469763,
+        "p95": 76.75979318469763,
+        "total": 76.75979318469763
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14809231087565422,
+        "median": 0.14809231087565422,
+        "p95": 0.14809231087565422
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 55.60508318456654,
+        "median": 55.60508318456654,
+        "p95": 55.60508318456654
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 4260.0,
+        "median": 4260.0,
+        "p95": 4260.0,
+        "total": 4260.0
+      }
+    },
+    {
+      "model_profile": "qwen",
+      "track": "history",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "medium",
+      "context_profile": "common",
+      "runs": 1,
+      "successful_runs": 1,
+      "errors": 0,
+      "finish_reasons": {
+        "stop": 1
+      },
+      "length_stops": 0,
+      "quality": {
+        "scale": "0..1",
+        "sources": [
+          "judge_normalized"
+        ],
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "p95": 0.4
+      },
+      "lap_wall_time_s": {
+        "n": 1,
+        "mean": 99.35368455201387,
+        "median": 99.35368455201387,
+        "p95": 99.35368455201387,
+        "total": 99.35368455201387
+      },
+      "ttft_s": {
+        "n": 1,
+        "mean": 0.14496664702892303,
+        "median": 0.14496664702892303,
+        "p95": 0.14496664702892303
+      },
+      "output_tokens_per_s": {
+        "n": 1,
+        "mean": 56.35593441853227,
+        "median": 56.35593441853227,
+        "p95": 56.35593441853227
+      },
+      "completion_tokens": {
+        "n": 1,
+        "mean": 5591.0,
+        "median": 5591.0,
+        "p95": 5591.0,
+        "total": 5591.0
+      }
+    }
+  ]
+}

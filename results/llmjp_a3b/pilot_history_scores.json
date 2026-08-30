@@ -1,0 +1,342 @@
+{
+  "summary": {
+    "track": "history",
+    "scored_rows": 12,
+    "parse_errors": 0,
+    "judge_pending": 12,
+    "finish_reasons": {
+      "stop": 12
+    },
+    "timing": {
+      "ttft_s": {
+        "n": 12,
+        "median": 0.08429493196308613,
+        "mean": 0.0843721649919947
+      },
+      "wall_time_s": {
+        "n": 12,
+        "median": 11.600948128849268,
+        "mean": 11.674265567523738
+      },
+      "output_tokens_per_s": {
+        "n": 12,
+        "median": 157.30144465442106,
+        "mean": 157.32688149588392
+      }
+    }
+  },
+  "rows": [
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-001:low:repeat1:seed42:3993c346a4ad",
+      "item_id": "HIST-KNOW-001",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 298,
+        "completion_tokens": 1930,
+        "total_tokens": 2228,
+        "ttft_s": 0.0867440514266491,
+        "wall_time_s": 12.358468856662512,
+        "output_tokens_per_s": 157.27210564374332
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-002:low:repeat1:seed42:cceda40e60e5",
+      "item_id": "HIST-KNOW-002",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 306,
+        "completion_tokens": 2455,
+        "total_tokens": 2761,
+        "ttft_s": 0.08385573700070381,
+        "wall_time_s": 15.718270879238844,
+        "output_tokens_per_s": 157.02538135676977
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-003:low:repeat1:seed42:2009937f5c93",
+      "item_id": "HIST-KNOW-003",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 353,
+        "completion_tokens": 2131,
+        "total_tokens": 2484,
+        "ttft_s": 0.08518925309181213,
+        "wall_time_s": 13.64604027941823,
+        "output_tokens_per_s": 157.14352999402277
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-004:low:repeat1:seed42:121e0e53f5b2",
+      "item_id": "HIST-KNOW-004",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 343,
+        "completion_tokens": 1399,
+        "total_tokens": 1742,
+        "ttft_s": 0.0847877711057663,
+        "wall_time_s": 8.966066438704729,
+        "output_tokens_per_s": 157.52236275435067
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-005:low:repeat1:seed42:3b7aa2396f50",
+      "item_id": "HIST-KNOW-005",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 356,
+        "completion_tokens": 2669,
+        "total_tokens": 3025,
+        "ttft_s": 0.08501026406884193,
+        "wall_time_s": 17.09511425346136,
+        "output_tokens_per_s": 156.906742114239
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-006:low:repeat1:seed42:764aafe24800",
+      "item_id": "HIST-KNOW-006",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 412,
+        "completion_tokens": 1880,
+        "total_tokens": 2292,
+        "ttft_s": 0.08402073755860329,
+        "wall_time_s": 12.041385069489479,
+        "output_tokens_per_s": 157.22528375083957
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-001:medium:repeat1:seed42:3993c346a4ad",
+      "item_id": "HIST-KNOW-001",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "medieval_dispute_and_kenka_ryoseibai",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 298,
+        "completion_tokens": 1658,
+        "total_tokens": 1956,
+        "ttft_s": 0.0831160806119442,
+        "wall_time_s": 10.61625050380826,
+        "output_tokens_per_s": 157.4080357646166
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-002:medium:repeat1:seed42:cceda40e60e5",
+      "item_id": "HIST-KNOW-002",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "yamato_river_diversion",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 306,
+        "completion_tokens": 1743,
+        "total_tokens": 2049,
+        "ttft_s": 0.08353262394666672,
+        "wall_time_s": 11.160511188209057,
+        "output_tokens_per_s": 157.35337844052833
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-003:medium:repeat1:seed42:2009937f5c93",
+      "item_id": "HIST-KNOW-003",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "arab_uprisings_2011",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 353,
+        "completion_tokens": 2265,
+        "total_tokens": 2618,
+        "ttft_s": 0.0841619074344635,
+        "wall_time_s": 14.50202963128686,
+        "output_tokens_per_s": 157.09673880922534
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-004:medium:repeat1:seed42:121e0e53f5b2",
+      "item_id": "HIST-KNOW-004",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "shinjitai_character_mergers",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 343,
+        "completion_tokens": 796,
+        "total_tokens": 1139,
+        "ttft_s": 0.08496171981096268,
+        "wall_time_s": 5.1229436956346035,
+        "output_tokens_per_s": 157.99977130125896
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-005:medium:repeat1:seed42:3b7aa2396f50",
+      "item_id": "HIST-KNOW-005",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "shinbutsu_shugo_and_meiji_separation",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 356,
+        "completion_tokens": 1221,
+        "total_tokens": 1577,
+        "ttft_s": 0.08265787735581398,
+        "wall_time_s": 7.828229397535324,
+        "output_tokens_per_s": 157.63846435591395
+      }
+    },
+    {
+      "run_key": "llmjp_a3b:common:deployment:history:HIST-KNOW-006:medium:repeat1:seed42:764aafe24800",
+      "item_id": "HIST-KNOW-006",
+      "track": "history",
+      "model": "llm-jp-4-32b-a3b-thinking-deployment",
+      "model_profile": "llmjp_a3b",
+      "problem_type": "imperial_japan_opium_policy_and_hoshi",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "nonempty": true
+        },
+        "judge_required": true,
+        "judge_rubric_id": "history_knowledge_essay_v2"
+      },
+      "metrics": {
+        "prompt_tokens": 412,
+        "completion_tokens": 1723,
+        "total_tokens": 2135,
+        "ttft_s": 0.08442795649170876,
+        "wall_time_s": 11.035876616835594,
+        "output_tokens_per_s": 157.3307836650988
+      }
+    }
+  ]
+}

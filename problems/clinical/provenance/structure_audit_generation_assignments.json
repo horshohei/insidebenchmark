@@ -1,0 +1,49 @@
+{
+  "prompt_version": "clinical_structure_audit_expansion_v1.0.0",
+  "prompt_path": "pilot/clinical/prompts/structure_audit_expansion_v1.md",
+  "prompt_sha256": "ae8cdbb79bd019c51fc3ed997c2277b5269bb3224a64002566911fb8d366a094",
+  "dispatch_path": "pilot/clinical/prompts/structure_audit_dispatch_v1.md",
+  "dispatch_sha256": "c79467f4f1bb5adcd2c5a75a706f0ff1c9c631e1dcb58739347e2d20e48c1d4b",
+  "created_at": "2026-08-28",
+  "target_counts": {
+    "clinical_structured_extraction": 10,
+    "pn_ds_consistency_audit": 10
+  },
+  "assignments": [
+    {
+      "assignment_id": "structure_audit_01_03",
+      "episode_ids": [
+        "01_118B49-50_高Ca血症",
+        "03_118C72-74_HHS"
+      ],
+      "audit_labels": {
+        "01_118B49-50_高Ca血症": "PARTIALLY_SUPPORTED",
+        "03_118C72-74_HHS": "TEMPORALLY_MISLEADING"
+      },
+      "output_path": "pilot/clinical/structure_audit_candidates/structure_audit_01_03.jsonl"
+    },
+    {
+      "assignment_id": "structure_audit_05_07",
+      "episode_ids": [
+        "05_118F61-63_術後PE",
+        "07_118F67-69_尿路感染症"
+      ],
+      "audit_labels": {
+        "05_118F61-63_術後PE": "CONTRADICTED",
+        "07_118F67-69_尿路感染症": "SUPPORTED"
+      },
+      "output_path": "pilot/clinical/structure_audit_candidates/structure_audit_05_07.jsonl"
+    },
+    {
+      "assignment_id": "structure_audit_10_qc",
+      "episode_ids": [
+        "10_118A69_胆管結石胆管炎"
+      ],
+      "audit_labels": {
+        "10_118A69_胆管結石胆管炎": "NOT_DOCUMENTED"
+      },
+      "output_path": "pilot/clinical/structure_audit_candidates/structure_audit_10_qc.jsonl",
+      "additional_check": "候補がclinical_structure_v1.0.0の全required fieldを持ち、非明示値を推測していないこと"
+    }
+  ]
+}

@@ -1,0 +1,6170 @@
+{
+  "summary": {
+    "track": "challenge",
+    "scored_rows": 160,
+    "parse_errors": 0,
+    "judge_pending": 0,
+    "finish_reasons": {
+      "stop": 160
+    },
+    "timing": {
+      "ttft_s": {
+        "n": 160,
+        "median": 0.11651579663157463,
+        "mean": 0.1159607000881806
+      },
+      "wall_time_s": {
+        "n": 160,
+        "median": 6.312199058011174,
+        "mean": 15.802755967574194
+      },
+      "output_tokens_per_s": {
+        "n": 160,
+        "median": 74.6049501085436,
+        "mean": 73.32274053016114
+      }
+    }
+  },
+  "rows": [
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP01:low:repeat1:seed42:cf14d922d297",
+      "item_id": "CJP01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 225,
+        "completion_tokens": 364,
+        "total_tokens": 589,
+        "ttft_s": 0.08879060298204422,
+        "wall_time_s": 5.672627657651901,
+        "output_tokens_per_s": 65.18814865766555
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP02:low:repeat1:seed42:80aa18cb43b0",
+      "item_id": "CJP02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 199,
+        "completion_tokens": 480,
+        "total_tokens": 679,
+        "ttft_s": 0.11991025507450104,
+        "wall_time_s": 7.508908577263355,
+        "output_tokens_per_s": 64.96144390215653
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP03:low:repeat1:seed42:eb6db9059adb",
+      "item_id": "CJP03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 194,
+        "completion_tokens": 293,
+        "total_tokens": 487,
+        "ttft_s": 0.11971613392233849,
+        "wall_time_s": 4.410197056829929,
+        "output_tokens_per_s": 68.29071268808686
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP04:low:repeat1:seed42:766b5d95804e",
+      "item_id": "CJP04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 194,
+        "completion_tokens": 421,
+        "total_tokens": 615,
+        "ttft_s": 0.119563989341259,
+        "wall_time_s": 6.533569481223822,
+        "output_tokens_per_s": 65.63761140098947
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP05:low:repeat1:seed42:e5ca7e7f21c8",
+      "item_id": "CJP05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 198,
+        "completion_tokens": 354,
+        "total_tokens": 552,
+        "ttft_s": 0.11836900934576988,
+        "wall_time_s": 5.330444328486919,
+        "output_tokens_per_s": 67.91920268303652
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP06:low:repeat1:seed42:17336d9685d4",
+      "item_id": "CJP06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 152,
+        "completion_tokens": 200,
+        "total_tokens": 352,
+        "ttft_s": 0.11858364194631577,
+        "wall_time_s": 3.020420338958502,
+        "output_tokens_per_s": 68.9218660050463
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP07:low:repeat1:seed42:7005e6a8ca13",
+      "item_id": "CJP07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 161,
+        "completion_tokens": 362,
+        "total_tokens": 523,
+        "ttft_s": 0.11815200746059418,
+        "wall_time_s": 4.911350522190332,
+        "output_tokens_per_s": 75.52368191877635
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP08:low:repeat1:seed42:794ff804fd8b",
+      "item_id": "CJP08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 175,
+        "completion_tokens": 353,
+        "total_tokens": 528,
+        "ttft_s": 0.12017296627163887,
+        "wall_time_s": 5.469293471425772,
+        "output_tokens_per_s": 65.99215696484453
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR01:low:repeat1:seed42:926d59e66ec1",
+      "item_id": "CAR01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8670192670948242,
+            "parsed": 0.867,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 176,
+        "completion_tokens": 1976,
+        "total_tokens": 2152,
+        "ttft_s": 0.1206282489001751,
+        "wall_time_s": 25.938900895416737,
+        "output_tokens_per_s": 76.53494201776526
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR02:low:repeat1:seed42:dc83171fa9b7",
+      "item_id": "CAR02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.0,
+            "parsed": 9.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 155,
+        "completion_tokens": 459,
+        "total_tokens": 614,
+        "ttft_s": 0.1184113621711731,
+        "wall_time_s": 6.25407375022769,
+        "output_tokens_per_s": 74.80854893409303
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR03:low:repeat1:seed42:17675ae8d5bb",
+      "item_id": "CAR03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 217,
+        "completion_tokens": 769,
+        "total_tokens": 986,
+        "ttft_s": 0.11814327910542488,
+        "wall_time_s": 10.710090693086386,
+        "output_tokens_per_s": 72.6023241944111
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR04:low:repeat1:seed42:a05185102304",
+      "item_id": "CAR04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.16210000000000002,
+            "parsed": 0.1621,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 146,
+        "completion_tokens": 342,
+        "total_tokens": 488,
+        "ttft_s": 0.11681994423270226,
+        "wall_time_s": 4.631396144628525,
+        "output_tokens_per_s": 75.75461899834909
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR05:low:repeat1:seed42:40add3847ab7",
+      "item_id": "CAR05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 16.0,
+            "parsed": 16.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 151,
+        "completion_tokens": 326,
+        "total_tokens": 477,
+        "ttft_s": 0.11742255464196205,
+        "wall_time_s": 4.449422933161259,
+        "output_tokens_per_s": 75.25391770889658
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR06:low:repeat1:seed42:7f70a2c53a63",
+      "item_id": "CAR06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 124,
+        "completion_tokens": 357,
+        "total_tokens": 481,
+        "ttft_s": 0.10045482963323593,
+        "wall_time_s": 5.0764554142951965,
+        "output_tokens_per_s": 71.74436456065095
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR07:low:repeat1:seed42:ce396ceb1d83",
+      "item_id": "CAR07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 134,
+        "completion_tokens": 422,
+        "total_tokens": 556,
+        "ttft_s": 0.11679310724139214,
+        "wall_time_s": 5.508913956582546,
+        "output_tokens_per_s": 78.26234088421123
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR08:low:repeat1:seed42:f4fa275f0b4f",
+      "item_id": "CAR08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.3333333333333333,
+            "parsed": 0.3333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 143,
+        "completion_tokens": 573,
+        "total_tokens": 716,
+        "ttft_s": 0.11761046200990677,
+        "wall_time_s": 7.4061551839113235,
+        "output_tokens_per_s": 78.61651699524967
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS01:low:repeat1:seed42:f9c88e85c2f6",
+      "item_id": "CMS01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 148,
+        "completion_tokens": 480,
+        "total_tokens": 628,
+        "ttft_s": 0.1176646463572979,
+        "wall_time_s": 6.064968064427376,
+        "output_tokens_per_s": 80.70884672565802
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS02:low:repeat1:seed42:91d36e198ef3",
+      "item_id": "CMS02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 13.0,
+            "parsed": 13.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 111,
+        "completion_tokens": 214,
+        "total_tokens": 325,
+        "ttft_s": 0.09986162930727005,
+        "wall_time_s": 2.814428336918354,
+        "output_tokens_per_s": 78.83394406922778
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS03:low:repeat1:seed42:f218afc7aa41",
+      "item_id": "CMS03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.375,
+            "parsed": 0.375,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 133,
+        "completion_tokens": 354,
+        "total_tokens": 487,
+        "ttft_s": 0.11700300499796867,
+        "wall_time_s": 4.999671310186386,
+        "output_tokens_per_s": 72.50134104416489
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS04:low:repeat1:seed42:06e5427010c9",
+      "item_id": "CMS04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 157.0,
+            "parsed": 157.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 123,
+        "completion_tokens": 566,
+        "total_tokens": 689,
+        "ttft_s": 0.10050053149461746,
+        "wall_time_s": 7.108621660619974,
+        "output_tokens_per_s": 80.76344423439485
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS05:low:repeat1:seed42:574bbd0c28d8",
+      "item_id": "CMS05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 10.666666666666666,
+            "parsed": 10.67,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 109,
+        "completion_tokens": 406,
+        "total_tokens": 515,
+        "ttft_s": 0.09970946982502937,
+        "wall_time_s": 5.3985037207603455,
+        "output_tokens_per_s": 76.62120489549768
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS06:low:repeat1:seed42:eb2bc76ba045",
+      "item_id": "CMS06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5405405405405406,
+            "parsed": 0.5405,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 121,
+        "completion_tokens": 426,
+        "total_tokens": 547,
+        "ttft_s": 0.09976892918348312,
+        "wall_time_s": 5.952526070177555,
+        "output_tokens_per_s": 72.78620823273137
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS07:low:repeat1:seed42:71c259355f9b",
+      "item_id": "CMS07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 134,
+        "completion_tokens": 276,
+        "total_tokens": 410,
+        "ttft_s": 0.11689112707972527,
+        "wall_time_s": 4.0315009988844395,
+        "output_tokens_per_s": 70.50511009741015
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS08:low:repeat1:seed42:1e094bfb27a2",
+      "item_id": "CMS08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4,
+            "parsed": 0.4,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 116,
+        "completion_tokens": 420,
+        "total_tokens": 536,
+        "ttft_s": 0.10046680271625519,
+        "wall_time_s": 6.138255476951599,
+        "output_tokens_per_s": 69.56189139117078
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD01:low:repeat1:seed42:82bb158530fb",
+      "item_id": "CCD01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "2",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "-1",
+                "expected": "-1"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 173,
+        "completion_tokens": 1144,
+        "total_tokens": 1317,
+        "ttft_s": 0.11869616433978081,
+        "wall_time_s": 15.496862150728703,
+        "output_tokens_per_s": 74.39118559472854
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD02:low:repeat1:seed42:7642b39f5d04",
+      "item_id": "CCD02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "17",
+                "expected": "17"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "18",
+                "expected": "18"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "120",
+                "expected": "120"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 157,
+        "completion_tokens": 890,
+        "total_tokens": 1047,
+        "ttft_s": 0.11762368306517601,
+        "wall_time_s": 12.370284035801888,
+        "output_tokens_per_s": 72.63728646499311
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD03:low:repeat1:seed42:16dc5d17e77d",
+      "item_id": "CCD03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "'BANC'",
+                "expected": "'BANC'"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "'abc'",
+                "expected": "'abc'"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "''",
+                "expected": "''"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "'baa'",
+                "expected": "'baa'"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 149,
+        "completion_tokens": 695,
+        "total_tokens": 844,
+        "ttft_s": 0.11714116856455803,
+        "wall_time_s": 9.300936378538609,
+        "output_tokens_per_s": 75.67677459153226
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD04:low:repeat1:seed42:ff8d0258907c",
+      "item_id": "CCD04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "'accaccacc'",
+                "expected": "'accaccacc'"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "'abcabccdcdcdef'",
+                "expected": "'abcabccdcdcdef'"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "'xxxxxxxxxx'",
+                "expected": "'xxxxxxxxxx'"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "'abccbccbccabccbccbcc'",
+                "expected": "'abccbccbccabccbccbcc'"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 161,
+        "completion_tokens": 586,
+        "total_tokens": 747,
+        "ttft_s": 0.11783137917518616,
+        "wall_time_s": 7.730022873729467,
+        "output_tokens_per_s": 76.98177330657289
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD05:low:repeat1:seed42:8d2bc2c1c90b",
+      "item_id": "CCD05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 3,
+            "total_tests": 3,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "[1, 1, 2, 3, 1]",
+                "expected": "[1, 1, 2, 3, 1]"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "[1, 1, 1]",
+                "expected": "[1, 1, 1]"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "[1, 2, 1, 1]",
+                "expected": "[1, 2, 1, 1]"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 162,
+        "completion_tokens": 2353,
+        "total_tokens": 2515,
+        "ttft_s": 0.11880229040980339,
+        "wall_time_s": 32.63900680094957,
+        "output_tokens_per_s": 72.35501853124555
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD06:low:repeat1:seed42:23da0e042507",
+      "item_id": "CCD06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 142,
+        "completion_tokens": 1884,
+        "total_tokens": 2026,
+        "ttft_s": 0.1183089055120945,
+        "wall_time_s": 27.004962045699358,
+        "output_tokens_per_s": 70.0719420218205
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD07:low:repeat1:seed42:5ae26a3fcc6f",
+      "item_id": "CCD07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "7",
+                "expected": "7"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "11",
+                "expected": "11"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 149,
+        "completion_tokens": 767,
+        "total_tokens": 916,
+        "ttft_s": 0.11793433129787445,
+        "wall_time_s": 9.819470882415771,
+        "output_tokens_per_s": 79.05964132162337
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD08:low:repeat1:seed42:1feae0f853e3",
+      "item_id": "CCD08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "2",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "3",
+                "expected": "3"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 143,
+        "completion_tokens": 1082,
+        "total_tokens": 1225,
+        "ttft_s": 0.11682135984301567,
+        "wall_time_s": 14.135370772331953,
+        "output_tokens_per_s": 77.18344945419679
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH01:low:repeat1:seed42:ff10f557ab18",
+      "item_id": "CPH01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.853923814662527,
+            "parsed": 4.8539,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 164,
+        "completion_tokens": 938,
+        "total_tokens": 1102,
+        "ttft_s": 0.1179746761918068,
+        "wall_time_s": 12.282391306012869,
+        "output_tokens_per_s": 77.11015074084962
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH02:low:repeat1:seed42:72557bcbcd65",
+      "item_id": "CPH02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.6666666666666665,
+            "parsed": 0.6667,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 146,
+        "completion_tokens": 401,
+        "total_tokens": 547,
+        "ttft_s": 0.1170978955924511,
+        "wall_time_s": 5.465267214924097,
+        "output_tokens_per_s": 74.97892756508922
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH03:low:repeat1:seed42:475262a29f07",
+      "item_id": "CPH03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 131,
+        "completion_tokens": 478,
+        "total_tokens": 609,
+        "ttft_s": 0.1165114976465702,
+        "wall_time_s": 6.802079204469919,
+        "output_tokens_per_s": 71.49729401620584
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH04:low:repeat1:seed42:c6711273c6f3",
+      "item_id": "CPH04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": 0.4472,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 131,
+        "completion_tokens": 423,
+        "total_tokens": 554,
+        "ttft_s": 0.11658443510532379,
+        "wall_time_s": 5.601225480437279,
+        "output_tokens_per_s": 77.1244638443605
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH05:low:repeat1:seed42:359ff1997979",
+      "item_id": "CPH05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 5.217391304347826,
+            "parsed": 5.217,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 183,
+        "completion_tokens": 586,
+        "total_tokens": 769,
+        "ttft_s": 0.11940952017903328,
+        "wall_time_s": 7.6897802874445915,
+        "output_tokens_per_s": 77.40704095153123
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH06:low:repeat1:seed42:47d1d93685c0",
+      "item_id": "CPH06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": 0.4472,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 144,
+        "completion_tokens": 430,
+        "total_tokens": 574,
+        "ttft_s": 0.11689383164048195,
+        "wall_time_s": 5.511840969324112,
+        "output_tokens_per_s": 79.70421007398869
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH07:low:repeat1:seed42:7ec68f417aed",
+      "item_id": "CPH07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 135,
+        "completion_tokens": 177,
+        "total_tokens": 312,
+        "ttft_s": 0.11673400923609734,
+        "wall_time_s": 2.6030450500547886,
+        "output_tokens_per_s": 71.18980573794883
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH08:low:repeat1:seed42:1cd4c5358836",
+      "item_id": "CPH08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 147,
+        "completion_tokens": 285,
+        "total_tokens": 432,
+        "ttft_s": 0.11775249987840652,
+        "wall_time_s": 4.402279011905193,
+        "output_tokens_per_s": 66.5184353977031
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH01:low:repeat1:seed42:9d1f36871fb7",
+      "item_id": "CCH01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8333333333333333,
+            "parsed": 0.8333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 137,
+        "completion_tokens": 545,
+        "total_tokens": 682,
+        "ttft_s": 0.11772982031106949,
+        "wall_time_s": 6.853911705315113,
+        "output_tokens_per_s": 80.90636644079763
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH02:low:repeat1:seed42:aba55998f681",
+      "item_id": "CCH02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.241962407465936,
+            "parsed": 9.242,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 129,
+        "completion_tokens": 600,
+        "total_tokens": 729,
+        "ttft_s": 0.11623697727918625,
+        "wall_time_s": 8.008354932069778,
+        "output_tokens_per_s": 76.02521952117989
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH03:low:repeat1:seed42:bd73d0991d00",
+      "item_id": "CCH03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.2857142857142857,
+            "parsed": 0.2857,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 152,
+        "completion_tokens": 246,
+        "total_tokens": 398,
+        "ttft_s": 0.11790687218308449,
+        "wall_time_s": 3.1581102050840855,
+        "output_tokens_per_s": 80.9156405223935
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH04:low:repeat1:seed42:de80e291182e",
+      "item_id": "CCH04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 20.4987335498206,
+            "parsed": 20.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 193,
+        "completion_tokens": 6551,
+        "total_tokens": 6744,
+        "ttft_s": 0.1173778846859932,
+        "wall_time_s": 85.84876934811473,
+        "output_tokens_per_s": 76.41308379783528
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH05:low:repeat1:seed42:726942c1ceb4",
+      "item_id": "CCH05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 38.952948456358676,
+            "parsed": 38.95,
+            "atol": 0.001,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 149,
+        "completion_tokens": 14162,
+        "total_tokens": 14311,
+        "ttft_s": 0.117876086384058,
+        "wall_time_s": 198.06633412837982,
+        "output_tokens_per_s": 71.54387632054936
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH06:low:repeat1:seed42:dc79cd7f8f74",
+      "item_id": "CCH06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.124767650803168e-06,
+            "parsed": 9.125e-06,
+            "atol": 1e-09,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 155,
+        "completion_tokens": 9258,
+        "total_tokens": 9413,
+        "ttft_s": 0.12166531383991241,
+        "wall_time_s": 123.34510241448879,
+        "output_tokens_per_s": 75.13181110536681
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH07:low:repeat1:seed42:4aeb099709b5",
+      "item_id": "CCH07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 126,
+        "completion_tokens": 127,
+        "total_tokens": 253,
+        "ttft_s": 0.10373663529753685,
+        "wall_time_s": 1.9434958510100842,
+        "output_tokens_per_s": 69.03077256814409
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH08:low:repeat1:seed42:81d14842cf4c",
+      "item_id": "CCH08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.25,
+            "parsed": 0.25,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 130,
+        "completion_tokens": 163,
+        "total_tokens": 293,
+        "ttft_s": 0.11574673652648926,
+        "wall_time_s": 2.2306229136884212,
+        "output_tokens_per_s": 77.07307016845715
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI01:low:repeat1:seed42:e41ccd79248e",
+      "item_id": "CLI01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.0021436227224008574,
+            "parsed": 0.002144,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 130,
+        "completion_tokens": 717,
+        "total_tokens": 847,
+        "ttft_s": 0.11618250608444214,
+        "wall_time_s": 9.578272752463818,
+        "output_tokens_per_s": 75.77606864131916
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI02:low:repeat1:seed42:5f4f482ddb5f",
+      "item_id": "CLI02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.1836734693877551,
+            "parsed": 0.1837,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 152,
+        "completion_tokens": 911,
+        "total_tokens": 1063,
+        "ttft_s": 0.11783955246210098,
+        "wall_time_s": 11.999188877642155,
+        "output_tokens_per_s": 76.6747929942035
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI03:low:repeat1:seed42:7553eeeeae25",
+      "item_id": "CLI03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 11.158039270065043,
+            "parsed": 11.16,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 156,
+        "completion_tokens": 10784,
+        "total_tokens": 10940,
+        "ttft_s": 0.11708378419280052,
+        "wall_time_s": 147.39514303952456,
+        "output_tokens_per_s": 73.2220403672219
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI04:low:repeat1:seed42:b73ca4b43731",
+      "item_id": "CLI04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5310044064107188,
+            "parsed": 0.531,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 122,
+        "completion_tokens": 1254,
+        "total_tokens": 1376,
+        "ttft_s": 0.10426357388496399,
+        "wall_time_s": 16.779260642826557,
+        "output_tokens_per_s": 75.20241201935005
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI05:low:repeat1:seed42:113f0048a81e",
+      "item_id": "CLI05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.008193722065862417,
+            "parsed": 0.008194,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 134,
+        "completion_tokens": 17312,
+        "total_tokens": 17446,
+        "ttft_s": 0.11800263449549675,
+        "wall_time_s": 243.48646316677332,
+        "output_tokens_per_s": 71.13493655725335
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI06:low:repeat1:seed42:feeebad8734d",
+      "item_id": "CLI06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 34.285714285714285,
+            "parsed": 34.2857,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 156,
+        "completion_tokens": 390,
+        "total_tokens": 546,
+        "ttft_s": 0.12006940320134163,
+        "wall_time_s": 5.190540816634893,
+        "output_tokens_per_s": 76.91592520702235
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI07:low:repeat1:seed42:8397150c1a29",
+      "item_id": "CLI07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.41718835613418853,
+            "parsed": 0.4171,
+            "atol": 1e-05,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 144,
+        "completion_tokens": 6118,
+        "total_tokens": 6262,
+        "ttft_s": 0.11668313667178154,
+        "wall_time_s": 81.9607435837388,
+        "output_tokens_per_s": 74.75191194792738
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI08:low:repeat1:seed42:64cfe5c05d74",
+      "item_id": "CLI08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 133,
+        "completion_tokens": 271,
+        "total_tokens": 404,
+        "ttft_s": 0.11527635902166367,
+        "wall_time_s": 4.074565477669239,
+        "output_tokens_per_s": 68.44663066499395
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS01:low:repeat1:seed42:173bd27f383f",
+      "item_id": "CHS01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.0,
+            "parsed": 4.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 130,
+        "completion_tokens": 158,
+        "total_tokens": 288,
+        "ttft_s": 0.11552790179848671,
+        "wall_time_s": 2.1860089488327503,
+        "output_tokens_per_s": 76.31076856574835
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS02:low:repeat1:seed42:cb06fa6f1ce6",
+      "item_id": "CHS02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 152,
+        "completion_tokens": 169,
+        "total_tokens": 321,
+        "ttft_s": 0.11585090681910515,
+        "wall_time_s": 2.5082850083708763,
+        "output_tokens_per_s": 70.63935424193456
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS03:low:repeat1:seed42:1ed95e05e95c",
+      "item_id": "CHS03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 53.333333333333336,
+            "parsed": 53.33,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 124,
+        "completion_tokens": 450,
+        "total_tokens": 574,
+        "ttft_s": 0.09968060255050659,
+        "wall_time_s": 6.827457893639803,
+        "output_tokens_per_s": 66.88687519368531
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS04:low:repeat1:seed42:5f26fbbd0228",
+      "item_id": "CHS04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 101.8860946745562,
+            "parsed": 101.8861,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 117,
+        "completion_tokens": 1376,
+        "total_tokens": 1493,
+        "ttft_s": 0.0997377261519432,
+        "wall_time_s": 18.267271492630243,
+        "output_tokens_per_s": 75.7395041994592
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS05:low:repeat1:seed42:a8e08f7f476b",
+      "item_id": "CHS05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 151,
+        "completion_tokens": 257,
+        "total_tokens": 408,
+        "ttft_s": 0.11700541898608208,
+        "wall_time_s": 3.4323333017528057,
+        "output_tokens_per_s": 77.51872788688614
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS06:low:repeat1:seed42:ad68d551a807",
+      "item_id": "CHS06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 149,
+        "completion_tokens": 320,
+        "total_tokens": 469,
+        "ttft_s": 0.11694743856787682,
+        "wall_time_s": 4.768182143568993,
+        "output_tokens_per_s": 68.79893626007059
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS07:low:repeat1:seed42:f69857f9012f",
+      "item_id": "CHS07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 176,
+        "completion_tokens": 391,
+        "total_tokens": 567,
+        "ttft_s": 0.11823443323373795,
+        "wall_time_s": 6.016128439456224,
+        "output_tokens_per_s": 66.29485026137824
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS08:low:repeat1:seed42:b60ef3e4dda2",
+      "item_id": "CHS08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 143,
+        "completion_tokens": 287,
+        "total_tokens": 430,
+        "ttft_s": 0.11652009561657906,
+        "wall_time_s": 4.309037383645773,
+        "output_tokens_per_s": 68.4552931527474
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL01:low:repeat1:seed42:58d51a7b93fa",
+      "item_id": "CHL01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 486,
+        "completion_tokens": 532,
+        "total_tokens": 1018,
+        "ttft_s": 0.1678639054298401,
+        "wall_time_s": 8.739633243530989,
+        "output_tokens_per_s": 62.06419923542305
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL02:low:repeat1:seed42:f2520c107991",
+      "item_id": "CHL02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "partial",
+              "reason": "missing_claim_evidence"
+            },
+            "parsed": {
+              "status": "partial",
+              "reason": "missing_claim_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 500,
+        "completion_tokens": 801,
+        "total_tokens": 1301,
+        "ttft_s": 0.16816869005560875,
+        "wall_time_s": 13.208572033792734,
+        "output_tokens_per_s": 61.424480431020854
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL03:low:repeat1:seed42:2a1be42729b7",
+      "item_id": "CHL03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "correlation_not_causation"
+            },
+            "parsed": {
+              "status": "invalid_inference",
+              "reason": "correlation_not_causation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 473,
+        "completion_tokens": 207,
+        "total_tokens": 680,
+        "ttft_s": 0.17038870975375175,
+        "wall_time_s": 3.6374317444860935,
+        "output_tokens_per_s": 59.70505642021272
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL04:low:repeat1:seed42:c294af189935",
+      "item_id": "CHL04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 466,
+        "completion_tokens": 223,
+        "total_tokens": 689,
+        "ttft_s": 0.1698562651872635,
+        "wall_time_s": 3.6833541244268417,
+        "output_tokens_per_s": 63.46951355429703
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL05:low:repeat1:seed42:26c73a112727",
+      "item_id": "CHL05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "unverified_attribution"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "unverified_attribution"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 484,
+        "completion_tokens": 615,
+        "total_tokens": 1099,
+        "ttft_s": 0.17024623230099678,
+        "wall_time_s": 9.488454855978489,
+        "output_tokens_per_s": 65.99981013918169
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL06:low:repeat1:seed42:1d27fba5978c",
+      "item_id": "CHL06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "inconsistent_evidence"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "inconsistent_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 498,
+        "completion_tokens": 556,
+        "total_tokens": 1054,
+        "ttft_s": 0.17072907090187073,
+        "wall_time_s": 8.280515942722559,
+        "output_tokens_per_s": 68.559138333456
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL07:low:repeat1:seed42:99ccc3d6e552",
+      "item_id": "CHL07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 483,
+        "completion_tokens": 311,
+        "total_tokens": 794,
+        "ttft_s": 0.16997097060084343,
+        "wall_time_s": 4.47156348824501,
+        "output_tokens_per_s": 72.29880532020358
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL08:low:repeat1:seed42:c7e87c19fdd7",
+      "item_id": "CHL08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "unsupported_extrapolation"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "unsupported_extrapolation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 498,
+        "completion_tokens": 739,
+        "total_tokens": 1237,
+        "ttft_s": 0.17082281038165092,
+        "wall_time_s": 11.540626235306263,
+        "output_tokens_per_s": 64.99672618613457
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF01:low:repeat1:seed42:1c3783235760",
+      "item_id": "CIF01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 134,
+        "completion_tokens": 237,
+        "total_tokens": 371,
+        "ttft_s": 0.11499582231044769,
+        "wall_time_s": 3.108864288777113,
+        "output_tokens_per_s": 79.16179439897208
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF02:low:repeat1:seed42:f07ece46f10e",
+      "item_id": "CIF02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ancestors": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 5
+            },
+            "parsed": {
+              "ancestors": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 5
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 113,
+        "completion_tokens": 261,
+        "total_tokens": 374,
+        "ttft_s": 0.09955572336912155,
+        "wall_time_s": 3.5991406440734863,
+        "output_tokens_per_s": 74.5802733506659
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF03:low:repeat1:seed42:3a2142dce814",
+      "item_id": "CIF03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "allowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                false
+              ]
+            },
+            "parsed": {
+              "allowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                false
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 186,
+        "completion_tokens": 1025,
+        "total_tokens": 1211,
+        "ttft_s": 0.11997487396001816,
+        "wall_time_s": 14.010949812829494,
+        "output_tokens_per_s": 73.78891722940651
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF04:low:repeat1:seed42:a7fd94e80922",
+      "item_id": "CIF04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            },
+            "parsed": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 148,
+        "completion_tokens": 272,
+        "total_tokens": 420,
+        "ttft_s": 0.11708858981728554,
+        "wall_time_s": 3.5271443091332912,
+        "output_tokens_per_s": 79.7640925511206
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF05:low:repeat1:seed42:b2162dce2250",
+      "item_id": "CIF05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            },
+            "parsed": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 138,
+        "completion_tokens": 346,
+        "total_tokens": 484,
+        "ttft_s": 0.11554418504238129,
+        "wall_time_s": 4.4937377236783504,
+        "output_tokens_per_s": 79.02802764351908
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF06:low:repeat1:seed42:c4ceb56957ab",
+      "item_id": "CIF06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            },
+            "parsed": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 128,
+        "completion_tokens": 343,
+        "total_tokens": 471,
+        "ttft_s": 0.10110804438591003,
+        "wall_time_s": 4.248785149306059,
+        "output_tokens_per_s": 82.69689065070156
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF07:low:repeat1:seed42:677bf7f13faf",
+      "item_id": "CIF07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 159,
+        "completion_tokens": 406,
+        "total_tokens": 565,
+        "ttft_s": 0.11731819063425064,
+        "wall_time_s": 5.006635941565037,
+        "output_tokens_per_s": 83.03817028924112
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF08:low:repeat1:seed42:964d3fb19e20",
+      "item_id": "CIF08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            },
+            "parsed": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 117,
+        "completion_tokens": 294,
+        "total_tokens": 411,
+        "ttft_s": 0.09972860664129257,
+        "wall_time_s": 3.9686700254678726,
+        "output_tokens_per_s": 75.98977812622655
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP01:medium:repeat1:seed42:cf14d922d297",
+      "item_id": "CJP01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 195,
+        "completion_tokens": 360,
+        "total_tokens": 555,
+        "ttft_s": 0.11774656549096107,
+        "wall_time_s": 5.696960013359785,
+        "output_tokens_per_s": 64.5252244539084
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP02:medium:repeat1:seed42:80aa18cb43b0",
+      "item_id": "CJP02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 169,
+        "completion_tokens": 664,
+        "total_tokens": 833,
+        "ttft_s": 0.11883023381233215,
+        "wall_time_s": 10.28298244252801,
+        "output_tokens_per_s": 65.32763248376244
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP03:medium:repeat1:seed42:eb6db9059adb",
+      "item_id": "CJP03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 164,
+        "completion_tokens": 320,
+        "total_tokens": 484,
+        "ttft_s": 0.11729693412780762,
+        "wall_time_s": 4.68237641453743,
+        "output_tokens_per_s": 70.09735566997983
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP04:medium:repeat1:seed42:766b5d95804e",
+      "item_id": "CJP04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 164,
+        "completion_tokens": 424,
+        "total_tokens": 588,
+        "ttft_s": 0.1179158054292202,
+        "wall_time_s": 6.346464689821005,
+        "output_tokens_per_s": 68.0736408864845
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP05:medium:repeat1:seed42:e5ca7e7f21c8",
+      "item_id": "CJP05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 168,
+        "completion_tokens": 364,
+        "total_tokens": 532,
+        "ttft_s": 0.1187601089477539,
+        "wall_time_s": 5.469101887196302,
+        "output_tokens_per_s": 68.0330369696787
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP06:medium:repeat1:seed42:17336d9685d4",
+      "item_id": "CJP06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 122,
+        "completion_tokens": 248,
+        "total_tokens": 370,
+        "ttft_s": 0.10003280639648438,
+        "wall_time_s": 3.73646230250597,
+        "output_tokens_per_s": 68.19876482283742
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP07:medium:repeat1:seed42:7005e6a8ca13",
+      "item_id": "CJP07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 131,
+        "completion_tokens": 438,
+        "total_tokens": 569,
+        "ttft_s": 0.11609040573239326,
+        "wall_time_s": 6.106548607349396,
+        "output_tokens_per_s": 73.11627679528267
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CJP08:medium:repeat1:seed42:794ff804fd8b",
+      "item_id": "CJP08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "advanced_japanese",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 145,
+        "completion_tokens": 401,
+        "total_tokens": 546,
+        "ttft_s": 0.1164490319788456,
+        "wall_time_s": 6.476432163268328,
+        "output_tokens_per_s": 63.05048169501946
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR01:medium:repeat1:seed42:926d59e66ec1",
+      "item_id": "CAR01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8670192670948242,
+            "parsed": 0.867,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 146,
+        "completion_tokens": 2197,
+        "total_tokens": 2343,
+        "ttft_s": 0.11655532941222191,
+        "wall_time_s": 27.77091294527054,
+        "output_tokens_per_s": 79.44498406067245
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR02:medium:repeat1:seed42:dc83171fa9b7",
+      "item_id": "CAR02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.0,
+            "parsed": 9.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 125,
+        "completion_tokens": 716,
+        "total_tokens": 841,
+        "ttft_s": 0.10313839837908745,
+        "wall_time_s": 10.399824563413858,
+        "output_tokens_per_s": 69.53693533278452
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR03:medium:repeat1:seed42:17675ae8d5bb",
+      "item_id": "CAR03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 187,
+        "completion_tokens": 893,
+        "total_tokens": 1080,
+        "ttft_s": 0.11928440630435944,
+        "wall_time_s": 12.38593553006649,
+        "output_tokens_per_s": 72.7990052859774
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR04:medium:repeat1:seed42:a05185102304",
+      "item_id": "CAR04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.16210000000000002,
+            "parsed": 0.1621,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 116,
+        "completion_tokens": 360,
+        "total_tokens": 476,
+        "ttft_s": 0.10142507404088974,
+        "wall_time_s": 4.846003167331219,
+        "output_tokens_per_s": 75.87608274571421
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR05:medium:repeat1:seed42:40add3847ab7",
+      "item_id": "CAR05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 16.0,
+            "parsed": 16.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 121,
+        "completion_tokens": 337,
+        "total_tokens": 458,
+        "ttft_s": 0.10332406312227249,
+        "wall_time_s": 4.433151230216026,
+        "output_tokens_per_s": 77.83220599685035
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR06:medium:repeat1:seed42:7f70a2c53a63",
+      "item_id": "CAR06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 94,
+        "completion_tokens": 407,
+        "total_tokens": 501,
+        "ttft_s": 0.10222063586115837,
+        "wall_time_s": 5.6323366686701775,
+        "output_tokens_per_s": 73.59700910168146
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR07:medium:repeat1:seed42:ce396ceb1d83",
+      "item_id": "CAR07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 104,
+        "completion_tokens": 420,
+        "total_tokens": 524,
+        "ttft_s": 0.10153121501207352,
+        "wall_time_s": 5.538578376173973,
+        "output_tokens_per_s": 77.247812562701
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CAR08:medium:repeat1:seed42:f4fa275f0b4f",
+      "item_id": "CAR08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "analytical_reasoning",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.3333333333333333,
+            "parsed": 0.3333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 113,
+        "completion_tokens": 496,
+        "total_tokens": 609,
+        "ttft_s": 0.10106777772307396,
+        "wall_time_s": 6.6968826949596405,
+        "output_tokens_per_s": 75.19919922310494
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS01:medium:repeat1:seed42:f9c88e85c2f6",
+      "item_id": "CMS01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 118,
+        "completion_tokens": 460,
+        "total_tokens": 578,
+        "ttft_s": 0.10068672895431519,
+        "wall_time_s": 5.868637792766094,
+        "output_tokens_per_s": 79.75102335490459
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS02:medium:repeat1:seed42:91d36e198ef3",
+      "item_id": "CMS02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 13.0,
+            "parsed": 13.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 81,
+        "completion_tokens": 221,
+        "total_tokens": 302,
+        "ttft_s": 0.10092077404260635,
+        "wall_time_s": 2.8640838377177715,
+        "output_tokens_per_s": 79.9808027637925
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS03:medium:repeat1:seed42:f218afc7aa41",
+      "item_id": "CMS03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.375,
+            "parsed": 0.375,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 103,
+        "completion_tokens": 370,
+        "total_tokens": 473,
+        "ttft_s": 0.09959181025624275,
+        "wall_time_s": 5.260516703128815,
+        "output_tokens_per_s": 71.6925759781902
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS04:medium:repeat1:seed42:06e5427010c9",
+      "item_id": "CMS04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 157.0,
+            "parsed": 157.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 93,
+        "completion_tokens": 639,
+        "total_tokens": 732,
+        "ttft_s": 0.0998738557100296,
+        "wall_time_s": 7.992364387959242,
+        "output_tokens_per_s": 80.96303662183766
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS05:medium:repeat1:seed42:574bbd0c28d8",
+      "item_id": "CMS05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 10.666666666666666,
+            "parsed": 10.67,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 79,
+        "completion_tokens": 547,
+        "total_tokens": 626,
+        "ttft_s": 0.09850843995809555,
+        "wall_time_s": 7.339929975569248,
+        "output_tokens_per_s": 75.53765476985659
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS06:medium:repeat1:seed42:eb2bc76ba045",
+      "item_id": "CMS06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5405405405405406,
+            "parsed": 0.5405405405405406,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 91,
+        "completion_tokens": 692,
+        "total_tokens": 783,
+        "ttft_s": 0.09938874840736389,
+        "wall_time_s": 9.148717667907476,
+        "output_tokens_per_s": 76.469758824749
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS07:medium:repeat1:seed42:71c259355f9b",
+      "item_id": "CMS07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 104,
+        "completion_tokens": 407,
+        "total_tokens": 511,
+        "ttft_s": 0.1011599712073803,
+        "wall_time_s": 5.862294781953096,
+        "output_tokens_per_s": 70.6458038858699
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CMS08:medium:repeat1:seed42:1e094bfb27a2",
+      "item_id": "CMS08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "mathematics_statistics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4,
+            "parsed": 0.4,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 86,
+        "completion_tokens": 452,
+        "total_tokens": 538,
+        "ttft_s": 0.09981552511453629,
+        "wall_time_s": 6.2779334262013435,
+        "output_tokens_per_s": 73.16143965470255
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD01:medium:repeat1:seed42:82bb158530fb",
+      "item_id": "CCD01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "2",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "-1",
+                "expected": "-1"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 143,
+        "completion_tokens": 1115,
+        "total_tokens": 1258,
+        "ttft_s": 0.11755818501114845,
+        "wall_time_s": 15.122743524610996,
+        "output_tokens_per_s": 74.30764597471706
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD02:medium:repeat1:seed42:7642b39f5d04",
+      "item_id": "CCD02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "17",
+                "expected": "17"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "18",
+                "expected": "18"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "120",
+                "expected": "120"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 127,
+        "completion_tokens": 897,
+        "total_tokens": 1024,
+        "ttft_s": 0.10106293484568596,
+        "wall_time_s": 12.630276884883642,
+        "output_tokens_per_s": 71.59267960280003
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD03:medium:repeat1:seed42:16dc5d17e77d",
+      "item_id": "CCD03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "'BANC'",
+                "expected": "'BANC'"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "'abc'",
+                "expected": "'abc'"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "''",
+                "expected": "''"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "'baa'",
+                "expected": "'baa'"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 119,
+        "completion_tokens": 982,
+        "total_tokens": 1101,
+        "ttft_s": 0.10038698837161064,
+        "wall_time_s": 13.420506656169891,
+        "output_tokens_per_s": 73.72306139065772
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD04:medium:repeat1:seed42:ff8d0258907c",
+      "item_id": "CCD04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "'accaccacc'",
+                "expected": "'accaccacc'"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "'abcabccdcdcdef'",
+                "expected": "'abcabccdcdcdef'"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "'xxxxxxxxxx'",
+                "expected": "'xxxxxxxxxx'"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "'abccbccbccabccbccbcc'",
+                "expected": "'abccbccbccabccbccbcc'"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 131,
+        "completion_tokens": 605,
+        "total_tokens": 736,
+        "ttft_s": 0.11682533845305443,
+        "wall_time_s": 8.05419621244073,
+        "output_tokens_per_s": 76.2217124038772
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD05:medium:repeat1:seed42:8d2bc2c1c90b",
+      "item_id": "CCD05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 3,
+            "total_tests": 3,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "[1, 1, 2, 3, 1]",
+                "expected": "[1, 1, 2, 3, 1]"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "[1, 1, 1]",
+                "expected": "[1, 1, 1]"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "[1, 2, 1, 1]",
+                "expected": "[1, 2, 1, 1]"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 132,
+        "completion_tokens": 1100,
+        "total_tokens": 1232,
+        "ttft_s": 0.11591241136193275,
+        "wall_time_s": 14.371340434998274,
+        "output_tokens_per_s": 77.16358976918372
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD06:medium:repeat1:seed42:23da0e042507",
+      "item_id": "CCD06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 112,
+        "completion_tokens": 1598,
+        "total_tokens": 1710,
+        "ttft_s": 0.10000613331794739,
+        "wall_time_s": 21.952646907418966,
+        "output_tokens_per_s": 73.12617346887858
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD07:medium:repeat1:seed42:5ae26a3fcc6f",
+      "item_id": "CCD07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "5",
+                "expected": "5"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "7",
+                "expected": "7"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "11",
+                "expected": "11"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 119,
+        "completion_tokens": 858,
+        "total_tokens": 977,
+        "ttft_s": 0.10053447261452675,
+        "wall_time_s": 11.096814099699259,
+        "output_tokens_per_s": 78.02638975155526
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCD08:medium:repeat1:seed42:1feae0f853e3",
+      "item_id": "CCD08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "coding",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "python_unit_test",
+          "details": {
+            "passed_tests": 4,
+            "total_tests": 4,
+            "tests": [
+              {
+                "index": 0,
+                "ok": true,
+                "got": "2",
+                "expected": "2"
+              },
+              {
+                "index": 1,
+                "ok": true,
+                "got": "4",
+                "expected": "4"
+              },
+              {
+                "index": 2,
+                "ok": true,
+                "got": "3",
+                "expected": "3"
+              },
+              {
+                "index": 3,
+                "ok": true,
+                "got": "0",
+                "expected": "0"
+              }
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 113,
+        "completion_tokens": 914,
+        "total_tokens": 1027,
+        "ttft_s": 0.10021774843335152,
+        "wall_time_s": 12.072799924761057,
+        "output_tokens_per_s": 76.34109221711327
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH01:medium:repeat1:seed42:ff10f557ab18",
+      "item_id": "CPH01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.853923814662527,
+            "parsed": 4.854,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 134,
+        "completion_tokens": 2716,
+        "total_tokens": 2850,
+        "ttft_s": 0.11810413002967834,
+        "wall_time_s": 35.009136877954006,
+        "output_tokens_per_s": 77.84235048650359
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH02:medium:repeat1:seed42:72557bcbcd65",
+      "item_id": "CPH02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.6666666666666665,
+            "parsed": 0.6667,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 116,
+        "completion_tokens": 512,
+        "total_tokens": 628,
+        "ttft_s": 0.10080159828066826,
+        "wall_time_s": 7.108834031969309,
+        "output_tokens_per_s": 73.05902260650805
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH03:medium:repeat1:seed42:475262a29f07",
+      "item_id": "CPH03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5,
+            "parsed": 0.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 101,
+        "completion_tokens": 635,
+        "total_tokens": 736,
+        "ttft_s": 0.09943127259612083,
+        "wall_time_s": 9.463535211980343,
+        "output_tokens_per_s": 67.81214776240056
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH04:medium:repeat1:seed42:c6711273c6f3",
+      "item_id": "CPH04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": 0.2236,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 101,
+        "completion_tokens": 454,
+        "total_tokens": 555,
+        "ttft_s": 0.10009100288152695,
+        "wall_time_s": 5.810380771756172,
+        "output_tokens_per_s": 79.50559750481314
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH05:medium:repeat1:seed42:359ff1997979",
+      "item_id": "CPH05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 5.217391304347826,
+            "parsed": 5.217,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 153,
+        "completion_tokens": 559,
+        "total_tokens": 712,
+        "ttft_s": 0.11806522309780121,
+        "wall_time_s": 7.402793329209089,
+        "output_tokens_per_s": 76.73587700974659
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH06:medium:repeat1:seed42:47d1d93685c0",
+      "item_id": "CPH06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.4472135954999579,
+            "parsed": 0.4472,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 114,
+        "completion_tokens": 406,
+        "total_tokens": 520,
+        "ttft_s": 0.10036399960517883,
+        "wall_time_s": 5.213760606944561,
+        "output_tokens_per_s": 79.39927824437838
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH07:medium:repeat1:seed42:7ec68f417aed",
+      "item_id": "CPH07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 105,
+        "completion_tokens": 338,
+        "total_tokens": 443,
+        "ttft_s": 0.09905895218253136,
+        "wall_time_s": 4.662356458604336,
+        "output_tokens_per_s": 74.06924477843967
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CPH08:medium:repeat1:seed42:1cd4c5358836",
+      "item_id": "CPH08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "physics_engineering",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 117,
+        "completion_tokens": 366,
+        "total_tokens": 483,
+        "ttft_s": 0.15279242396354675,
+        "wall_time_s": 5.480656024068594,
+        "output_tokens_per_s": 68.69545233717766
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH01:medium:repeat1:seed42:9d1f36871fb7",
+      "item_id": "CCH01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.8333333333333333,
+            "parsed": 0.8333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 107,
+        "completion_tokens": 581,
+        "total_tokens": 688,
+        "ttft_s": 0.10036780312657356,
+        "wall_time_s": 7.340230587869883,
+        "output_tokens_per_s": 80.25013971595588
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH02:medium:repeat1:seed42:aba55998f681",
+      "item_id": "CCH02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.241962407465936,
+            "parsed": 9.242,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 99,
+        "completion_tokens": 681,
+        "total_tokens": 780,
+        "ttft_s": 0.10474997758865356,
+        "wall_time_s": 9.330061700195074,
+        "output_tokens_per_s": 73.8186438005368
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH03:medium:repeat1:seed42:bd73d0991d00",
+      "item_id": "CCH03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.2857142857142857,
+            "parsed": 0.2857,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 122,
+        "completion_tokens": 288,
+        "total_tokens": 410,
+        "ttft_s": 0.10156318545341492,
+        "wall_time_s": 3.737903606146574,
+        "output_tokens_per_s": 79.20050564053116
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH04:medium:repeat1:seed42:de80e291182e",
+      "item_id": "CCH04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 20.4987335498206,
+            "parsed": 20.5,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 163,
+        "completion_tokens": 5277,
+        "total_tokens": 5440,
+        "ttft_s": 0.11828625574707985,
+        "wall_time_s": 68.74892501533031,
+        "output_tokens_per_s": 76.88985699937328
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH05:medium:repeat1:seed42:726942c1ceb4",
+      "item_id": "CCH05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 38.952948456358676,
+            "parsed": 38.95,
+            "atol": 0.001,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 119,
+        "completion_tokens": 4522,
+        "total_tokens": 4641,
+        "ttft_s": 0.10270606726408005,
+        "wall_time_s": 60.695264142006636,
+        "output_tokens_per_s": 74.6296268664213
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH06:medium:repeat1:seed42:dc79cd7f8f74",
+      "item_id": "CCH06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 9.124767650803168e-06,
+            "parsed": 9.125e-06,
+            "atol": 1e-09,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 125,
+        "completion_tokens": 5255,
+        "total_tokens": 5380,
+        "ttft_s": 0.10308811441063881,
+        "wall_time_s": 69.08961815014482,
+        "output_tokens_per_s": 76.17429079673923
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH07:medium:repeat1:seed42:4aeb099709b5",
+      "item_id": "CCH07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 96,
+        "completion_tokens": 130,
+        "total_tokens": 226,
+        "ttft_s": 0.10539496690034866,
+        "wall_time_s": 1.8976889178156853,
+        "output_tokens_per_s": 72.53274494042014
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CCH08:medium:repeat1:seed42:81d14842cf4c",
+      "item_id": "CCH08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "chemistry_materials",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.25,
+            "parsed": 0.25,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 100,
+        "completion_tokens": 200,
+        "total_tokens": 300,
+        "ttft_s": 0.10029846802353859,
+        "wall_time_s": 2.5829100385308266,
+        "output_tokens_per_s": 80.5603270265645
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI01:medium:repeat1:seed42:e41ccd79248e",
+      "item_id": "CLI01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.0021436227224008574,
+            "parsed": 0.002144,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 100,
+        "completion_tokens": 955,
+        "total_tokens": 1055,
+        "ttft_s": 0.09999938681721687,
+        "wall_time_s": 12.617799885571003,
+        "output_tokens_per_s": 76.29135806207131
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI02:medium:repeat1:seed42:5f4f482ddb5f",
+      "item_id": "CLI02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.1836734693877551,
+            "parsed": 0.1837,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 122,
+        "completion_tokens": 1396,
+        "total_tokens": 1518,
+        "ttft_s": 0.10103209689259529,
+        "wall_time_s": 19.41720588877797,
+        "output_tokens_per_s": 72.27104161728201
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI03:medium:repeat1:seed42:7553eeeeae25",
+      "item_id": "CLI03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 11.158039270065043,
+            "parsed": 11.16,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 126,
+        "completion_tokens": 6827,
+        "total_tokens": 6953,
+        "ttft_s": 0.10139070078730583,
+        "wall_time_s": 91.12767286971211,
+        "output_tokens_per_s": 75.00031680224603
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI04:medium:repeat1:seed42:b73ca4b43731",
+      "item_id": "CLI04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.5310044064107188,
+            "parsed": 0.531,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 92,
+        "completion_tokens": 1270,
+        "total_tokens": 1362,
+        "ttft_s": 0.10255648195743561,
+        "wall_time_s": 16.614363182336092,
+        "output_tokens_per_s": 76.91466010021034
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI05:medium:repeat1:seed42:113f0048a81e",
+      "item_id": "CLI05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.008193722065862417,
+            "parsed": 0.008194,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 104,
+        "completion_tokens": 6162,
+        "total_tokens": 6266,
+        "ttft_s": 0.10137154534459114,
+        "wall_time_s": 80.44766043499112,
+        "output_tokens_per_s": 76.6930257160146
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI06:medium:repeat1:seed42:feeebad8734d",
+      "item_id": "CLI06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 34.285714285714285,
+            "parsed": 34.29,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 126,
+        "completion_tokens": 337,
+        "total_tokens": 463,
+        "ttft_s": 0.10385126993060112,
+        "wall_time_s": 4.380583453923464,
+        "output_tokens_per_s": 78.79848106022119
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI07:medium:repeat1:seed42:8397150c1a29",
+      "item_id": "CLI07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 0.41718835613418853,
+            "parsed": 0.4172,
+            "atol": 1e-05,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 114,
+        "completion_tokens": 6433,
+        "total_tokens": 6547,
+        "ttft_s": 0.10066425800323486,
+        "wall_time_s": 86.28530320897698,
+        "output_tokens_per_s": 74.64207169980048
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CLI08:medium:repeat1:seed42:64cfe5c05d74",
+      "item_id": "CLI08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "life_information",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "A",
+            "found_choices": [
+              "A"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 103,
+        "completion_tokens": 279,
+        "total_tokens": 382,
+        "ttft_s": 0.10318243131041527,
+        "wall_time_s": 4.470867529511452,
+        "output_tokens_per_s": 63.87823154075705
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS01:medium:repeat1:seed42:173bd27f383f",
+      "item_id": "CHS01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 4.0,
+            "parsed": 4.0,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 100,
+        "completion_tokens": 163,
+        "total_tokens": 263,
+        "ttft_s": 0.09988108649849892,
+        "wall_time_s": 2.1676615700125694,
+        "output_tokens_per_s": 78.82848363235887
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS02:medium:repeat1:seed42:cb06fa6f1ce6",
+      "item_id": "CHS02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 122,
+        "completion_tokens": 207,
+        "total_tokens": 329,
+        "ttft_s": 0.10069545358419418,
+        "wall_time_s": 3.3640214651823044,
+        "output_tokens_per_s": 63.432215863295966
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS03:medium:repeat1:seed42:1ed95e05e95c",
+      "item_id": "CHS03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 53.333333333333336,
+            "parsed": 53.3333,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 94,
+        "completion_tokens": 722,
+        "total_tokens": 816,
+        "ttft_s": 0.09955865517258644,
+        "wall_time_s": 9.873091790825129,
+        "output_tokens_per_s": 73.87297817267745
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS04:medium:repeat1:seed42:5f26fbbd0228",
+      "item_id": "CHS04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "numeric",
+          "details": {
+            "expected": 101.8860946745562,
+            "parsed": 101.8861,
+            "atol": 1e-06,
+            "rtol": 0.0005
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 87,
+        "completion_tokens": 1511,
+        "total_tokens": 1598,
+        "ttft_s": 0.09904135763645172,
+        "wall_time_s": 19.87784430384636,
+        "output_tokens_per_s": 76.39491652297106
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS05:medium:repeat1:seed42:a8e08f7f476b",
+      "item_id": "CHS05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "C",
+            "found_choices": [
+              "C"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 121,
+        "completion_tokens": 274,
+        "total_tokens": 395,
+        "ttft_s": 0.10174233093857765,
+        "wall_time_s": 3.4122583866119385,
+        "output_tokens_per_s": 82.76655222089484
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS06:medium:repeat1:seed42:ad68d551a807",
+      "item_id": "CHS06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 119,
+        "completion_tokens": 386,
+        "total_tokens": 505,
+        "ttft_s": 0.10014524310827255,
+        "wall_time_s": 5.620944544672966,
+        "output_tokens_per_s": 69.91741212012556
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS07:medium:repeat1:seed42:f69857f9012f",
+      "item_id": "CHS07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 146,
+        "completion_tokens": 462,
+        "total_tokens": 608,
+        "ttft_s": 0.11670246347784996,
+        "wall_time_s": 7.163334209471941,
+        "output_tokens_per_s": 65.56323881443647
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHS08:medium:repeat1:seed42:b60ef3e4dda2",
+      "item_id": "CHS08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "humanities_social_economics",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "choice",
+          "details": {
+            "expected": "B",
+            "found_choices": [
+              "B"
+            ]
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 113,
+        "completion_tokens": 260,
+        "total_tokens": 373,
+        "ttft_s": 0.09955740720033646,
+        "wall_time_s": 4.1911691799759865,
+        "output_tokens_per_s": 63.5446407036859
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL01:medium:repeat1:seed42:58d51a7b93fa",
+      "item_id": "CHL01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "source_not_provided"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 456,
+        "completion_tokens": 415,
+        "total_tokens": 871,
+        "ttft_s": 0.17009440064430237,
+        "wall_time_s": 7.149208515882492,
+        "output_tokens_per_s": 59.463134310111
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL02:medium:repeat1:seed42:f2520c107991",
+      "item_id": "CHL02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "partial",
+              "reason": "missing_claim_evidence"
+            },
+            "parsed": {
+              "status": "partial",
+              "reason": "missing_claim_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 470,
+        "completion_tokens": 1276,
+        "total_tokens": 1746,
+        "ttft_s": 0.1694410927593708,
+        "wall_time_s": 20.43864842131734,
+        "output_tokens_per_s": 62.95263447239995
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL03:medium:repeat1:seed42:2a1be42729b7",
+      "item_id": "CHL03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "correlation_not_causation"
+            },
+            "parsed": {
+              "status": "invalid_inference",
+              "reason": "correlation_not_causation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 443,
+        "completion_tokens": 348,
+        "total_tokens": 791,
+        "ttft_s": 0.1693280190229416,
+        "wall_time_s": 5.526570614427328,
+        "output_tokens_per_s": 64.95879060965532
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL04:medium:repeat1:seed42:c294af189935",
+      "item_id": "CHL04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "non_unique"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 436,
+        "completion_tokens": 479,
+        "total_tokens": 915,
+        "ttft_s": 0.1690288856625557,
+        "wall_time_s": 7.980446387082338,
+        "output_tokens_per_s": 61.32049655685901
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL05:medium:repeat1:seed42:26c73a112727",
+      "item_id": "CHL05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "unverified_attribution"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "unverified_attribution"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 454,
+        "completion_tokens": 1190,
+        "total_tokens": 1644,
+        "ttft_s": 0.16936537623405457,
+        "wall_time_s": 19.218469209969044,
+        "output_tokens_per_s": 62.470130373932385
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL06:medium:repeat1:seed42:1d27fba5978c",
+      "item_id": "CHL06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "inconsistent_evidence"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "inconsistent_evidence"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 468,
+        "completion_tokens": 877,
+        "total_tokens": 1345,
+        "ttft_s": 0.17007697001099586,
+        "wall_time_s": 13.711942743510008,
+        "output_tokens_per_s": 64.76212470782721
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL07:medium:repeat1:seed42:99ccc3d6e552",
+      "item_id": "CHL07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "missing_base_rate"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 453,
+        "completion_tokens": 491,
+        "total_tokens": 944,
+        "ttft_s": 0.16976456716656685,
+        "wall_time_s": 7.3855975195765495,
+        "output_tokens_per_s": 68.04481246146547
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CHL08:medium:repeat1:seed42:c7e87c19fdd7",
+      "item_id": "CHL08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "hallucination_resistance",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 0.0,
+          "passed": false,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "status": "invalid_inference",
+              "reason": "unsupported_extrapolation"
+            },
+            "parsed": {
+              "status": "insufficient_information",
+              "reason": "unsupported_extrapolation"
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 468,
+        "completion_tokens": 1019,
+        "total_tokens": 1487,
+        "ttft_s": 0.1704297810792923,
+        "wall_time_s": 15.355576410889626,
+        "output_tokens_per_s": 67.1050484293366
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF01:medium:repeat1:seed42:1c3783235760",
+      "item_id": "CIF01",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "A",
+                "C"
+              ],
+              "scores": [
+                9,
+                8,
+                8
+              ],
+              "count": 3
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 104,
+        "completion_tokens": 255,
+        "total_tokens": 359,
+        "ttft_s": 0.10371112078428268,
+        "wall_time_s": 3.23011215031147,
+        "output_tokens_per_s": 81.56343271117852
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF02:medium:repeat1:seed42:f07ece46f10e",
+      "item_id": "CIF02",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ancestors": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 5
+            },
+            "parsed": {
+              "ancestors": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "count": 5
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 83,
+        "completion_tokens": 257,
+        "total_tokens": 340,
+        "ttft_s": 0.09868011996150017,
+        "wall_time_s": 3.409826822578907,
+        "output_tokens_per_s": 77.61661535468838
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF03:medium:repeat1:seed42:3a2142dce814",
+      "item_id": "CIF03",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "allowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                false
+              ]
+            },
+            "parsed": {
+              "allowed": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  8,
+                  12
+                ],
+                [
+                  17,
+                  20
+                ]
+              ],
+              "open_left": [
+                false,
+                true,
+                true
+              ],
+              "open_right": [
+                true,
+                true,
+                false
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 156,
+        "completion_tokens": 545,
+        "total_tokens": 701,
+        "ttft_s": 0.11833157762885094,
+        "wall_time_s": 7.402274016290903,
+        "output_tokens_per_s": 74.82211791065555
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF04:medium:repeat1:seed42:a7fd94e80922",
+      "item_id": "CIF04",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            },
+            "parsed": {
+              "totals": [
+                {
+                  "user": "u1",
+                  "sum": 220
+                },
+                {
+                  "user": "u3",
+                  "sum": 90
+                },
+                {
+                  "user": "u2",
+                  "sum": 70
+                }
+              ],
+              "grand_total": 380
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 118,
+        "completion_tokens": 260,
+        "total_tokens": 378,
+        "ttft_s": 0.09998289868235588,
+        "wall_time_s": 3.319798417389393,
+        "output_tokens_per_s": 80.7499679684775
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF05:medium:repeat1:seed42:b2162dce2250",
+      "item_id": "CIF05",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            },
+            "parsed": {
+              "points": [
+                [
+                  3,
+                  3
+                ],
+                [
+                  -2,
+                  -2
+                ],
+                [
+                  -3,
+                  1
+                ]
+              ],
+              "sums": [
+                6,
+                -4,
+                -2
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 108,
+        "completion_tokens": 297,
+        "total_tokens": 405,
+        "ttft_s": 0.10007491335272789,
+        "wall_time_s": 3.825726617127657,
+        "output_tokens_per_s": 79.71759670907286
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF06:medium:repeat1:seed42:c4ceb56957ab",
+      "item_id": "CIF06",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            },
+            "parsed": {
+              "exactly_two": [
+                1,
+                2
+              ],
+              "all_three": [
+                5,
+                8
+              ],
+              "union_count": 7
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 98,
+        "completion_tokens": 300,
+        "total_tokens": 398,
+        "ttft_s": 0.09992461651563644,
+        "wall_time_s": 3.871508665382862,
+        "output_tokens_per_s": 79.54217541303457
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF07:medium:repeat1:seed42:677bf7f13faf",
+      "item_id": "CIF07",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            },
+            "parsed": {
+              "ids": [
+                "D",
+                "C",
+                "A"
+              ],
+              "ratios": [
+                1.5,
+                1.167,
+                1.143
+              ]
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 129,
+        "completion_tokens": 404,
+        "total_tokens": 533,
+        "ttft_s": 0.1162741519510746,
+        "wall_time_s": 4.9969960153102875,
+        "output_tokens_per_s": 82.77464098762275
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:challenge:CIF08:medium:repeat1:seed42:964d3fb19e20",
+      "item_id": "CIF08",
+      "track": "challenge",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "instruction_following",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "score": 1.0,
+          "passed": true,
+          "method": "json_exact",
+          "details": {
+            "expected": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            },
+            "parsed": {
+              "values": [
+                3,
+                4,
+                5
+              ],
+              "gaps": [
+                1,
+                1
+              ],
+              "median": 4
+            }
+          }
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 87,
+        "completion_tokens": 271,
+        "total_tokens": 358,
+        "ttft_s": 0.09848038107156754,
+        "wall_time_s": 3.7324734553694725,
+        "output_tokens_per_s": 74.57361488019835
+      }
+    }
+  ]
+}

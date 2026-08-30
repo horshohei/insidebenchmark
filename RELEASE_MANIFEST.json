@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_version": "pilot-0.6.0",
+  "candidate_runs": 708,
+  "history_judgments": 36,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "81fdfbede7558ebd9ee6761feb7a9e43163c1117a33f3b5378d6c35989bd73f1",
+      "size_bytes": 3043
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "b3f214a9d43b5baaf5d5e4a05e6311e8aaad3169c77699e077ef2e7cda2818c2",
+      "size_bytes": 1265
+    },
+    {
+      "path": "problems/challenge/CHALLENGE_DESIGN.md",
+      "sha256": "c5ee7a8dbb1d1fffa52c52afa51fef7ccceaeb10bdc8f00ddd8e95cd4bcd4039",
+      "size_bytes": 2234
+    },
+    {
+      "path": "problems/challenge/CHALLENGE_MANIFEST.json",
+      "sha256": "3eea7d235ce58cfd8e9b6fed207ad441105bcc81923fbc8c67e4efa68e004c4f",
+      "size_bytes": 1172
+    },
+    {
+      "path": "problems/challenge/LICENSE",
+      "sha256": "53b708b9b73bbad98dfe95c05810bcd0b88b1aef69b307343a68ab3a009f9b6b",
+      "size_bytes": 1244
+    },
+    {
+      "path": "problems/challenge/README.md",
+      "sha256": "40e630e6b0d5b7d3e4b41df745da7ed51c84e614095c297f48ff9e53227048dc",
+      "size_bytes": 399
+    },
+    {
+      "path": "problems/challenge/challenge_v1.1.0.jsonl",
+      "sha256": "0c18e8ae51d88a441ecdff33df4e071fee3bdb817481ec1694365239d3da9546",
+      "size_bytes": 72342
+    },
+    {
+      "path": "problems/clinical/README.md",
+      "sha256": "3c476754c868eb3b069a76af5e005f11c81db2d37b09ce26329817b3ab290571",
+      "size_bytes": 2399
+    },
+    {
+      "path": "problems/clinical/anomaly_detection.jsonl",
+      "sha256": "8f2a19b5f7b44bae47290c4a99c08f33898efdfe9a8d24cdc34a662b26ae1a89",
+      "size_bytes": 30231
+    },
+    {
+      "path": "problems/clinical/audit.jsonl",
+      "sha256": "401f0892a46e36019d2eb63e3a77fe4c2a3d508fcc4d051b1067d6f9070afee3",
+      "size_bytes": 11854
+    },
+    {
+      "path": "problems/clinical/episodes.jsonl",
+      "sha256": "ed2247d117d54dc86f92f2daf61ff0393a4727e1a1acb5073c71d08a88c48098",
+      "size_bytes": 2413
+    },
+    {
+      "path": "problems/clinical/provenance/anomaly_acceptance.json",
+      "sha256": "78f52095f69c39f9231013ad6f245f76e9cf81f211d0ba02ea14aa05f2216a83",
+      "size_bytes": 3377
+    },
+    {
+      "path": "problems/clinical/provenance/anomaly_generation_assignments.json",
+      "sha256": "7181f34dca6eb560059f86dcee5ca1cbc9dea4fea976a8c60857e18142b9ddd6",
+      "size_bytes": 4458
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/README.md",
+      "sha256": "f4532be0715cf980435f23c03522a17f23923259b5d0ca6354d4eed2c9e6f050",
+      "size_bytes": 847
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/anatomy_diagnosis.jsonl",
+      "sha256": "f6a1dbf730609016445684d02d49fc4c4f60e72c91d7febfbd52621bad4e0489",
+      "size_bytes": 8443
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/dose_ade.jsonl",
+      "sha256": "c29cae03f0cf109cb0e93671914b612303c8f648f9cd376659a165b8494b03d6",
+      "size_bytes": 8329
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/dose_ade.rejected.jsonl",
+      "sha256": "ae8168cfddf84f93adf87c4af7249540a072ae25b738d77b14a9d79f43f733b6",
+      "size_bytes": 1618
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/infection_treatment.jsonl",
+      "sha256": "7afe06e9608eb5797c8ebfe4b90df1d95b30823e455053b8706426d500923b62",
+      "size_bytes": 9167
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/infection_treatment.rejected.jsonl",
+      "sha256": "16ad2150405125aeb925653c8075c181ca94eeab837dde79fcf9162c99f15f53",
+      "size_bytes": 662
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/structure_audit_01_03.jsonl",
+      "sha256": "1e6d8156bf5ccb030df7cc929c6538d7326ac144995157e6ef506f7e1fc479b9",
+      "size_bytes": 8619
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/structure_audit_05_07.jsonl",
+      "sha256": "f7701f4c1bb6117beed199b8855ab9a1c5056283f4af64f3d7747a4887c72f5a",
+      "size_bytes": 6880
+    },
+    {
+      "path": "problems/clinical/provenance/candidates/structure_audit_10_qc.jsonl",
+      "sha256": "83174e532cd480cfc9932e6c1950100f1008e73718b46da2aa1cc7ac32698c5e",
+      "size_bytes": 3069
+    },
+    {
+      "path": "problems/clinical/provenance/prompts/anomaly_generation_v1.md",
+      "sha256": "e4ceda91231f2a40598be819bc46bc0c051ffceabd5e88181e1e37f64563601d",
+      "size_bytes": 7225
+    },
+    {
+      "path": "problems/clinical/provenance/prompts/structure_audit_dispatch_v1.md",
+      "sha256": "c79467f4f1bb5adcd2c5a75a706f0ff1c9c631e1dcb58739347e2d20e48c1d4b",
+      "size_bytes": 1179
+    },
+    {
+      "path": "problems/clinical/provenance/prompts/structure_audit_expansion_v1.md",
+      "sha256": "ae8cdbb79bd019c51fc3ed997c2277b5269bb3224a64002566911fb8d366a094",
+      "size_bytes": 3828
+    },
+    {
+      "path": "problems/clinical/provenance/prompts/subagent_dispatch_v1.md",
+      "sha256": "f913957c07dd2a6c5cb17a81c40b7b2c77f90e24a4a6bfd9e8393914cd800672",
+      "size_bytes": 1942
+    },
+    {
+      "path": "problems/clinical/provenance/structure_audit_acceptance.json",
+      "sha256": "12134c9d4a581598c5dac418936a69b9623c02d644b9382c4f39e1c0db961d9c",
+      "size_bytes": 3686
+    },
+    {
+      "path": "problems/clinical/provenance/structure_audit_generation_assignments.json",
+      "sha256": "526dd443c1eef8c84c975e0d5f96730c38c466fd4c5100121b5ae9b940af889f",
+      "size_bytes": 1794
+    },
+    {
+      "path": "problems/clinical/structured.jsonl",
+      "sha256": "aca505ba73a96e18502194cd4ed2f4a2afd0780556393a7d7eb76f73b687790b",
+      "size_bytes": 23577
+    },
+    {
+      "path": "problems/clinical/structured_schema.json",
+      "sha256": "cefa014a1e2e5930a761b19a72b94a4e8eaf52b50c36845a4dda3d2d7e859abd",
+      "size_bytes": 2635
+    },
+    {
+      "path": "problems/history/README.md",
+      "sha256": "8f53cd8982bd8c5aa3182369a0cce7e56f6e1b9e5ad2f10618439455430df88d",
+      "size_bytes": 1638
+    },
+    {
+      "path": "problems/history/judge_rubric.json",
+      "sha256": "95d3919f75ecfa82919248ef05e5719ec2b064643f22b8a5eeaf7a9fb0e12768",
+      "size_bytes": 635
+    },
+    {
+      "path": "problems/history/questions.jsonl",
+      "sha256": "f12afae85d0993523590eeb404dbcd02b77e11ff3fd75539781a18659fa77437",
+      "size_bytes": 45507
+    },
+    {
+      "path": "results/README.md",
+      "sha256": "ae051635379050c4f3934d6838ab8dfca0e75a82a025c99fe50d7313a29085ac",
+      "size_bytes": 813
+    },
+    {
+      "path": "results/comparison/comparison.json",
+      "sha256": "add7abf292d01904278f913d24d61d058c448efde418131dc8e4b99fea198917",
+      "size_bytes": 179129
+    },
+    {
+      "path": "results/comparison/comparison.md",
+      "sha256": "659718350228395a13b4845e94f906274d5abb2075b8caa1c19cc93f514ac56f",
+      "size_bytes": 20715
+    },
+    {
+      "path": "results/llmjp/pilot_anomaly.jsonl.gz",
+      "sha256": "258a669a3ccab43008577c14e2c190bf1fc1e88f92cff956e94f79adae581432",
+      "size_bytes": 30261
+    },
+    {
+      "path": "results/llmjp/pilot_anomaly_scores.json",
+      "sha256": "a92daa9632a0ba3eddc0a3c5c205054c65aff9c1d436ad2e24cff42627f96d98",
+      "size_bytes": 40562
+    },
+    {
+      "path": "results/llmjp/pilot_challenge.jsonl.gz",
+      "sha256": "5a6945ea9d50b3736dcc7b9ffd663ea9fe20816b735b0dfa771533d7f058cf08",
+      "size_bytes": 101052
+    },
+    {
+      "path": "results/llmjp/pilot_challenge_scores.json",
+      "sha256": "ecdc0ed60b9432700ba7c7285c28c526968fb2890386f0fdf6924c9325ef3b57",
+      "size_bytes": 171822
+    },
+    {
+      "path": "results/llmjp/pilot_clinical.jsonl.gz",
+      "sha256": "ded154580ff87262720adc75525b09ef064fa8d76140a2d7c841c8c8e5e1cf2b",
+      "size_bytes": 41319
+    },
+    {
+      "path": "results/llmjp/pilot_clinical_scores.json",
+      "sha256": "2fee6d3d1ec33ae3ecce0f6f077c8f301b528367f8d34b4d6b63cf0e9d34a4e8",
+      "size_bytes": 78710
+    },
+    {
+      "path": "results/llmjp/pilot_history.jsonl.gz",
+      "sha256": "d8dd9ece9d3510eacb5b18ffbce8aaa172ccaaca16e6315273a41b6939a061ff",
+      "size_bytes": 47046
+    },
+    {
+      "path": "results/llmjp/pilot_history_judgments.jsonl",
+      "sha256": "1e89c5df77e0678d60b4e9588ed18bf0e68f9b006b57f080e27f21ead29ddb8d",
+      "size_bytes": 21193
+    },
+    {
+      "path": "results/llmjp/pilot_history_scores.json",
+      "sha256": "2c013ce23c86d6a7cfac445cfe98649ae072021848a74720ec8d00e6ef891a08",
+      "size_bytes": 10441
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_anomaly.jsonl.gz",
+      "sha256": "7f1c77e460ed99357d500ec4a41286f42e2b3d3cac5f109245004758d0ce8861",
+      "size_bytes": 27278
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_anomaly_scores.json",
+      "sha256": "eda824ba6f6632a2e41d8d793e282f89c94c69061f27bcb9a331fe6983f706ce",
+      "size_bytes": 39515
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_challenge.jsonl.gz",
+      "sha256": "a8328e5bff3404de1cf9419b0f1059289ed200f82f496a55c0fc1036a69cdafb",
+      "size_bytes": 103265
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_challenge_scores.json",
+      "sha256": "8005554898f47c3b13c43b08e6da2041bde7f76530e36bce1b04614256329c78",
+      "size_bytes": 173571
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_clinical.jsonl.gz",
+      "sha256": "fa76bb3fc9d1796b470577b1ef463328268440c2a8cef53c1bf05d9338c31095",
+      "size_bytes": 48358
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_clinical_scores.json",
+      "sha256": "66c279b8b13c92f82ee34403f5ba06e60107efca7994076a5beec45196c73f65",
+      "size_bytes": 79416
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_history.jsonl.gz",
+      "sha256": "57848c34125e209a13ace57c093bef0307b8f6e6316b096f6419a1081e7a7a32",
+      "size_bytes": 45022
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_history_judgments.jsonl",
+      "sha256": "c90a37c753af4d21c572c8eb56c58173e5ac4334698e18c10587903dc39d604c",
+      "size_bytes": 20167
+    },
+    {
+      "path": "results/llmjp_a3b/pilot_history_scores.json",
+      "sha256": "c310abdf0aef9d19ebe910430780f39cc91353ba979fa4eac6d5920eb6ee25f5",
+      "size_bytes": 10596
+    },
+    {
+      "path": "results/qwen/pilot_anomaly.jsonl.gz",
+      "sha256": "6f80283c6bce9e697195c1c4a3896942bb7230b9310bd949505e107fc8341b60",
+      "size_bytes": 111590
+    },
+    {
+      "path": "results/qwen/pilot_anomaly_scores.json",
+      "sha256": "430846988535794ba66212a511002e1c39c5ae6c3a0a8d54c3994143e03a0296",
+      "size_bytes": 39370
+    },
+    {
+      "path": "results/qwen/pilot_challenge.jsonl.gz",
+      "sha256": "6f3c2edf2c9d0447048e620bb8112b85cdd2b282549dbdae5e5609ca23058107",
+      "size_bytes": 144330
+    },
+    {
+      "path": "results/qwen/pilot_challenge_scores.json",
+      "sha256": "b0914be812aca9649b1c3975896cfbf9ab8a20431f523b3b87635d1bc8e26aca",
+      "size_bytes": 170274
+    },
+    {
+      "path": "results/qwen/pilot_clinical.jsonl.gz",
+      "sha256": "1c413f5db0208550595994be3de7b935e5fb093aeffc105a7c7613ab11ea60a7",
+      "size_bytes": 87960
+    },
+    {
+      "path": "results/qwen/pilot_clinical_scores.json",
+      "sha256": "0c9bf456a89f86a61c227cf9029b460749c75e4fcf73cd0d405c192357a5e6e9",
+      "size_bytes": 79241
+    },
+    {
+      "path": "results/qwen/pilot_history.jsonl.gz",
+      "sha256": "10230793c28424be73639c1a3421f646a7e5340d8a0c13a2fdd28fab2ae9c3ba",
+      "size_bytes": 75213
+    },
+    {
+      "path": "results/qwen/pilot_history_judgments.jsonl",
+      "sha256": "f26b555da22d35cf51597cd8ed5756613c7ed6d478efbd179ed1e4cfc9d8bf0a",
+      "size_bytes": 20816
+    },
+    {
+      "path": "results/qwen/pilot_history_scores.json",
+      "sha256": "499b75b1c24df4ea6da7616096e69ecb5ba99983a50286ae2fd4e74549aa234f",
+      "size_bytes": 10299
+    }
+  ]
+}

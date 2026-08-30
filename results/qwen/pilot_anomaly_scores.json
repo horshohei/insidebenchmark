@@ -1,0 +1,1326 @@
+{
+  "summary": {
+    "track": "anomaly",
+    "scored_rows": 24,
+    "parse_errors": 0,
+    "judge_pending": 0,
+    "finish_reasons": {
+      "stop": 24
+    },
+    "timing": {
+      "ttft_s": {
+        "n": 24,
+        "median": 0.4811085890978575,
+        "mean": 0.46150553909440833
+      },
+      "wall_time_s": {
+        "n": 24,
+        "median": 60.977978175505996,
+        "mean": 66.85806406630824
+      },
+      "output_tokens_per_s": {
+        "n": 24,
+        "median": 63.9260930031364,
+        "mean": 63.92267460615738
+      }
+    }
+  },
+  "rows": [
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-001:low:repeat1:seed42:e19bbf67f2af",
+      "item_id": "ANOM-INF-001",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "pathogen_treatment_mismatch",
+            "gold": "pathogen_treatment_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "アシクロビル",
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "抗菌薬（例：セファロスポリン、フルオロキノロンなど大腸菌に有効な抗菌薬）",
+            "gold": "大腸菌を対象とする抗菌薬"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2005,
+        "completion_tokens": 713,
+        "total_tokens": 2718,
+        "ttft_s": 0.5322809666395187,
+        "wall_time_s": 11.65823346376419,
+        "output_tokens_per_s": 64.084400880218
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-002:low:repeat1:seed42:4c4edaf3fe00",
+      "item_id": "ANOM-INF-002",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "pathogen_treatment_mismatch",
+            "gold": "treatment_class_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "アシクロビル",
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "偽膜性腸炎はClostridium difficile（細菌）起因であり、抗ウイルス薬は適応外",
+            "gold": "抗C. difficile薬"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1260,
+        "completion_tokens": 1545,
+        "total_tokens": 2805,
+        "ttft_s": 0.3358052298426628,
+        "wall_time_s": 23.400692269206047,
+        "output_tokens_per_s": 66.98493677264693
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-003:low:repeat1:seed42:395a3bc42ad8",
+      "item_id": "ANOM-INF-003",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1687,
+        "completion_tokens": 4543,
+        "total_tokens": 6230,
+        "ttft_s": 0.48327114433050156,
+        "wall_time_s": 70.83042670786381,
+        "output_tokens_per_s": 64.57972555687823
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-004:low:repeat1:seed42:300b0751563f",
+      "item_id": "ANOM-INF-004",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2062,
+        "completion_tokens": 5244,
+        "total_tokens": 7306,
+        "ttft_s": 0.5558937713503838,
+        "wall_time_s": 82.25256763771176,
+        "output_tokens_per_s": 64.18865973146085
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN01:low:repeat1:seed42:32277d8d30eb",
+      "item_id": "ANOM-AN01",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 2,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "organ_anatomy_mismatch",
+            "gold": "organ_anatomy_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "左後腹膜ドレーン",
+            "gold": "右肺全摘術"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "右後腹膜ドレーン",
+            "gold": "右腎摘出術後"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2363,
+        "completion_tokens": 3691,
+        "total_tokens": 6054,
+        "ttft_s": 0.6312477290630341,
+        "wall_time_s": 57.872812546789646,
+        "output_tokens_per_s": 64.48111633134404
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN02:low:repeat1:seed42:a0422ae48d93",
+      "item_id": "ANOM-AN02",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "diagnosis_finding_mismatch",
+            "gold": "diagnosis_finding_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "右肺血栓塞栓症",
+            "gold": "右肺血栓塞栓症"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "右側気胸",
+            "gold": "右緊張性気胸"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1077,
+        "completion_tokens": 2792,
+        "total_tokens": 3869,
+        "ttft_s": 0.30428675934672356,
+        "wall_time_s": 44.35077702999115,
+        "output_tokens_per_s": 63.38757033408354
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN03:low:repeat1:seed42:575f1ee66fc8",
+      "item_id": "ANOM-AN03",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": true,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "organ_anatomy_mismatch",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "横隔膜下ドレーン",
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "骨盤底ドレーン",
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2366,
+        "completion_tokens": 4747,
+        "total_tokens": 7113,
+        "ttft_s": 0.6355781443417072,
+        "wall_time_s": 73.5263064801693,
+        "output_tokens_per_s": 65.12488087825476
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN04:low:repeat1:seed42:62c5c6dce785",
+      "item_id": "ANOM-AN04",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": true,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "treatment_class_mismatch",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "内服に切り替える。本日切り替え。",
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "最低5日間の注射抗凝固療法（ヘパリン）継続後に内服抗凝固薬へ移行",
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1135,
+        "completion_tokens": 3913,
+        "total_tokens": 5048,
+        "ttft_s": 0.30834681540727615,
+        "wall_time_s": 63.35553679615259,
+        "output_tokens_per_s": 62.064621772913824
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D01:low:repeat1:seed42:276f6043a526",
+      "item_id": "ANOM-D01",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "dose_frequency_route_mismatch",
+            "gold": "dose_frequency_route_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "50U/hr",
+            "gold": "インスリン50U/hr"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "0.1 U/kg/hr（通常5〜8 U/hr程度）",
+            "gold": "HHSに対する少量インスリン持続静注（成人では体重当たり約0.1単位/kg/hrを目安に調整）"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1911,
+        "completion_tokens": 2998,
+        "total_tokens": 4909,
+        "ttft_s": 0.5273257456719875,
+        "wall_time_s": 48.86834470555186,
+        "output_tokens_per_s": 62.017724584749836
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D02:low:repeat1:seed42:74f45dad8353",
+      "item_id": "ANOM-D02",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "ade_response_mismatch",
+            "gold": "ade_response_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "ケフレックスを継続",
+            "gold": "ケフレックスを継続"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "ケフレックス中止",
+            "gold": "薬疹の被疑薬であるケフレックス（セファレキシン）の中止と代替薬への変更"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1560,
+        "completion_tokens": 1714,
+        "total_tokens": 3274,
+        "ttft_s": 0.4168667681515217,
+        "wall_time_s": 26.17041051760316,
+        "output_tokens_per_s": 66.55394755280992
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D03:low:repeat1:seed42:78384fb9a046",
+      "item_id": "ANOM-D03",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": true,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "treatment_class_mismatch",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "リーバクト",
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "アミノレバン（内服製剤）",
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1664,
+        "completion_tokens": 4769,
+        "total_tokens": 6433,
+        "ttft_s": 0.4797780066728592,
+        "wall_time_s": 76.56556383892894,
+        "output_tokens_per_s": 62.67925011005424
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D04:low:repeat1:seed42:af8bd053a6c4",
+      "item_id": "ANOM-D04",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "low",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1376,
+        "completion_tokens": 3670,
+        "total_tokens": 5046,
+        "ttft_s": 0.35449160635471344,
+        "wall_time_s": 58.6004195548594,
+        "output_tokens_per_s": 63.00869656063601
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-001:medium:repeat1:seed42:e19bbf67f2af",
+      "item_id": "ANOM-INF-001",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "pathogen_treatment_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "pathogen_treatment_mismatch",
+            "gold": "pathogen_treatment_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "アシクロビル",
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "細菌性尿路感染症に対する適切な抗菌薬（セファロスポリン、フルオロキノン、アミノペニシリン等）",
+            "gold": "大腸菌を対象とする抗菌薬"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1975,
+        "completion_tokens": 2817,
+        "total_tokens": 4792,
+        "ttft_s": 0.5559513978660107,
+        "wall_time_s": 46.127001628279686,
+        "output_tokens_per_s": 61.81556022423994
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-002:medium:repeat1:seed42:4c4edaf3fe00",
+      "item_id": "ANOM-INF-002",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "treatment_class_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.6666666666666666,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "pathogen_treatment_mismatch",
+            "gold": "treatment_class_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "アシクロビル",
+            "gold": "アシクロビル"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "C. difficileは細菌感染症であり、抗ウイルス薬アシクロビルは適応外。偽膜性腸炎の第一選択はメトロニダゾール（またはバンコマイシン）",
+            "gold": "抗C. difficile薬"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1230,
+        "completion_tokens": 1736,
+        "total_tokens": 2966,
+        "ttft_s": 0.3373642563819885,
+        "wall_time_s": 26.30096561461687,
+        "output_tokens_per_s": 66.86283524567337
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-003:medium:repeat1:seed42:395a3bc42ad8",
+      "item_id": "ANOM-INF-003",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1657,
+        "completion_tokens": 6157,
+        "total_tokens": 7814,
+        "ttft_s": 0.48208169266581535,
+        "wall_time_s": 97.08659697324038,
+        "output_tokens_per_s": 63.73408098076822
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-INF-004:medium:repeat1:seed42:300b0751563f",
+      "item_id": "ANOM-INF-004",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2032,
+        "completion_tokens": 9641,
+        "total_tokens": 11673,
+        "ttft_s": 0.5556056462228298,
+        "wall_time_s": 155.01085059344769,
+        "output_tokens_per_s": 62.41937593828032
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN01:medium:repeat1:seed42:32277d8d30eb",
+      "item_id": "ANOM-AN01",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "organ_anatomy_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "organ_anatomy_mismatch",
+            "gold": "organ_anatomy_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "右肺全摘術",
+            "gold": "右肺全摘術"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "右腎全摘術",
+            "gold": "右腎摘出術後"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2333,
+        "completion_tokens": 3713,
+        "total_tokens": 6046,
+        "ttft_s": 0.6115787029266357,
+        "wall_time_s": 56.47847544029355,
+        "output_tokens_per_s": 66.46154013986134
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN02:medium:repeat1:seed42:a0422ae48d93",
+      "item_id": "ANOM-AN02",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "diagnosis_finding_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "diagnosis_finding_mismatch",
+            "gold": "diagnosis_finding_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "右肺血栓塞栓症",
+            "gold": "右肺血栓塞栓症"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "緊張性気胸（右肺気胸）",
+            "gold": "右緊張性気胸"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1047,
+        "completion_tokens": 2593,
+        "total_tokens": 3640,
+        "ttft_s": 0.30406153574585915,
+        "wall_time_s": 38.99604120105505,
+        "output_tokens_per_s": 67.01647272715941
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN03:medium:repeat1:seed42:575f1ee66fc8",
+      "item_id": "ANOM-AN03",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": true,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 1,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "organ_anatomy_mismatch",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": "横隔膜下ドレーン",
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "骨盤底ドレーン",
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 2336,
+        "completion_tokens": 9041,
+        "total_tokens": 11377,
+        "ttft_s": 0.6060855127871037,
+        "wall_time_s": 148.31022005528212,
+        "output_tokens_per_s": 61.21020259862036
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-AN04:medium:repeat1:seed42:62c5c6dce785",
+      "item_id": "ANOM-AN04",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1105,
+        "completion_tokens": 4221,
+        "total_tokens": 5326,
+        "ttft_s": 0.30759377032518387,
+        "wall_time_s": 67.35350993648171,
+        "output_tokens_per_s": 62.956854665678776
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D01:medium:repeat1:seed42:276f6043a526",
+      "item_id": "ANOM-D01",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "dose_frequency_route_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 0.0,
+          "has_anomaly": {
+            "passed": false,
+            "predicted": false,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": false,
+            "predicted": "none",
+            "gold": "dose_frequency_route_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": false,
+            "predicted": null,
+            "gold": "インスリン50U/hr"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": null,
+            "gold": "HHSに対する少量インスリン持続静注（成人では体重当たり約0.1単位/kg/hrを目安に調整）"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1881,
+        "completion_tokens": 9537,
+        "total_tokens": 11418,
+        "ttft_s": 0.5274622924625874,
+        "wall_time_s": 160.78791772574186,
+        "output_tokens_per_s": 59.50937787001678
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D02:medium:repeat1:seed42:74f45dad8353",
+      "item_id": "ANOM-D02",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "ade_response_mismatch",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": true,
+            "gold": true
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 1,
+            "predicted": 1,
+            "gold": 1
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "ade_response_mismatch",
+            "gold": "ade_response_mismatch"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": "ケフレックスを継続",
+            "gold": "ケフレックスを継続"
+          },
+          "expected_concept": {
+            "passed": false,
+            "predicted": "被疑薬（ケフレックス）の投与中止",
+            "gold": "薬疹の被疑薬であるケフレックス（セファレキシン）の中止と代替薬への変更"
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1530,
+        "completion_tokens": 1402,
+        "total_tokens": 2932,
+        "ttft_s": 0.38876480981707573,
+        "wall_time_s": 21.92711890488863,
+        "output_tokens_per_s": 65.09318185649146
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D03:medium:repeat1:seed42:78384fb9a046",
+      "item_id": "ANOM-D03",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1634,
+        "completion_tokens": 5006,
+        "total_tokens": 6640,
+        "ttft_s": 0.4801354855298996,
+        "wall_time_s": 78.98372456431389,
+        "output_tokens_per_s": 63.767785126054804
+      }
+    },
+    {
+      "run_key": "qwen:common:deployment:anomaly:ANOM-D04:medium:repeat1:seed42:af8bd053a6c4",
+      "item_id": "ANOM-D04",
+      "track": "anomaly",
+      "model": "qwen3.8-27b-deployment",
+      "model_profile": "qwen",
+      "problem_type": "clean_control",
+      "reasoning_effort": "medium",
+      "repeat": 1,
+      "finish_reason": "stop",
+      "score": {
+        "automatic": {
+          "primary_score": 1.0,
+          "has_anomaly": {
+            "passed": true,
+            "predicted": false,
+            "gold": false
+          },
+          "anomaly_sentence_ids": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "true_positive": 0,
+            "predicted": 0,
+            "gold": 0
+          },
+          "anomaly_type": {
+            "passed": true,
+            "predicted": "none",
+            "gold": "none"
+          },
+          "corrupted_entity": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "expected_concept": {
+            "passed": true,
+            "predicted": null,
+            "gold": null
+          },
+          "clinical_basis_nonempty": true
+        },
+        "judge_required": false
+      },
+      "metrics": {
+        "prompt_tokens": 1346,
+        "completion_tokens": 4453,
+        "total_tokens": 5799,
+        "ttft_s": 0.3542751483619213,
+        "wall_time_s": 69.77902340516448,
+        "output_tokens_per_s": 64.14139210888207
+      }
+    }
+  ]
+}

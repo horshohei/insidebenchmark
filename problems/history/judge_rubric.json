@@ -1,0 +1,15 @@
+{
+  "rubric_id": "history_knowledge_essay_v2",
+  "version": "2.0.0",
+  "applies_to": "historical_knowledge_essay",
+  "criterion_mode": "reference_binary",
+  "score_range": [0, 10],
+  "criteria": [],
+  "judge_instructions": [
+    "各問題のreference.binary_criteria 10項目を独立に0/1判定する",
+    "候補回答に正確かつ明示的に記述された内容だけを1とする",
+    "文章表現、長さ、項目外の知識、採点者による好意的補完は加点しない",
+    "同じ記述が複数項目を実際に満たす場合は各項目を独立に判定してよい"
+  ],
+  "critical_error_caps": []
+}

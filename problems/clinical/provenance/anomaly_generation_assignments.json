@@ -1,0 +1,117 @@
+{
+  "prompt_version": "clinical_anomaly_generation_v1.0.2",
+  "prompt_path": "pilot/clinical/prompts/anomaly_generation_v1.md",
+  "prompt_sha256": "e4ceda91231f2a40598be819bc46bc0c051ffceabd5e88181e1e37f64563601d",
+  "dispatch_path": "pilot/clinical/prompts/subagent_dispatch_v1.md",
+  "dispatch_sha256": "f913957c07dd2a6c5cb17a81c40b7b2c77f90e24a4a6bfd9e8393914cd800672",
+  "revision_history": [
+    {
+      "prompt_version": "clinical_anomaly_generation_v1.0.0",
+      "prompt_sha256": "df2e4cf51087879f00e7fc1d2c47778f6ea8c68be120e734c94fd654fc50e971",
+      "status": "superseded_before_candidate_acceptance",
+      "reason": "sha256 の対象を substring ではなく既存 validate_reference と同じ原文行全体へ明確化"
+    },
+    {
+      "prompt_version": "clinical_anomaly_generation_v1.0.1",
+      "prompt_sha256": "5fe026fe7cefea038dc43389d887872506a55f04713fa6e19158e15d3a343ba5",
+      "status": "superseded_during_candidate_review",
+      "reason": "clean controlの異常範囲を許可カテゴリの医学的不整合に限定し、単純誤字・DSだけの表現差・非記載を除外"
+    },
+    {
+      "assignment_id": "dose_ade",
+      "status": "clean_examples_reassigned_before_candidate_acceptance",
+      "from": [
+        "04_118E41-42_SAH",
+        "20_118F56_高エネルギー外傷"
+      ],
+      "to": [
+        "01_118B49-50_高Ca血症",
+        "13_118B41-42_肝性脳症"
+      ],
+      "reason": "初回担当者の全PN/DS監査で、元資料中に単位異常がありclean control要件を満たさないと判明"
+    },
+    {
+      "assignment_id": "infection_treatment",
+      "status": "clean_example_reassigned_before_candidate_acceptance",
+      "from": [
+        "08_118F70-72_有機リン中毒"
+      ],
+      "to": [
+        "11_118A57_穿孔性腹膜炎"
+      ],
+      "reason": "担当者の全PN/DS監査で、元資料中の鎮静薬単位異常と治療妥当性の懸念によりclean control要件を満たさないと判明"
+    },
+    {
+      "assignment_id": "dose_ade",
+      "status": "clean_example_reassigned_before_candidate_acceptance",
+      "from": [
+        "01_118B49-50_高Ca血症"
+      ],
+      "to": [
+        "60_急性虫垂炎"
+      ],
+      "reason": "担当者の全PN/DS監査で、意識レベル記載のcarry-forward矛盾によりclean control要件を満たさないと判明"
+    }
+  ],
+  "created_at": "2026-08-28",
+  "candidate_input_policy": "materialize all raw PN for the episode, apply at most one recorded mutation, do not show raw DS or the original substring",
+  "assignments": [
+    {
+      "assignment_id": "infection_treatment",
+      "output_path": "pilot/clinical/anomaly_candidates/infection_treatment.jsonl",
+      "rejected_path": "pilot/clinical/anomaly_candidates/infection_treatment.rejected.jsonl",
+      "positive": [
+        {
+          "episode_id": "07_118F67-69_尿路感染症",
+          "preferred_category": "pathogen_treatment_mismatch"
+        },
+        {
+          "episode_id": "17_118D20_誤嚥性肺炎、偽膜性腸炎",
+          "preferred_category": "treatment_class_mismatch"
+        }
+      ],
+      "clean": [
+        "10_118A69_胆管結石胆管炎",
+        "11_118A57_穿孔性腹膜炎"
+      ]
+    },
+    {
+      "assignment_id": "anatomy_diagnosis",
+      "output_path": "pilot/clinical/anomaly_candidates/anatomy_diagnosis.jsonl",
+      "rejected_path": "pilot/clinical/anomaly_candidates/anatomy_diagnosis.rejected.jsonl",
+      "positive": [
+        {
+          "episode_id": "15_118C50_腎損傷",
+          "preferred_category": "organ_anatomy_mismatch"
+        },
+        {
+          "episode_id": "12_118B35_緊張性気胸",
+          "preferred_category": "diagnosis_finding_mismatch"
+        }
+      ],
+      "clean": [
+        "02_118C66-68_脾損傷",
+        "09_118A19_肺血栓塞栓症"
+      ]
+    },
+    {
+      "assignment_id": "dose_ade",
+      "output_path": "pilot/clinical/anomaly_candidates/dose_ade.jsonl",
+      "rejected_path": "pilot/clinical/anomaly_candidates/dose_ade.rejected.jsonl",
+      "positive": [
+        {
+          "episode_id": "03_118C72-74_HHS",
+          "preferred_category": "dose_frequency_route_mismatch"
+        },
+        {
+          "episode_id": "05_118F61-63_術後PE",
+          "preferred_category": "ade_response_mismatch"
+        }
+      ],
+      "clean": [
+        "60_急性虫垂炎",
+        "13_118B41-42_肝性脳症"
+      ]
+    }
+  ]
+}
